@@ -1,0 +1,14 @@
+{
+  "martial_artist_form": {
+    "id": "martial_artist_form",
+    "label": "Martial Form (Martial Artist)",
+    "book_note": "You may not use more than eight different Martial Artist and/or Martial Artist advanced class moves per day (like a prepared list). Pick which moves are active after each long rest. Martial Form choices and feature-granted attacks are all part of your known repertoire; only up to eight can be active at once until Martial Master.",
+    "max_prepared_moves_per_day": 8,
+    "move_ids": [
+      "arm-thrust",
+      "karate-chop",
+      "power-up-punch",
+      "rapid-spin"
+    ]
+  }
+}

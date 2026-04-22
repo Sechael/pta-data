@@ -1,0 +1,79 @@
+{
+  "source": "PTA3 Player's Handbook 1.",
+  "intro": "In addition to damage, sometimes the effects of a successful attack will give its target a affliction. Pokémon recover from afflictions while in Poké Balls at the same rate of recovery. If a trainer or Pokémon pass their whole turn, staying still, they do not suffer any damage from afflictions. ",
+  "entries": [
+    {
+      "id": "frozen",
+      "name": "Frozen",
+      "summary": "Cannot act; thaw on save ≥18, after 10 minutes, ally help over 3 turns, or a Fire attack. Ice-types are immune.",
+      "description": "When Frozen, you are immobilized by frost covering your body. While frozen, a character is immobilized and unable to move or take an action. If they are able to roll at least 18 on a 1d20 savings throw, or after ten minutes, they will thaw out and be able to move. On a failed roll, they remain frozen. An ally can help thaw them out over three turns by melting the frost, or instantly with a Fire-type attack. Ice-type Pokémon are immune to freezing."
+    },
+    {
+      "id": "asleep",
+      "name": "Asleep",
+      "summary": "Cannot wake yourself; save ≥16 on your turn (DC drops by 2 on failures, minimum 6). Ally in melee +5. Wake after 1 minute.",
+      "description": "The Sleeping affliction is distinct from when someone goes to sleep on their own. You are unable to wake and move yourself, instead trapped in state of knowing you’re asleep but being unable to force yourself awake. While asleep, a character may attempt to wake up on their turn. If they roll at least 16 on a 1d20 savings throw, they will wake and be cured of sleep. If they fail, they will lose their turn On subsequent turns, the check will continue to decrease by 2. Should the check reach 6, it will remain 6 in succeeding turns. An ally within melee range may use their turn to help wake the creature up, adding 5 to the savings throw. After one minute, the character will wake up."
+    },
+    {
+      "id": "infatuated",
+      "name": "Infatuated",
+      "summary": "Cannot attack the object of infatuation without save ≥13; 19+ or 2 minutes cures. Other targets are fine. Pokémon only.",
+      "description": "A Pokémon affected with the affliction, Infatuated, is helplessly struck by love. While infatuated, a character cannot attack the object of its infatuation, unless they roll at least 13 on a 1d20 savings throw. If they roll at least 19, or after two minutes, they are cured. Their attacks on other targets do not suffer the same limitation. Only Pokémon may be infatuated.."
+    },
+    {
+      "id": "confused",
+      "name": "Confused",
+      "summary": "Before acting, save ≥11 or lose the action and take 1d12; 16+ or 2 minutes cures. Ally in melee +5 to save.",
+      "description": "The Confusion affliction greatly discombobulates whatever is suffering it and can cause surges of migraines that cause the afflicted to harm themselves. While confused, a character attempting an action must roll at least 11 on a 1d20 savings throw to continue without issue. With a roll of 16 or higher, or after two minutes, the character will be cured of their confusion. With a failed roll, they will lose 1d12 HP. An ally within melee range may use their turn to help snap the character out of confusion, adding 5 to the savings throw. "
+    },
+    {
+      "id": "poisoned",
+      "name": "Poisoned",
+      "summary": "−2 Sp. Atk; take 1d10 HP when you take an action. Cured at 0 HP or if you neither attack nor move for 1 minute. Poison/Steel immune.",
+      "description": "When someone is Poisoned, they slowly lose HP as the poison spreads throughout their body. While poisoned, a character will have -2 SPATK and lose 1d10 HP upon taking an action. At 0 HP or if they do not attack or move for one minute, they will be cured. Poison- and Steel-type Pokémon are immune to being poisoned. "
+    },
+    {
+      "id": "paralyzed",
+      "name": "Paralyzed",
+      "summary": "−2 Spd; before acting, save ≥6 or lose your turn (DC shifts each turn toward 16, then stays). Cures after 5 minutes.",
+      "description": "Paralysis slowly takes over the body, causing the afflicted to freeze up, making them unable to move. While paralyzed, a character will have -2 SPD and, when attempting an action, must roll at least 6 on a 1d20 savings throw to continue without issue. If they fail, they will lose their turn. On the next turn, they may roll again with a reduced check of 8. On subsequent turns, the check will increase by 2. Should the check reach 16, it will remain 6 in succeeding turns. After five minutes, the character will be cured of paralysis."
+    },
+    {
+      "id": "burned",
+      "name": "Burned",
+      "summary": "−2 Atk; take 1d10 HP when you take an action. Cured at 0 HP or if you neither attack nor move for 1 minute.",
+      "description": "When someone is Burned, they slowly lose HP as the burn continues to injure them. While burned, a character will have -2 ATK and lose 1d10 HP upon taking an action. At 0 HP or if they do not attack or move for one minute, they will be cured. "
+    },
+    {
+      "id": "cursed",
+      "name": "Cursed",
+      "summary": "After each action, lose 1/6 of max HP until cured at 0 HP. Pokémon only.",
+      "description": "A Cursed Pokémon is not long for consciousness. While cursed, a character will lose 1/6th of its maximum HP after taking an action. At 0 HP, they will be cured of the curse. Only Pokémon can be cursed."
+    },
+    {
+      "id": "toxified",
+      "name": "Toxified",
+      "summary": "−2 Sp. Atk; damage ramps each action (1d8 → 1d12 → 1d20 → …). Cured at 0 HP or 1 minute idle. Poison/Steel immune.",
+      "description": "When someone is Toxified, they quickly lose HP as the toxin spreads throughout their body. While toxified, a character will have -2 SPATK and lose 1d8 HP upon taking an action. On subsequent turns, this amount increases to 1d12, then 1d20, 2d20, 3d20 and so on until the character is at 0 HP or cured. At 0 HP or if they do not attack or move for one minute, they will be cured. Poison- and Steel-type Pokémon are immune to being toxified."
+    },
+    {
+      "id": "stunned",
+      "name": "Stunned",
+      "summary": "You lose your next turn; on the following turn you are no longer stunned.",
+      "description": "A Stunned character can’t take turns. While stunned, a character loses its next turn. On the following turn, it is no longer stunned."
+    },
+    {
+      "id": "fainted",
+      "name": "Fainted",
+      "summary": "0 HP — cannot battle, use moves, or use normal healing until revived (Revive item, Pokémon Center, or long rest).",
+      "description": "This Pokémon has reached 0 HP or below and is incapacitated. A Fainted Pokémon cannot be sent into battle, use moves, or benefit from standard healing items like Potions or Berries. To restore a Fainted Pokémon, you must use a Revive-class item, visit a Pokémon Center, or complete a Long Rest. Upon revival, the Pokémon is typically restored to 50% of its maximum HP unless specified otherwise by the restorative source."
+    },
+    {
+      "id": "death_marks",
+      "name": "Death marks",
+      "summary": "Each mark is a failed death save. At 3 marks, this creature dies (if your table uses death rules).",
+      "description": "Each death mark is a failed death saving throw. When death marks reach 3, {{subjectName}} dies.",
+      "templated": true
+    }
+  ]
+}

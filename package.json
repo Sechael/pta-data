@@ -1,0 +1,30 @@
+{
+  "name": "@sechael/pta-data",
+  "version": "0.1.0",
+  "description": "PTA catalog JSON datasets (Pokémon, moves, items, weapons, afflictions, type chart, mega/gmax variants, trainer pools).",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sechael/pta-data.git"
+  },
+  "type": "module",
+  "files": ["lib", "README.md"],
+  "scripts": {
+    "validate": "node scripts/validate.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    "./lib/afflictions.json": "./lib/afflictions.json",
+    "./lib/items.json": "./lib/items.json",
+    "./lib/moves.json": "./lib/moves.json",
+    "./lib/pokemon.json": "./lib/pokemon.json",
+    "./lib/pokemon-gmax.json": "./lib/pokemon-gmax.json",
+    "./lib/pokemon-mega.json": "./lib/pokemon-mega.json",
+    "./lib/trainer-class-move-pools.json": "./lib/trainer-class-move-pools.json",
+    "./lib/type-chart.json": "./lib/type-chart.json",
+    "./lib/weapons.json": "./lib/weapons.json"
+  }
+}
