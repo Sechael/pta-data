@@ -1,6 +1,6 @@
 {
   "name": "@sechael/pta-data",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "PTA catalog JSON datasets (Pokémon, moves, items, weapons, afflictions, type chart, mega/gmax variants, trainer pools).",
   "license": "UNLICENSED",
   "repository": {
