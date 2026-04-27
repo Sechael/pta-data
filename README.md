@@ -88,6 +88,40 @@ Canonical **PTA catalog** JSON for the **[pta-app](https://github.com/Sechael/pt
 }
 ```
 
+### Item (new mechanics schema outline)
+
+This repo is migrating items toward a mechanics-based model (see `lib/itemschema.json`).
+
+```json
+{
+  "id": "wiki-berry",
+  "name": "Wiki Berry",
+  "description": "…",
+  "category": "Berry",
+  "rarity": "Uncommon",
+  "price": 850,
+  "is_consumable": true,
+  "size": "1x1",
+  "sprite": "items/wiki-berry.png",
+  "sprite_url": "https://…",
+  "flavors": ["Dry"],
+  "mechanics": [
+    { "action": "CURE_HP", "target": "SELECTED_POKEMON", "value": 33, "is_percentage": true },
+    {
+      "action": "ADD_AFFLICTION",
+      "target": "SELECTED_POKEMON",
+      "affect": "CONFUSION",
+      "exception": { "kind": "POKEMON_TASTE_LIKE_FLAVORS" }
+    }
+  ],
+  "container": {
+    "capacity": 12,
+    "unit": "BALL",
+    "allowed": { "categories": ["Pokeball"] }
+  }
+}
+```
+
 ### Move (`lib/moves.json`)
 
 ```json
