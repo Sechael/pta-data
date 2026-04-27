@@ -1,0 +1,510 @@
+[
+  {
+    "id": "antidote",
+    "name": "Antidote",
+    "description": "Spray-type medicine that cures the Poisoned and Toxified afflictions. It works on both humans and Pokémon.",
+    "category": "Medical",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/antidote.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/antidote.png",
+    "mechanics": [
+      {
+        "action": "CURE_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "POISON"
+      },
+      {
+        "action": "CURE_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "TOXIFIED"
+      }
+    ]
+  },
+  {
+    "id": "awakening",
+    "name": "Awakening",
+    "description": "Spray-type medicine that cures the Asleep affliction. It works on both humans and Pokémon.",
+    "category": "Medical",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/awakening.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/awakening.png",
+    "mechanics": [
+      {
+        "action": "CURE_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "SLEEP"
+      }
+    ]
+  },
+  {
+    "id": "burn-heal",
+    "name": "Burn Heal",
+    "description": "Spray-type medicine that cures the Burned affliction. It works on both humans and Pokémon.",
+    "category": "Medical",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/burn-heal.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/burn-heal.png",
+    "mechanics": [
+      {
+        "action": "CURE_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "BURN"
+      }
+    ]
+  },
+  {
+    "id": "calcium",
+    "name": "Calcium",
+    "description": "A supplement that permanently increases the SPATK stat by 1.",
+    "category": "Medical",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/calcium.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/calcium.png",
+    "mechanics": [
+      {
+        "action": "STAT_UP",
+        "target": "SELECTED_POKEMON",
+        "value": 1,
+        "affect": "SPATK"
+      }
+    ]
+  },
+  {
+    "id": "carbos",
+    "name": "Carbos",
+    "description": "A supplement that permanently increases the SPD stat by 1.",
+    "category": "Medical",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/carbos.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/carbos.png",
+    "mechanics": [
+      {
+        "action": "STAT_UP",
+        "target": "SELECTED_POKEMON",
+        "value": 1,
+        "affect": "SPD"
+      }
+    ]
+  },
+  {
+    "id": "elixir",
+    "name": "Elixir",
+    "description": "Medicine that fully restores a Pokémon's strength. They can use all of their 1/day and 3/day frequency moves as if they have taken an extended rest.",
+    "category": "Medical",
+    "rarity": "Rare",
+    "price": 1280,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/elixir.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/elixir.png",
+    "mechanics": [
+      {
+        "action": "RESTORE_FREQ_ALL",
+        "target": "SELECTED_POKEMON",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "ether",
+    "name": "Ether",
+    "description": "Medicine that partially restores a Pokémon's strength. They can use one of their 1/day or 3/day frequency moves as if they have taken an extended rest.",
+    "category": "Medical",
+    "rarity": "Uncommon",
+    "price": 480,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/ether.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ether.png",
+    "mechanics": [
+      {
+        "action": "RESTORE_FREQ",
+        "target": "SELECTED_POKEMON",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "full-heal",
+    "name": "Full Heal",
+    "description": "Spray-type medicine that cures all afflictions, except for the Cursed effect. It works on both humans and Pokémon.",
+    "category": "Medical",
+    "rarity": "Uncommon",
+    "price": 520,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/full-heal.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/full-heal.png",
+    "mechanics": [
+      {
+        "action": "CURE_STATUS_ALL",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "full-restore",
+    "name": "Full Restore",
+    "description": "Spray-type medicine that Fully heals a Pokémon's HP and cures all of their afflictions.",
+    "category": "Medical",
+    "rarity": "Rare",
+    "price": 1200,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/full-restore.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/full-restore.png",
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 100,
+        "is_percentage": true
+      }
+    ]
+  },
+  {
+    "id": "homemade-repel",
+    "name": "Homemade Repel",
+    "description": "Researcher-exclusive. A homemade concoction that wild Pokémon find repulsive, keeping them away for half an hour. Some determined Pokémon may ignore the smell to protect something valuable to them.",
+    "category": "Medical",
+    "rarity": "Common",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/homemade-repel.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/repel.png",
+    "mechanics": [
+      {
+        "action": "REPEL",
+        "target": "AREA",
+        "value": 30
+      }
+    ]
+  },
+  {
+    "id": "hp-up",
+    "name": "Hp Up",
+    "description": "A supplement that permanently increases the HP stat by 4.",
+    "category": "Medical",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/hp-up.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hp-up.png",
+    "mechanics": [
+      {
+        "action": "STAT_UP",
+        "target": "SELECTED_POKEMON",
+        "value": 4,
+        "affect": "HP"
+      }
+    ]
+  },
+  {
+    "id": "hyper-lemonade",
+    "name": "Hyper Lemonade",
+    "description": "Liquid medicine that heals 30 HP for a human.",
+    "category": "Medical",
+    "rarity": "Uncommon",
+    "price": 550,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/hyper-lemonade.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/items/master/sprites/items/lemonade.png",
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "HUMAN",
+        "value": 30
+      }
+    ]
+  },
+  {
+    "id": "hyper-potion",
+    "name": "Hyper Potion",
+    "description": "Spray-type medicine that heals 30 HP for a Pokémon.",
+    "category": "Medical",
+    "rarity": "Uncommon",
+    "price": 550,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/hyper-potion.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hyper-potion.png",
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 30
+      }
+    ]
+  },
+  {
+    "id": "ice-heal",
+    "name": "Ice Heal",
+    "description": "Spray-type medicine that cures the Frozen affliction. It works on both humans and Pokémon.",
+    "category": "Medical",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/ice-heal.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ice-heal.png",
+    "mechanics": [
+      {
+        "action": "CURE_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "FROZEN"
+      }
+    ]
+  },
+  {
+    "id": "iron",
+    "name": "Iron",
+    "description": "A supplement that permanently increases the DEF stat by 1.",
+    "category": "Medical",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/iron.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/iron.png",
+    "mechanics": [
+      {
+        "action": "STAT_UP",
+        "target": "SELECTED_POKEMON",
+        "value": 1,
+        "affect": "DEF"
+      }
+    ]
+  },
+  {
+    "id": "max-potion",
+    "name": "Max Potion",
+    "description": "Spray-type medicine that fully heals a Pokémon's HP.",
+    "category": "Medical",
+    "rarity": "Rare",
+    "price": 850,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/max-potion.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-potion.png",
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 100,
+        "is_percentage": true
+      }
+    ]
+  },
+  {
+    "id": "max-revive",
+    "name": "Max Revive",
+    "description": "Medicine that fully restores an unconscious Pokémon's HP and awakens it.",
+    "category": "Medical",
+    "rarity": "Rare",
+    "price": 2950,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/max-revive.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-revive.png",
+    "mechanics": [
+      {
+        "action": "REVIVE",
+        "target": "SELECTED_POKEMON",
+        "value": 100,
+        "is_percentage": true
+      }
+    ]
+  },
+  {
+    "id": "paralyze-heal",
+    "name": "Paralyze Heal",
+    "description": "Spray-type medicine that cures the Paralyzed affliction. It works on both humans and Pokémon.",
+    "category": "Medical",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/paralyze-heal.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/paralyze-heal.png",
+    "mechanics": [
+      {
+        "action": "CURE_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "PARALYZE"
+      }
+    ]
+  },
+  {
+    "id": "potion",
+    "name": "Potion",
+    "description": "Spray-type medicine that heals 10 HP for a Pokémon.",
+    "category": "Medical",
+    "rarity": "Common",
+    "price": 25,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/potion.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/potion.png",
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "id": "potion-water",
+    "name": "Potion Water",
+    "description": "Liquid medicine that heals 10 HP for a human.",
+    "category": "Medical",
+    "rarity": "Common",
+    "price": 100,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/potion-water.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fresh-water.png",
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "HUMAN",
+        "value": 10
+      }
+    ]
+  },
+  {
+    "id": "protein",
+    "name": "Protein",
+    "description": "A supplement that permanently increases the ATK stat by 1.",
+    "category": "Medical",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/protein.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/protein.png",
+    "mechanics": [
+      {
+        "action": "STAT_UP",
+        "target": "SELECTED_POKEMON",
+        "value": 1,
+        "affect": "ATK"
+      }
+    ]
+  },
+  {
+    "id": "repel",
+    "name": "Repel",
+    "description": "A concoction that wild Pokémon find repulsive, keeping them away for one hour. Some determined Pokémon may ignore the smell to protect something valuable to them.",
+    "category": "Medical",
+    "rarity": "Common",
+    "price": 150,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELECTED_POKEMON",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "revive",
+    "name": "Revive",
+    "description": "Medicine that restores half of an unconscious Pokémon's HP and awakens it.",
+    "category": "Medical",
+    "rarity": "Uncommon",
+    "price": 1350,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/revive.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/revive.png",
+    "mechanics": [
+      {
+        "action": "REVIVE",
+        "target": "SELECTED_POKEMON",
+        "value": 50,
+        "is_percentage": true
+      }
+    ]
+  },
+  {
+    "id": "super-potion",
+    "name": "Super Potion",
+    "description": "Spray-type medicine that heals 20 HP for a Pokémon.",
+    "category": "Medical",
+    "rarity": "Uncommon",
+    "price": 250,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/super-potion.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-potion.png",
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "super-soda",
+    "name": "Super Soda",
+    "description": "Liquid medicine that heals 20 HP for a human.",
+    "category": "Medical",
+    "rarity": "Common",
+    "price": 300,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/super-soda.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soda-pop.png",
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "HUMAN",
+        "value": 20
+      }
+    ]
+  },
+  {
+    "id": "zinc",
+    "name": "Zinc",
+    "description": "A supplement that permanently increases the SPDEF stat by 1.",
+    "category": "Medical",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/zinc.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/zinc.png",
+    "mechanics": [
+      {
+        "action": "STAT_UP",
+        "target": "SELECTED_POKEMON",
+        "value": 1,
+        "affect": "SPDEF"
+      }
+    ]
+  }
+]

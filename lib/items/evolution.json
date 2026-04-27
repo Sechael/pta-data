@@ -1,0 +1,192 @@
+[
+  {
+    "id": "dawn-stone",
+    "name": "Dawn Stone",
+    "description": "An item that allows certain Pokémon to evolve.",
+    "category": "Evolution",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/dawn-stone.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dawn-stone.png",
+    "mechanics": [
+      {
+        "action": "EVOLVE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "dusk-stone",
+    "name": "Dusk Stone",
+    "description": "An item that allows certain Pokémon to evolve.",
+    "category": "Evolution",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/dusk-stone.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-stone.png",
+    "mechanics": [
+      {
+        "action": "EVOLVE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "fire-stone",
+    "name": "Fire Stone",
+    "description": "An item that allows certain Pokémon to evolve.",
+    "category": "Evolution",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/fire-stone.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fire-stone.png",
+    "mechanics": [
+      {
+        "action": "EVOLVE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "leaf-stone",
+    "name": "Leaf Stone",
+    "description": "An item that allows certain Pokémon to evolve.",
+    "category": "Evolution",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/leaf-stone.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leaf-stone.png",
+    "mechanics": [
+      {
+        "action": "EVOLVE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "moon-stone",
+    "name": "Moon Stone",
+    "description": "An item that allows certain Pokémon to evolve.",
+    "category": "Evolution",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/moon-stone.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-stone.png",
+    "mechanics": [
+      {
+        "action": "EVOLVE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "responsive-evolution",
+    "name": "Evolution Item",
+    "description": "Allows a Pokémon to evolve when its species would normally require a special condition (e.g. stone, trade, or location). Consumed when used.",
+    "category": "Evolution",
+    "rarity": "Rare",
+    "price": 12000,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/rare-candy.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rare-candy.png",
+    "mechanics": [
+      {
+        "action": "EVOLVE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "shiny-stone",
+    "name": "Shiny Stone",
+    "description": "An item that allows certain Pokémon to evolve.",
+    "category": "Evolution",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/shiny-stone.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shiny-stone.png",
+    "mechanics": [
+      {
+        "action": "EVOLVE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "sun-stone",
+    "name": "Sun Stone",
+    "description": "An item that allows certain Pokémon to evolve.",
+    "category": "Evolution",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/sun-stone.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sun-stone.png",
+    "mechanics": [
+      {
+        "action": "EVOLVE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "thunder-stone",
+    "name": "Thunder Stone",
+    "description": "An item that allows certain Pokémon to evolve.",
+    "category": "Evolution",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/thunder-stone.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/thunder-stone.png",
+    "mechanics": [
+      {
+        "action": "EVOLVE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "water-stone",
+    "name": "Water Stone",
+    "description": "An item that allows certain Pokémon to evolve.",
+    "category": "Evolution",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/water-stone.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/water-stone.png",
+    "mechanics": [
+      {
+        "action": "EVOLVE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  }
+]

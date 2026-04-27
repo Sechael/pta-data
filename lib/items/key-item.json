@@ -1,0 +1,287 @@
+[
+  {
+    "id": "box-link",
+    "name": "Box Link",
+    "description": "A cellular device that features remote access to the Pokémon Computer Terminal network. The Box Link can access the PCT network anytime and anywhere, provided that it is charged and there is a clear and strong signal. The Box Link allows registered trainers to both deposit and withdraw Pokémon, taking about one minute to conduct an exchange. Box Links can last an entire week with a 3-hour charge and is capable of solar or outlet charging. The Box Link can also facilitate trades made through the Global Trade System (but not local ones). Injured Pokémon will not be healed when a transfer is made. 20 lbs. 1.5x1x0.5 ft.",
+    "category": "Key Item",
+    "rarity": "Unique",
+    "price": 198000,
+    "is_consumable": false,
+    "size": "4x2",
+    "sprite": "items/box-link.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/storage-key.png",
+    "mechanics": [
+      {
+        "action": "REMOTE_PC",
+        "target": "EXTERNAL_PC",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "c-gear",
+    "name": "C Gear",
+    "description": "Each of these smart devices are worn on your wrist and are wirelessly connected to your smart phone and/or Pokédex that enhances the convenience of many different applications. They can be used to keep track of other trainers’ trainer IDs that you’ve battled, provide face-to-face long calls, GPS location (assuming you’re close enough to a working cell tower), and various other smart device applications conveniently on your wrist on a small computer screen.",
+    "category": "Key Item",
+    "rarity": "Common",
+    "price": 280,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/c-gear.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "dynamax-band",
+    "name": "Dynamax Band",
+    "description": "A Dynamax band is the housing for a Wishing Star. With it, trainers can trigger the Dynamax or Gigantamax phenomena once a day (as a free action). Dynamax and Gigantamax can only be induced on a Loyalty 2 or higher Pokémon. Dynamax and Gigantamax last for 1 minute, increases the Pokémon's size immensely, multiplies their maximum HP by 5, sets its HP to full, and allows them to use the pool of Max moves only. Additionally, Gigantamax Pokémon take on a new form and gain access to a unique Max move. When the Pokémon changes back to normal, its current HP will be at max if it surpassed that value while Dynamaxed.",
+    "category": "Key Item",
+    "rarity": "Rare",
+    "price": 48000,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-band.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "mega-ring",
+    "name": "Mega Ring",
+    "description": "Typically designed as an accessory, a Mega Ring is the housing of a Keystone. With it, trainers can trigger the Mega Evolution phenomenon once a day (as a free action). Mega Evolution can only be induced on a Loyalty 2 or higher Pokémon holding its matching Mega Stone. Mega Evolution lasts for 10 minutes, generally improving the stats of the Pokémon and sometimes changing its typing and passives. If the Mega Evolved Pokémon is recalled or knocked it before the ten minutes runs out, it reverts back to its standard form.",
+    "category": "Key Item",
+    "rarity": "Rare",
+    "price": 48000,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/mega-ring.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mega-ring.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "pokedex",
+    "name": "Pokedex",
+    "description": "A Pokédex is an electronic device that collects and contains information on Pokémon. About the size of a smartphone, the Pokédex has an internal database that records and analyzes data relating to individual Pokémon and entire species. Similar to smartphones with the Pokédex app, this device features an advanced camera with an identification system that can bring up information about a targeted Pokémon, provided that the device is pointing at oone for at least three seconds. With a language UI, this information can be read aloud or pulled up through voice command.\n\nThe Pokédex patent is shared worldwide, with hundreds of varieties and new models coming out every year with better and more features. While some models have many similarities with smart devices, each Pokédex unit contributes to a worldwide knowledge base on each species of Pokémon. A Pokédex owner may contribute their observations and findings to the database for peer review.\n\nSome manufacturers have designed their models to house a Rotom, granting the device a sentient controller that can further aid trainers. These Rotom are bred specifically to inhabit a Pokédex and do not count as one of the trainer's owned Pokémon. They are considered wild Pokémon who have bounded to a trainer's item. These models cannot be dematerialized by a Poké ball, so the Rotom is safe from capture.",
+    "category": "Key Item",
+    "rarity": "Common",
+    "price": 600,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pokedex.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "pokegear",
+    "name": "Pokegear",
+    "description": "Short for Pokémon Gear, a mobile phone developed in the Johto region. It can access the Pokédex database and world map, store contact information, supports conference calls, features a GPS and other applications. This device can either be handheld or worn like a wristwatch.\n\nA smart device that takes the worm of a wrist watch. These devices are manufactured by many companies, usually unique to each region. Each one can wirelessly connect to a smartphone or Pokédex, so that users can access their applications with extra convenience. On their own, these devices hold a record of trainer IDs, make long-distance video calls, offers a GPS (that works best when near a working cell tower), and various other applications.",
+    "category": "Key Item",
+    "rarity": "Common",
+    "price": 280,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pokegear.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "pokemon-box-link",
+    "name": "Pokemon Box Link",
+    "description": "A cellular device that features remote access to the Pokémon Computer Terminal network. The Box Link can access the PCT network anytime and anywhere, provided that it is charged and there is a clear and strong signal. The Box Link allows registered trainers to both deposit and withdraw Pokémon, taking about one minute to conduct an exchange. Box Links can last an entire week with a 3-hour charge and is capable of solar or outlet charging. The Box Link can also facilitate trades made through the Global Trade System (but not local ones). Injured Pokémon will not be healed when a transfer is made. 20 lbs. 1.5x1x0.5 ft.",
+    "category": "Key Item",
+    "rarity": "Rare",
+    "price": 198000,
+    "is_consumable": false,
+    "size": "4x2",
+    "sprite": "items/pokemon-box-link.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/storage-key.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "pokenav",
+    "name": "Pokenav",
+    "description": "Each of these smart devices are worn on your wrist and are wirelessly connected to your smart phone and/or Pokédex that enhances the convenience of many different applications. They can be used to keep track of other trainers’ trainer IDs that you’ve battled, provide face-to-face long calls, GPS location (assuming you’re close enough to a working cell tower), and various other smart device applications conveniently on your wrist on a small computer screen.",
+    "category": "Key Item",
+    "rarity": "Common",
+    "price": 280,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pokenav.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "poketch",
+    "name": "Poketch",
+    "description": "Each of these smart devices are worn on your wrist and are wirelessly connected to your smart phone and/or Pokédex that enhances the convenience of many different applications. They can be used to keep track of other trainers’ trainer IDs that you’ve battled, provide face-to-face long calls, GPS location (assuming you’re close enough to a working cell tower), and various other smart device applications conveniently on your wrist on a small computer screen.",
+    "category": "Key Item",
+    "rarity": "Common",
+    "price": 280,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poketch.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "ranger-styler",
+    "name": "Ranger Styler",
+    "description": "Ranger Stylers are electronic Pokémon restraint systems that non-violently reign in wilds. They are used exclusively by rangers, though other members of law enforcement may be licensed and trained to use them. It is illegal for a civilian to have access to a stlyer. Stylers can last for an entire week on a 2-hour charge. Charging stations are accessible at ranger stations, law enforcement departments, or Pokémon centers. | As an action, a non-Ranger character may use the styler in attempt to restrain a wild Pokémon. Like with Poké balls, they will make a capture roll. If successful, the wild becomes Helpful. It will remain under the character's guidance until it is hit by an attack, distracted, or has helped you in a significant manner once (such as making an attack). The character can utilize only the skills or moves that they have deduced or observed. Attempting to take the wild out its territory will lead it to run away. A character may have only one Helpful Pokémon at a time.",
+    "category": "Key Item",
+    "rarity": "Unique",
+    "price": 8000,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/stylus.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "snag-machine",
+    "name": "Snag Machine",
+    "description": "Snag Machines are illegal devices used to poach Pokémon. They are constructed to resemble gauntlets. Any Poké ball thrown using an active snag machine will be able to capture an owned Pokémon. | The lower the Pokémon's loyalty is to their trainer, the easier it will be for a snag machine to steal them. They are ineffective against Loyalty 3 Pokémon, however.",
+    "category": "Key Item",
+    "rarity": "Unique",
+    "price": 68000,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/snag-machine.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/machine-part.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "tera-orb",
+    "name": "Tera Orb",
+    "description": "A Tera Orb is a conduit that passively gathers crystallized energy. With it, trainers can trigger the Terastalization phenomenon once a day (as a free action). Terastalization can only be induced on a Loyalty 2 or higher Pokémon. Terastalization lasts for 10 minutes, improves the Pokémon's defensive stats, and changes its typing into its Tera Type. If the Terastalized Pokémon is recalled or knocked out before 10 minutes runs, it reverts back to its standard form.",
+    "category": "Key Item",
+    "rarity": "Rare",
+    "price": 48000,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tera-orb.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "vs-seeker",
+    "name": "Vs Seeker",
+    "description": "Each of these smart devices are worn on your wrist and are wirelessly connected to your smart phone and/or Pokédex that enhances the convenience of many different applications. They can be used to keep track of other trainers’ trainer IDs that you’ve battled, provide face-to-face long calls, GPS location (assuming you’re close enough to a working cell tower), and various other smart device applications conveniently on your wrist on a small computer screen.",
+    "category": "Key Item",
+    "rarity": "Common",
+    "price": 280,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/vs-seeker.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/vs-seeker.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "xtransceiver",
+    "name": "Xtransceiver",
+    "description": "Each of these smart devices are worn on your wrist and are wirelessly connected to your smart phone and/or Pokédex that enhances the convenience of many different applications. They can be used to keep track of other trainers’ trainer IDs that you’ve battled, provide face-to-face long calls, GPS location (assuming you’re close enough to a working cell tower), and various other smart device applications conveniently on your wrist on a small computer screen.",
+    "category": "Key Item",
+    "rarity": "Common",
+    "price": 280,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/xtransceiver.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/xtransceiver.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "z-ring",
+    "name": "Z Ring",
+    "description": "A Z-Ring is the housing for a Spakling Stone and a Z-Crystal. With it, trainers can empower their Pokémon and utilize Z-Moves once a day (as an action). A Z-Move can only be used with a Loyalty 2 or higher Pokémon and a compatible Z-Crystal. The Z-Move used, and the Pokémon that can use it, differs from crystal to crystal.",
+    "category": "Key Item",
+    "rarity": "Rare",
+    "price": 48000,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/z-ring.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/z-ring.png",
+    "mechanics": [
+      {
+        "action": "SPECIAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  }
+]

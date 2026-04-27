@@ -1,0 +1,914 @@
+[
+  {
+    "id": "air-ball",
+    "name": "Air Ball",
+    "description": "A specially-crafted ball that grants -15 to your capture roll if the Pokémon is Flying- or Ice-type.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/air-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -15
+      }
+    ]
+  },
+  {
+    "id": "arctic-ball",
+    "name": "Arctic Ball",
+    "description": "A specially-crafted ball that grants -12 to your capture roll if you are in an Arctic environment.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/arctic-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dive-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  },
+  {
+    "id": "basic-ball",
+    "name": "Basic Ball",
+    "description": "A standard-issue ball that grants +5 to your capture roll.",
+    "category": "Pokeball",
+    "rarity": "Common",
+    "price": 100,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/basic-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "beach-ball",
+    "name": "Beach Ball",
+    "description": "A specially-crafted ball that grants -12 to your capture roll if you are in a Beach environment.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/beach-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dive-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  },
+  {
+    "id": "cave-ball",
+    "name": "Cave Ball",
+    "description": "A specially-crafted ball that grants -12 to your capture roll if you are in a Cave environment.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/cave-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  },
+  {
+    "id": "cherish-ball",
+    "name": "Cherish Ball",
+    "description": "A rarely-manufactured ball that grants -5 to your capture roll. Captured Pokémon gain an additional point of Loyalty.",
+    "category": "Pokeball",
+    "rarity": "Rare",
+    "price": 1500,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/cherish-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cherish-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -5
+      }
+    ]
+  },
+  {
+    "id": "desert-ball",
+    "name": "Desert Ball",
+    "description": "A specially-crafted ball that grants -12 to your capture roll if you are in a Desert environment.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/desert-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/repeat-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  },
+  {
+    "id": "dive-ball",
+    "name": "Dive Ball",
+    "description": "A specialized ball that grants -12 to your capture roll if the Pokémon is aquatic.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 1250,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/dive-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dive-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  },
+  {
+    "id": "dream-ball",
+    "name": "Dream Ball",
+    "description": "A rarely-manufactured ball that grants -10 to your capture roll if the Pokémon is afflicted.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 1250,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/dream-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dream-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -10
+      }
+    ]
+  },
+  {
+    "id": "dusk-ball",
+    "name": "Dusk Ball",
+    "description": "A specialized ball that grants -7 to your capture roll if you make the throw at night or without no visible sunlight.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 1150,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/dusk-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -7
+      }
+    ]
+  },
+  {
+    "id": "earth-ball",
+    "name": "Earth Ball",
+    "description": "A specially-crafted ball that grants -15 to your capture roll if the Pokémon is Grass- or Ground-type.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/earth-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nest-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -15
+      }
+    ]
+  },
+  {
+    "id": "fast-ball",
+    "name": "Fast Ball",
+    "description": "A specially-crafted ball that grants -8 to your capture roll if the Pokémon acts before your Pokémon.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 1250,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/fast-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fast-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -8
+      }
+    ]
+  },
+  {
+    "id": "fine-ball",
+    "name": "Fine Ball",
+    "description": "A specially-crafted ball that grants -15 to your capture roll if the Pokémon is Normal- or Fairy-type.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/fine-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/luxury-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -15
+      }
+    ]
+  },
+  {
+    "id": "forest-ball",
+    "name": "Forest Ball",
+    "description": "A specially-crafted ball that grants -12 to your capture roll if you are in a Forest environment.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/forest-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/safari-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  },
+  {
+    "id": "freshwater-ball",
+    "name": "Freshwater Ball",
+    "description": "A specially-crafted ball that grants -12 to your capture roll if you are in a Freshwater environment.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/freshwater-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dive-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  },
+  {
+    "id": "friend-ball",
+    "name": "Friend Ball",
+    "description": "A specially-crafted ball that grants +0 to your capture roll. Captured Pokémon gain an additional point of Loyalty.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 1000,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/friend-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/friend-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "grassland-ball",
+    "name": "Grassland Ball",
+    "description": "A specially-crafted ball that grants -12 to your capture roll if you are in a Grassland environment.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/grassland-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/safari-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  },
+  {
+    "id": "great-ball",
+    "name": "Great Ball",
+    "description": "A standard-issue ball that grants +0 to your capture roll.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 600,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/great-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "haunt-ball",
+    "name": "Haunt Ball",
+    "description": "A specially-crafted ball that grants -15 to your capture roll if the Pokémon is Dark- or Ghost-type.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/haunt-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dusk-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -15
+      }
+    ]
+  },
+  {
+    "id": "heal-ball",
+    "name": "Heal Ball",
+    "description": "A specialized ball that grants +0 to your capture roll. Captured Pokémon restore 20 HP.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 1000,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/heal-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heal-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "heat-ball",
+    "name": "Heat Ball",
+    "description": "A specially-crafted ball that grants -15 to your capture roll if the Pokémon is Electric- or Fire-type.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/heat-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/repeat-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -15
+      }
+    ]
+  },
+  {
+    "id": "heavy-ball",
+    "name": "Heavy Ball",
+    "description": "A specially-crafted ball that grants -15 to your capture roll if the Pokémon is Heavy or Superweight.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 1250,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/heavy-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heavy-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -15
+      }
+    ]
+  },
+  {
+    "id": "level-ball",
+    "name": "Level Ball",
+    "description": "A specially-crafted ball that grants -10 to your capture roll if the Pokémon is an evolution stage lower than your Pokémon.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 1250,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/level-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/level-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -10
+      }
+    ]
+  },
+  {
+    "id": "love-ball",
+    "name": "Love Ball",
+    "description": "A specially-crafted ball that grants -10 to your capture roll if the Pokémon's gender is opposite to your Pokémon.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 1250,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/love-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/love-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -10
+      }
+    ]
+  },
+  {
+    "id": "lure-ball",
+    "name": "Lure Ball",
+    "description": "A specially-crafted ball that grants -10 to your capture roll if you lured the wild Pokémon into combat.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 1250,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/lure-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lure-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -10
+      }
+    ]
+  },
+  {
+    "id": "luxury-ball",
+    "name": "Luxury Ball",
+    "description": "A specialized ball that grants -5 to your capture roll. Captured Pokémon gain an additional point of Loyalty.",
+    "category": "Pokeball",
+    "rarity": "Rare",
+    "price": 1500,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/luxury-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/luxury-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -5
+      }
+    ]
+  },
+  {
+    "id": "marsh-ball",
+    "name": "Marsh Ball",
+    "description": "A specially-crafted ball that grants -12 to your capture roll if you are in a Marsh environment.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/marsh-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nest-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  },
+  {
+    "id": "master-ball",
+    "name": "Master Ball",
+    "description": "A rarely-manufactured ball that grants -100 to your capture roll. The Master Ball can and will often fail when thrown at legendary Pokémon.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/master-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -100
+      }
+    ]
+  },
+  {
+    "id": "mold-ball",
+    "name": "Mold Ball",
+    "description": "A specially-crafted ball that grants -15 to your capture roll if the Pokémon is Poison- or Fighting-type.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/mold-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/safari-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -15
+      }
+    ]
+  },
+  {
+    "id": "moon-ball",
+    "name": "Moon Ball",
+    "description": "A specially-crafted ball that grants -10 to your capture roll if the Pokémon can evolve with an evolution stone.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 1250,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/moon-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/moon-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -10
+      }
+    ]
+  },
+  {
+    "id": "mountain-ball",
+    "name": "Mountain Ball",
+    "description": "A specially-crafted ball that grants -12 to your capture roll if you are in a Mountain environment.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/mountain-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/great-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  },
+  {
+    "id": "mystic-ball",
+    "name": "Mystic Ball",
+    "description": "A specially-crafted ball that grants -15 to your capture roll if the Pokémon is Dragon- or Psychic-type.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/mystic-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dream-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -15
+      }
+    ]
+  },
+  {
+    "id": "nest-ball",
+    "name": "Nest Ball",
+    "description": "A specialized ball that grants -10 to your capture roll if the Pokémon can evolve, but is not evolved.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 1250,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/nest-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nest-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -10
+      }
+    ]
+  },
+  {
+    "id": "net-ball",
+    "name": "Net Ball",
+    "description": "A specialized ball that grants -15 to your capture roll if the Pokémon is Bug- or Water-type.",
+    "category": "Pokeball",
+    "rarity": "Rare",
+    "price": 1550,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/net-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/net-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -15
+      }
+    ]
+  },
+  {
+    "id": "park-ball",
+    "name": "Park Ball",
+    "description": "A competition-grade ball that grants -20 to your capture roll against domesticated wild Pokémon.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 550,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/park-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/park-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -20
+      }
+    ]
+  },
+  {
+    "id": "premier-ball",
+    "name": "Premier Ball",
+    "description": "A promotional ball that grants -5 to your capture roll. Captured Pokémon gain an additional point of Loyalty.",
+    "category": "Pokeball",
+    "rarity": "Rare",
+    "price": 1500,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/premier-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/premier-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -5
+      }
+    ]
+  },
+  {
+    "id": "quick-ball",
+    "name": "Quick Ball",
+    "description": "A specialized ball that grants -20 to your capture roll if you make the throw as your first action in combat.",
+    "category": "Pokeball",
+    "rarity": "Rare",
+    "price": 1550,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/quick-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -20
+      }
+    ]
+  },
+  {
+    "id": "rainforest-ball",
+    "name": "Rainforest Ball",
+    "description": "A specially-crafted ball that grants -12 to your capture roll if you are in a Rainforest environment.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/rainforest-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/safari-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  },
+  {
+    "id": "repeat-ball",
+    "name": "Repeat Ball",
+    "description": "A specialized ball that grants -10 to your capture roll if the Pokémon already had a ball thrown at it this encounter.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 1250,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/repeat-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/repeat-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -10
+      }
+    ]
+  },
+  {
+    "id": "safari-ball",
+    "name": "Safari Ball",
+    "description": "A competition-grade ball that grants -20 to your capture roll against domesticated wild Pokémon.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 550,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/safari-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/safari-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -20
+      }
+    ]
+  },
+  {
+    "id": "save-ball",
+    "name": "Save Ball",
+    "description": "A specially-crafted ball that grants -10 to your capture roll if the Pokémon is unconscious. The Save Ball will not negatively affect the captured Pokémon's loyalty.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/save-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nest-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -10
+      }
+    ]
+  },
+  {
+    "id": "solid-ball",
+    "name": "Solid Ball",
+    "description": "A specially-crafted ball that grants -15 to your capture roll if the Pokémon is Rock- or Steel-type.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/solid-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heavy-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -15
+      }
+    ]
+  },
+  {
+    "id": "sport-ball",
+    "name": "Sport Ball",
+    "description": "A competition-grade ball that grants -20 to your capture roll against domesticated wild Pokémon.",
+    "category": "Pokeball",
+    "rarity": "Uncommon",
+    "price": 550,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/sport-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sport-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -20
+      }
+    ]
+  },
+  {
+    "id": "taiga-ball",
+    "name": "Taiga Ball",
+    "description": "A specially-crafted ball that grants -12 to your capture roll if you are in a Taiga environment.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/taiga-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nest-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  },
+  {
+    "id": "timer-ball",
+    "name": "Timer Ball",
+    "description": "A specialized ball that grants -10 to your capture roll if the encounter has lasted at least 1 minute; -25 from your capture roll if the encounter has lasted at least 2 minutes.",
+    "category": "Pokeball",
+    "rarity": "Rare",
+    "price": 1550,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/timer-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/timer-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -10
+      }
+    ]
+  },
+  {
+    "id": "tundra-ball",
+    "name": "Tundra Ball",
+    "description": "A specially-crafted ball that grants -12 to your capture roll if you are in a Tundra environment.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/tundra-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dive-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  },
+  {
+    "id": "ultra-ball",
+    "name": "Ultra Ball",
+    "description": "A standard-issue ball that grants -5 to your capture roll.",
+    "category": "Pokeball",
+    "rarity": "Rare",
+    "price": 1000,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/ultra-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ultra-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -5
+      }
+    ]
+  },
+  {
+    "id": "urban-ball",
+    "name": "Urban Ball",
+    "description": "A specially-crafted ball that grants -12 to your capture roll if you are in an Urban environment.",
+    "category": "Pokeball",
+    "rarity": "Craftable",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/urban-ball.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/premier-ball.png",
+    "mechanics": [
+      {
+        "action": "CAPTURE_MOD",
+        "target": "WILD_POKEMON",
+        "value": -12
+      }
+    ]
+  }
+]

@@ -1,0 +1,731 @@
+[
+  {
+    "id": "Trainer Equipment",
+    "name": "Trainer Equipment",
+    "description": "Pokémon class-exclusive. An item that increases a stat of your choice by 2 during a combat encounter. Only you can benefit from this item. The boosted stat cannot be changed once it has been chosen.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 1050,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/Trainer Equipment.png",
+    "equipslot": "gear",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/never-melt-ice.png",
+    "mechanics": [
+      {
+        "action": "WEATHER_IMMUNITY",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "basic-tool-kit",
+    "name": "Basic Tool Kit",
+    "description": "A set of tools for basic repairs and maintenance. One kit comes in a tackle box and includes a hammer, a screwdriver with an adaptable head, a wrench, a handsaw, a steel ruler, a level, 40 assorted nails, 40 assorted screws, 40 assorted nuts and bolts. 8 lbs. 14x6x6 in.",
+    "category": "Trainer Equipment",
+    "rarity": "Common",
+    "price": 150,
+    "is_consumable": false,
+    "size": "2x2",
+    "sprite": "items/basic-tool-kit.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dome-fossil.png",
+    "mechanics": [
+      {
+        "action": "MAINTENANCE",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "berry-planter",
+    "name": "Berry Planter",
+    "description": "A micro-environment designed to rapidly cultivate berries. A shrub planted from a single berry can eventually sprout 2–3 new berries. 3 lbs. 2x1x1 ft. 4 ft strap. | When this device is used, roll a Nature check. Then once a day for the next 5 days, water the plant and roll another Nature check. If you roll below 6 even once, then the plant will yield 1 berry. Rolling over 20 will yield 3 berries. Otherwise, it will bear 2. Failing to water the shrub and/or harvesting the berries will kill the plant.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 2800,
+    "is_consumable": false,
+    "size": "4x2",
+    "sprite": "items/berry-planter.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wailmer-pail.png",
+    "mechanics": [
+      {
+        "action": "GROW_BERRY",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "bracing-sleeves",
+    "name": "Bracing Sleeves",
+    "description": "A special piece of clothing that grants +2 to an Athletics skill check.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 800,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/bracing-sleeves.png",
+    "equipslot": "armor",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/macho-brace.png",
+    "mechanics": [
+      {
+        "action": "TALENT_BOOST",
+        "target": "SELF",
+        "value": 2,
+        "affect": "athletics"
+      }
+    ]
+  },
+  {
+    "id": "camera-bag",
+    "name": "Camera Bag",
+    "description": "A bag equipped with everything a travelling photographer needs, minus the camera. One bag includes 3 lenses, 2 extra bulbs, gaffer tape, microfiber cloth, a micro screwdriver, a micro flashlight, an spare battery, a 20 GB memory card, and ear plugs. 18x10x8 in. 3 lbs.",
+    "category": "Trainer Equipment",
+    "rarity": "Common",
+    "price": 150,
+    "is_consumable": false,
+    "size": "3x2",
+    "sprite": "items/camera-bag.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-case.png",
+    "mechanics": [
+      {
+        "action": "PHOTOGRAPHY",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "clothing-equipment",
+    "name": "Clothing Equipment",
+    "description": "Designer-exclusive (Coordinator). A custom item that adds 1 to a skill check when using the item for its intended purpose. This item loses this effect for two weeks or until it is repaired (with the Tactical Design feature). This effect does not stack.",
+    "category": "Trainer Equipment",
+    "rarity": "Common",
+    "price": 0,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/clothing-equipment.png",
+    "equipslot": "armor",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/silk-scarf.png",
+    "mechanics": [
+      {
+        "action": "TALENT_BOOST",
+        "target": "SELF",
+        "value": 1,
+        "affect": "any"
+      }
+    ]
+  },
+  {
+    "id": "coiled-styler",
+    "name": "Coiled Styler",
+    "description": "Special Operative-exclusive (Ranger). A special component that allows a capture styler to restrain owned Pokémon. This component was designed to combat poachers and criminals who abuse Pokémon. | 3/day. As an action, the wielder may use the move Wrap on a Pokémon. Pokémon bound by this function cannot move or use attacks, unless they break free (with a disadvantaged, contested Athletics check).",
+    "category": "Trainer Equipment",
+    "rarity": "Rare",
+    "price": 0,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "",
+    "equipslot": "onehand",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/capture-styler.png",
+    "mechanics": [
+      {
+        "action": "MOVE_WRAP",
+        "target": "AREA",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "cooking-kit",
+    "name": "Cooking Kit",
+    "description": "A kit equipped with everything a chef on-the-go needs. One kit includes a portable 2-burner electric stove, a cast iron pan, a cast iron pot with lid, a water purifier, a cutting board, a knife, measuring cups and spoons, a spatula, a cooking spoon, and a sturdy bag. The electric stove can be used for 2 weeks after a 4-hour charge. 35 lbs. 2x2x1 ft. 4 ft strap.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 850,
+    "is_consumable": false,
+    "size": "4x2",
+    "sprite": "items/cooking-kit.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/old-gateau.png",
+    "mechanics": [
+      {
+        "action": "COOKING",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "desert-gear",
+    "name": "Desert Gear",
+    "description": "Apparel carefully designed to protect humans in sandstorms, desert winds, and hot conditions. | Humans will not take damage in the Sandstorm weather effect.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 1050,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/desert-gear.png",
+    "equipslot": "armor",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soft-sand.png",
+    "mechanics": [
+      {
+        "action": "WEATHER_IMMUNITY",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "dig-kit",
+    "name": "Dig Kit",
+    "description": "A kit equipped with everything a digger needs. One kit includes an extendable shovel, an extendable pickaxe, a hammer, a trowel, a compass, a 25 ft measuring tape, 10 6\" stakes (10), 600 ft of string, and a tool roll bag with room for more equipment. 15 lbs. 16x6x4 in. 4ft strap.",
+    "category": "Trainer Equipment",
+    "rarity": "Common",
+    "price": 150,
+    "is_consumable": false,
+    "size": "3x2",
+    "sprite": "items/dig-kit.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/explorer-kit.png",
+    "mechanics": [
+      {
+        "action": "DIGGING",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "domino-mask",
+    "name": "Domino Mask",
+    "description": "A special piece of clothing that grants +2 to a Bluff / Deception skill check.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 800,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/domino-mask.png",
+    "equipslot": "armor",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dubious-disc.png",
+    "mechanics": [
+      {
+        "action": "TALENT_BOOST",
+        "target": "SELF",
+        "value": 2,
+        "affect": "bluff"
+      }
+    ]
+  },
+  {
+    "id": "drawing-kit",
+    "name": "Drawing Kit",
+    "description": "A kit equipped with everything a drawer or a doodler needs. One kit includes a drawing pad (200 pages), a journal (200 pages), 10 blue pencils, 2 mechanical pencils, a kneaded eraser, a white vinyl eraser, a blender, pen and ink, 10 assorted pen brushes, and a bag with to carry it all with room to spare. 4 lbs. 20x18x3 in. 3ft strap.",
+    "category": "Trainer Equipment",
+    "rarity": "Common",
+    "price": 20,
+    "is_consumable": false,
+    "size": "3x2",
+    "sprite": "",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/adventure-guide.png",
+    "mechanics": [
+      {
+        "action": "ART",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "egg-incubator",
+    "name": "Egg Incubator",
+    "description": "An electronic, reuseable container that keeps Pokémon eggs warm and safe. This item lasts can protect an egg for a month on a 4-hour charge. It is sturdy enough to be dropped from 100 ft without harming the egg. It is also watertight and insulating. Although heavy, an incubator is much more convenient than carrying an egg on its own. Carrying 2 can mean for tight luggage. 15 lbs. 16x8x8 in. 4 ft. strap.",
+    "category": "Trainer Equipment",
+    "rarity": "Rare",
+    "price": 1350,
+    "is_consumable": false,
+    "size": "2x4",
+    "sprite": "items/incubator-empty.png",
+    "equipslot": "gear",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/egg-ticket.png",
+    "mechanics": [
+      {
+        "action": "EGG_HATCH",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "engineers-tool-kit",
+    "name": "Engineers Tool Kit",
+    "description": "A kit equipped with everything an engineer needs. One kit includes an electric soldering table (2x2 ft), a soldering iron, a desoldering pump, 8 assorted soldering iron tips, 2 soldering assist tools, tin wire tube, tweezers, a wire stripper cutter, 80 ft of electric wire, 2 longnose pliers, a precision screwdriver, a magnetic/gripping retrieving tool, a telescoping mirror, 100 various spare screws. The table folds into itself while storing all of the supplies, complete with a handle. 15 lbs. 24x12x4 in.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 1050,
+    "is_consumable": false,
+    "size": "2x2",
+    "sprite": "items/engineers-tool-kit.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/up-grade.png",
+    "mechanics": [
+      {
+        "action": "CRAFTING",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "fishing-kit",
+    "name": "Fishing Kit",
+    "description": "A kit equipped for the basics for Pokémon fishing, ideal for typical trainers. One kit includes a telescoping fishing rod, 2 spare reel lines, a set of 100 assorted hooks, 10 assorted bobbers, 10 sinkers, a set of 10 assorted lures, a pair of needlenose pliers, a small knife, and a tackle box. 8 lbs. 14x6x6 in.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 750,
+    "is_consumable": false,
+    "size": "2x2",
+    "sprite": "items/fishing-kit.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-rod.png",
+    "mechanics": [
+      {
+        "action": "FISHING",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "folding-bike",
+    "name": "Folding Bike",
+    "description": "A portable 3-speed bike. It features telescoping handles and an adjustable seat for any height. 25 lbs. 26 in (wheels). 48x40 in (unfolded), 30x30x6 (unfolded).",
+    "category": "Trainer Equipment",
+    "rarity": "Rare",
+    "price": 950,
+    "is_consumable": false,
+    "size": "4x2",
+    "sprite": "items/folding-bike.png",
+    "equipslot": "twohand",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bicycle.png",
+    "mechanics": [
+      {
+        "action": "SPEED_BOOST",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "full-plate-armor",
+    "name": "Full Plate Armor",
+    "description": "A special piece of clothing that grants +3 Defense during accuracy checks made against you and you move 20ft less per turn. 50 lbs.",
+    "category": "Trainer Equipment",
+    "rarity": "Rare",
+    "price": 9650,
+    "is_consumable": false,
+    "size": "4x2",
+    "sprite": "items/full-plate-armor.png",
+    "equipslot": "armor",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/max-revive.png",
+    "mechanics": [
+      {
+        "action": "DEFENSE_BOOST",
+        "target": "SELF",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "grooming-kit",
+    "name": "Grooming Kit",
+    "description": "A kit equipped for the basics for Pokémon grooming, ideal for typical trainers. One kit includes an electronic trimmer, 8 trimmer length attachments, 5 assorted combs, 5 assorted brushes, 3 assorted scissors/shears (3), a pair of clippers, a nail file, a bar of soap (8 oz.), a bar of shampoo (8 oz.), and a bag. The trimmer last one week on an hour-long charge. 4 lbs. 12x8x8 in. 2ft strap.",
+    "category": "Trainer Equipment",
+    "rarity": "Common",
+    "price": 150,
+    "is_consumable": false,
+    "size": "2x2",
+    "sprite": "items/grooming-kit.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/soothe-bell.png",
+    "mechanics": [
+      {
+        "action": "GROOMING",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "lucky-charm",
+    "name": "Lucky Charm",
+    "description": "Designer-exclusive (Coordinator). A custom item that grants advantage on a skill check. On a failed roll, you fumble and take 1d10 damage. This item cannot be used again until it has been repaired (with the Lucky Charm feature). This effect does not stack.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 0,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/lucky-charm.png",
+    "equipslot": "gear",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shiny-charm.png",
+    "mechanics": [
+      {
+        "action": "REROLL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "medical-field-kit",
+    "name": "Medical Field Kit",
+    "description": "A first aid kid designed for medical professionals and overprotective parents. One kit includes pain relievers (20 pills), antihistamine (20 pills), cold/flu relievers (20pills), electrolyte tablets (20 pills), antiseptic solution (8 oz.), antiseptic gel (8 oz.), 30 ft of medical adhesive tape, 2 slings, 2 rolls of crepe bandages (3 ft each), 4 rolls of cloth bandages (3 ft each), 20 gauze swabs, 20 stitch strips, 10 sets of ear plugs, 20 safety pins, thermometer, small scissors, small scalpel, tweezers, and a box of 40 assorted adhesive bandages, and a carrying case. 10 lbs. 2x1.5x.025 ft. | This kit can be used to stabilize humans, but is less useful with Pokémon unless the owner is proficient with medicine. As an action, a character may use this kit and attempt a Medicine check (difficulty 15) to stabilize an unconscious human, bringing them to 1 HP. Out of combat, the character may take 5 minutes to stabilize an unconscious human. Out of combat, with a difficulty 15 Medicine check, the character may cure a target of any affliction (once an hour). As this kit is used, it will need to be restocked.",
+    "category": "Trainer Equipment",
+    "rarity": "Rare",
+    "price": 2150,
+    "is_consumable": false,
+    "size": "2x2",
+    "sprite": "items/medical-field-kit.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/full-heal.png",
+    "mechanics": [
+      {
+        "action": "HEAL_STABILIZE",
+        "target": "SELF",
+        "value": 15
+      }
+    ]
+  },
+  {
+    "id": "mess-kit",
+    "name": "Mess Kit",
+    "description": "A kit equipped with everything needed to enjoy a meal on the go. One kit includes a plate, a bowl, a fork, a spoon, a knife, a cup, and a tray. 1.5 lbs. 10x10x3 in.",
+    "category": "Trainer Equipment",
+    "rarity": "Common",
+    "price": 10,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/mess-kit.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/berry-juice.png",
+    "mechanics": [
+      {
+        "action": "DINING",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "miscreants-pack",
+    "name": "Miscreant’s Pack",
+    "description": "There’s no real reason to have this, let alone sell it. This may not be easily found and available in stores. Includes, solar charger, universal power adapter, universal adapter dongle, memory sticks (4 80 GB), micro file (2), lock picks (8), multi-head screwdriver, hammer, crowbar, small narrow saw, small narrow scissors, telescoping mirror, thin wire (20 ft), water bottle, and a backpack or side pack to fit everything with some extra room. 10 lbs. 30x16x16 in.",
+    "category": "Trainer Equipment",
+    "rarity": "Common",
+    "price": 250,
+    "is_consumable": false,
+    "size": "4x2",
+    "sprite": "",
+    "mechanics": [
+      {
+        "action": "MISC",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "ninja-tabi",
+    "name": "Ninja Tabi",
+    "description": "A special piece of clothing that grants +2 to an Acrobatics skill check.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 800,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/ninja-tabi.png",
+    "equipslot": "armor",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/iron-ball.png",
+    "mechanics": [
+      {
+        "action": "TALENT_BOOST",
+        "target": "SELF",
+        "value": 2,
+        "affect": "acrobatics"
+      }
+    ]
+  },
+  {
+    "id": "nintendo-switch",
+    "name": "Nintendo Switch",
+    "description": "A video game entertainment system that comes with a case and charging cable. Compatible games are available from 20 to 80. Advanced Pokémon are known to play some of the simpler games. 1 lb. 8x4x1 in.",
+    "category": "Trainer Equipment",
+    "rarity": "Rare",
+    "price": 375,
+    "is_consumable": false,
+    "size": "2x2",
+    "sprite": "",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/itemfinder.png",
+    "mechanics": [
+      {
+        "action": "ENTERTAINMENT",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "padded-jacket",
+    "name": "Padded Jacket",
+    "description": "A special piece of clothing that grants +2 to a Constitution skill check.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 800,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/padded-jacket.png",
+    "equipslot": "armor",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/assault-vest.png",
+    "mechanics": [
+      {
+        "action": "TALENT_BOOST",
+        "target": "SELF",
+        "value": 2,
+        "affect": "constitution"
+      }
+    ]
+  },
+  {
+    "id": "pokeball-container",
+    "name": "Pokeball Container",
+    "description": "Stores Pokéballs efficiently. Holds up to 12 balls.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 1200,
+    "is_consumable": false,
+    "size": "2x2",
+    "sprite": "items/pokeball-container.png",
+    "equipslot": "gear",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/apricorn-box.png",
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "pokeball-smith-kit",
+    "name": "Pokeball Smith Kit",
+    "description": "A kit equipped with everything a Poké ball smith needs. One kit includes an electric soldering table (2x2 ft), a soldering iron, a desoldering pump, 8 assorted soldering iron tips, a tin wire tube, a pair of tweezers, a wire stripper cutter, 80 ft of electrical wire, a micro screwdriver, 400 micro-screws, a micro glass, 200 spare mirrors, 200 micro rods, and 200 micro steel sheets. The table folds into itself while storing all of the supplies, complete with a handle. 15 lbs. 24x12x4 in.",
+    "category": "Trainer Equipment",
+    "rarity": "Rare",
+    "price": 1250,
+    "is_consumable": false,
+    "size": "3x2",
+    "sprite": "items/pokeball-smith-kit.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/apricorn-box.png",
+    "mechanics": [
+      {
+        "action": "CRAFT_BALLS",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "rebreather",
+    "name": "Rebreather",
+    "description": "A special mask that allows the wearer to breathe underwater for up to 30 minutes. After 15 minutes of use, it will need to be cleaned, dried, and allowed to charge for another hour.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 0,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/rebreather.png",
+    "equipslot": "armor",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png",
+    "mechanics": [
+      {
+        "action": "BREATHE_UNDERWATER",
+        "target": "SELF",
+        "value": 45
+      }
+    ]
+  },
+  {
+    "id": "riot-gear",
+    "name": "Riot Gear",
+    "description": "Special Operative-exclusive (Ranger). A set of protective gear that reduces the damage of Attack moves by 5.",
+    "category": "Trainer Equipment",
+    "rarity": "Rare",
+    "price": 0,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/riot-gear.png",
+    "equipslot": "armor",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/assault-vest.png",
+    "mechanics": [
+      {
+        "action": "DAMAGE_REDUCTION",
+        "target": "SELF",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "scanner-goggles",
+    "name": "Scanner Goggles",
+    "description": "Special Operative-exclusive (Ranger). A pair of goggles equipped with specialized scanners designed to assess disastrous situations. These goggles can see through fog, smoke, sandstorms, and any other moving non-permanent visual obstruction. | 5/day. As a free action, the wielder may reveal the target Pokémon's current HP, relative to its total HP stat.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 0,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/scanner-goggles.png",
+    "equipslot": "gear",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/safety-goggles.png",
+    "mechanics": [
+      {
+        "action": "REVEAL_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "shield-styler",
+    "name": "Shield Styler",
+    "description": "Special Operative-exclusive (Ranger). A special component that allows a capture styler to produce an energy shield. This component was designed to protect its wielder. | Accuracy rolls made when attacking the wielder or an adjacent ally have their DC increased by 1. If the opponent fails their accuracy roll, the shield shatters. The component must charge for 1 minute before it can be used again. This component is not active when the coiled attachment is being used.",
+    "category": "Trainer Equipment",
+    "rarity": "Rare",
+    "price": 0,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/shield-styler.png",
+    "equipslot": "twohand",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/exp-share.png",
+    "mechanics": [
+      {
+        "action": "DEFENSE_BOOST",
+        "target": "SELF",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "tactical-launcher-sleep",
+    "name": "Tactical Launcher Sleep",
+    "description": "Special Operative-exclusive (Ranger). A special device that launches knock-out gas. Highly-decorated Special Operative rangers are sanctioned to carry 3 charges for this launcher. In order to restock their charges, rangers must report to a ranger station. | This item grants access to the move Sleep Gas.",
+    "category": "Trainer Equipment",
+    "rarity": "Rare",
+    "price": 0,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/tactical-launcher-sleep.png",
+    "equipslot": "onehand",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/full-restore.png",
+    "mechanics": [
+      {
+        "action": "MOVE_SLEEP_GAS",
+        "target": "AREA",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "tactical-launcher-smoke",
+    "name": "Tactical Launcher Smoke",
+    "description": "Special Operative-exclusive (Ranger). A special device that launches a smoke screen, allowing for quick getaways, escapes, or cover during raids. Special Operative rangers are sanctioned to carry 3 charges for this launcher. In order to restock their charges, rangers must report to a ranger station. | This item grants access to the move Smoke Screen.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 0,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/tactical-launcher-smoke.png",
+    "equipslot": "onehand",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/smoke-ball.png",
+    "mechanics": [
+      {
+        "action": "MOVE_SMOKESCREEN",
+        "target": "AREA",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "tactical-launcher-stun",
+    "name": "Tactical Launcher Stun",
+    "description": "Special Operative-exclusive (Ranger). A special device that launches stun powder grenades, settling dangerous situations quickly. Special Operative rangers are sanctioned to carry 3 charges for this launcher. In order to restock their charges, rangers must report to a ranger station. | This item grants access to the move Stun Gas.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 0,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/tactical-launcher-stun.png",
+    "equipslot": "onehand",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/paralyze-heal.png",
+    "mechanics": [
+      {
+        "action": "MOVE_STUN_GAS",
+        "target": "AREA",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "tactical-launcher-web",
+    "name": "Tactical Launcher Web",
+    "description": "Special Operative-exclusive (Ranger). A special device that launches webs to capture fleeing criminals. Highly-decorated Special Operative rangers are sanctioned to carry 3 charges for this launcher. In order to restock their charges, rangers must report to a ranger station. | This item grants access to the move Spider Webbing.",
+    "category": "Trainer Equipment",
+    "rarity": "Uncommon",
+    "price": 0,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/tactical-launcher-web.png",
+    "equipslot": "onehand",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sticky-barb.png",
+    "mechanics": [
+      {
+        "action": "MOVE_SPIDER_WEB",
+        "target": "AREA",
+        "value": 3
+      }
+    ]
+  },
+  {
+    "id": "trainer-accessory",
+    "name": "Trainer Accessory",
+    "description": "Designer-exclusive (Coordinator). A custom item that adds 2 to a skill check while talking to someone else. On a successful roll, this item cannot be used this way again until it has been repaired (with the Practical Designer feature). This effect does not stack.",
+    "category": "Trainer Equipment",
+    "rarity": "Common",
+    "price": 0,
+    "is_consumable": false,
+    "size": "1x1",
+    "sprite": "items/trainer-accessory.png",
+    "equipslot": "gear",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/amulet-coin.png",
+    "mechanics": [
+      {
+        "action": "TALENT_BOOST",
+        "target": "SELF",
+        "value": 2,
+        "affect": "any"
+      }
+    ]
+  },
+  {
+    "id": "travelers-pack",
+    "name": "Travelers Pack",
+    "description": "A kit designed for extended travel. One kit includes a collapsible pop-up tent (two-person, 7x4 ft), a tarp (8x10 ft), a sleeping bag, a pocketknife, a solar flashlight, a compass, 20 waterproof matches, water bottle, and a compression sack. 15 lbs. 40x16x16 in.",
+    "category": "Trainer Equipment",
+    "rarity": "Common",
+    "price": 150,
+    "is_consumable": false,
+    "size": "4x2",
+    "sprite": "",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/camping-gear.png",
+    "mechanics": [
+      {
+        "action": "SURVIVAL",
+        "target": "SELF",
+        "value": 0
+      }
+    ]
+  }
+]

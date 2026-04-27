@@ -1,0 +1,1461 @@
+[
+  {
+    "id": "aguav-berry",
+    "name": "Aguav Berry",
+    "description": "This Berry restores 1/3 of a Pokémon's max HP for Pokémon, but not for Humans. It can be consumed by a Pokémon who holds it as a Free Action during their turn. If this Pokémon eats this Berry and they like this Berry’s flavor they are immune to the Confusion Affliction.\n\nThis Berry is Bitter.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 850,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/aguav-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aguav-berry.png",
+    "flavors": [
+      "Bitter"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 33,
+        "is_percentage": true
+      },
+      {
+        "action": "ADD_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "CONFUSION",
+        "exception": {
+          "kind": "POKEMON_TASTE_LIKE_FLAVORS"
+        }
+      }
+    ]
+  },
+  {
+    "id": "apicot-berry",
+    "name": "Apicot Berry",
+    "description": "A rare berry that increases SPDEF by 1 for 2 minutes when the holder's HP drops to half or lower. This effect does not stack.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 1880,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/apicot-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/apicot-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "STAT_BOOST_LOW_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "aspear-berry",
+    "name": "Aspear Berry",
+    "description": "This Berry cures the Frozen affliction. It works for humans and Pokémon alike. A Pokémon holding it can consume it as a Free Action during its turn. A trainer can consume it during their turn as an action (Use Item). It can be consumed during your turn even while Asleep, Paralyzed, or affected by any combination of afflictions, as long as you are holding it and do not need to dig through anything to get it. The same applies to a Pokémon holding the berry.\n\nThis Berry is Sour.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/aspear-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/aspear-berry.png",
+    "flavors": [
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "SLEEP"
+      }
+    ]
+  },
+  {
+    "id": "babiri-berry",
+    "name": "Babiri Berry",
+    "description": "An uncommon berry that grants protection from Steel-type moves.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 980,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/babiri-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/babiri-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry"
+    ],
+    "mechanics": [
+      {
+        "action": "RESISTANCE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "belue-berry",
+    "name": "Belue Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/belue-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/belue-berry.png",
+    "flavors": [
+      "Sweet",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "bluk-berry",
+    "name": "Bluk Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/bluk-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bluk-berry.png",
+    "flavors": [
+      "Dry",
+      "Sweet"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "charti-berry",
+    "name": "Charti Berry",
+    "description": "An uncommon berry that grants protection from Rock-type moves.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 980,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/charti-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/charti-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry"
+    ],
+    "mechanics": [
+      {
+        "action": "RESISTANCE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "cheri-berry",
+    "name": "Cheri Berry",
+    "description": "This Berry cures the Paralyzed affliction. It works for humans and Pokémon alike. A Pokémon holding it can consume it as a Free Action during its turn. A trainer can consume it during their turn as an action (Use Item). It can be consumed during your turn even while Asleep, Paralyzed, or affected by any combination of afflictions, as long as you are holding it and do not need to dig through anything to get it. The same applies to a Pokémon holding the berry.\n\nThis Berry is Spicy.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/cheri-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cheri-berry.png",
+    "flavors": [
+      "Spicy"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "SLEEP"
+      }
+    ]
+  },
+  {
+    "id": "chesto-berry",
+    "name": "Chesto Berry",
+    "description": "This Berry cures the Asleep affliction. It works for humans and Pokémon alike. A Pokémon holding it can consume it as a Free Action during its turn. A trainer can consume it during their turn as an action (Use Item). It can be consumed during your turn even while Asleep, Paralyzed, or affected by any combination of afflictions, as long as you are holding it and do not need to dig through anything to get it. The same applies to a Pokémon holding the berry.\n\nThis Berry is Dry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/chesto-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chesto-berry.png",
+    "flavors": [
+      "Dry"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "SLEEP"
+      }
+    ]
+  },
+  {
+    "id": "chilan-berry",
+    "name": "Chilan Berry",
+    "description": "An uncommon berry that grants protection from Normal-type moves.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 980,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/chilan-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chilan-berry.png",
+    "flavors": [
+      "Dry",
+      "Sweet"
+    ],
+    "mechanics": [
+      {
+        "action": "RESISTANCE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "chople-berry",
+    "name": "Chople Berry",
+    "description": "An uncommon berry that grants protection from Fighting-type moves.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 980,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/chople-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/chople-berry.png",
+    "flavors": [
+      "Dry",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "RESISTANCE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "coba-berry",
+    "name": "Coba Berry",
+    "description": "An uncommon berry that grants protection from Flying-type moves.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 980,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/coba-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/coba-berry.png",
+    "flavors": [
+      "Sweet",
+      "Sweet"
+    ],
+    "mechanics": [
+      {
+        "action": "RESISTANCE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "colbur-berry",
+    "name": "Colbur Berry",
+    "description": "An uncommon berry that grants protection from Dark-type moves.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 980,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/colbur-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/colbur-berry.png",
+    "flavors": [
+      "Sweet",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "RESISTANCE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "cornn-berry",
+    "name": "Cornn Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/cornn-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cornn-berry.png",
+    "flavors": [
+      "Dry",
+      "Sweet"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "custap-berry",
+    "name": "Custap Berry",
+    "description": "A rare berry that grants the next At-Will attack Priority when the holder's HP drops to 5 or less.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/custap-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/custap-berry.png",
+    "flavors": [
+      "Sweet",
+      "Bitter"
+    ],
+    "mechanics": [
+      {
+        "action": "PRIORITY_LOW_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "durin-berry",
+    "name": "Durin Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/durin-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/durin-berry.png",
+    "flavors": [
+      "Bitter",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "enigma-berry",
+    "name": "Enigma Berry",
+    "description": "A rare berry that restores 1/4 of the holder's max HP when they are hit by a super effective or extremely effective attack.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/enigma-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/enigma-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry"
+    ],
+    "mechanics": [
+      {
+        "action": "HEAL_ON_SE",
+        "target": "SELECTED_POKEMON",
+        "value": 25,
+        "is_percentage": true
+      }
+    ]
+  },
+  {
+    "id": "figy-berry",
+    "name": "Figy Berry",
+    "description": "This Berry restores 1/3 of a Pokémon's max HP for Pokémon, but not for Humans. It can be consumed by a Pokémon who holds it as a Free Action during their turn. If this Pokémon eats this Berry and they like this Berry’s flavor they are immune to the Confusion Affliction.\n\nThis Berry is Spicy.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 850,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/figy-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/figy-berry.png",
+    "flavors": [
+      "Spicy"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 33,
+        "is_percentage": true
+      },
+      {
+        "action": "ADD_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "CONFUSION",
+        "exception": {
+          "kind": "POKEMON_TASTE_LIKE_FLAVORS"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ganlon-berry",
+    "name": "Ganlon Berry",
+    "description": "A rare berry that increases DEF by 1 for 2 minutes when the holder's HP drops to half or lower.This effect does not stack.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 1880,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/ganlon-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/ganlon-berry.png",
+    "flavors": [
+      "Dry",
+      "Sweet",
+      "Bitter"
+    ],
+    "mechanics": [
+      {
+        "action": "STAT_BOOST_LOW_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "grepa-berry",
+    "name": "Grepa Berry",
+    "description": "Grepa Berry will lower Special Defense by 1 when a Vitamin has been used before.\n\nThis Berry is Dry, Sweet, and Sour.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 680,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/grepa-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grepa-berry.png",
+    "flavors": [
+      "Dry",
+      "Sweet",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "STAT_DROP",
+        "target": "SELECTED_POKEMON",
+        "value": 1,
+        "affect": "DEF"
+      }
+    ]
+  },
+  {
+    "id": "hondew-berry",
+    "name": "Hondew Berry",
+    "description": "Hondew Berry will lower Special Attack by 1 when a Vitamin has been used before.\n\nThis Berry is Sweet, Dry, and Bitter.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 680,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/hondew-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hondew-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry",
+      "Bitter"
+    ],
+    "mechanics": [
+      {
+        "action": "STAT_DROP",
+        "target": "SELECTED_POKEMON",
+        "value": 1,
+        "affect": "ATK"
+      }
+    ]
+  },
+  {
+    "id": "iapapa-berry",
+    "name": "Iapapa Berry",
+    "description": "This Berry restores 1/3 of a Pokémon's max HP for Pokémon, but not for Humans. It can be consumed by a Pokémon who holds it as a Free Action during their turn. If this Pokémon eats this Berry and they like this Berry’s flavor they are immune to the Confusion Affliction.\n\nThis Berry is Sour.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 850,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/iapapa-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/iapapa-berry.png",
+    "flavors": [
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 33,
+        "is_percentage": true
+      },
+      {
+        "action": "ADD_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "CONFUSION",
+        "exception": {
+          "kind": "POKEMON_TASTE_LIKE_FLAVORS"
+        }
+      }
+    ]
+  },
+  {
+    "id": "jacoba-berry",
+    "name": "Jacoba Berry",
+    "description": "A rare berry that deals 1/4 of the damage an opponent has dealt, if they hit the holder with a melee attack.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/jacoba-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/jaboca-berry.png",
+    "flavors": [
+      "Bitter",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "CONTACT_REVENGE",
+        "target": "ATTACKER",
+        "value": 25,
+        "is_percentage": true
+      }
+    ]
+  },
+  {
+    "id": "kee-berry",
+    "name": "Kee Berry",
+    "description": "A rare berry that increases DEF by 1 for 2 minutes when the holder is hit by a melee attack.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/kee-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kee-berry.png",
+    "flavors": [
+      "Dry",
+      "Sweet"
+    ],
+    "mechanics": [
+      {
+        "action": "STAT_BOOST_ON_HIT",
+        "target": "SELECTED_POKEMON",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "kelpsy-berry",
+    "name": "Kelpsy Berry",
+    "description": "Kelpsy Berry will lower Attack by 1 when a Vitamin has been used before.\n\nThis Berry is Dry, Bitter, and Sour.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 680,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/kelpsy-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kelpsy-berry.png",
+    "flavors": [
+      "Dry",
+      "Bitter",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "STAT_DROP",
+        "target": "SELECTED_POKEMON",
+        "value": 1,
+        "affect": "ATK"
+      }
+    ]
+  },
+  {
+    "id": "lansat-berry",
+    "name": "Lansat Berry",
+    "description": "A rare berry that allows the holder to make a critical hit when the wearer naturally rolls 18-20 on an accuracy roll for 1 minute, when the holder's HP drops to half or lower.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 1880,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/lansat-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lansat-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry",
+      "Sweet",
+      "Bitter",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "CRIT_BOOST_LOW_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "leppa-berry",
+    "name": "Leppa Berry",
+    "description": "A rare berry that restores the use of one 3/day frequency move as if the holder had taken a long rest.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/leppa-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leppa-berry.png",
+    "flavors": [
+      "Sweet",
+      "Sweet",
+      "Bitter",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "RESTORE_FREQ",
+        "target": "SELECTED_POKEMON",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "liechi-berry",
+    "name": "Liechi Berry",
+    "description": "A rare berry that increases ATK by 1 for 2 minutes when the holder's HP drops to half or lower. This effect does not stack.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 1880,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/liechi-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/liechi-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry",
+      "Sweet"
+    ],
+    "mechanics": [
+      {
+        "action": "STAT_BOOST_LOW_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "lum-berry",
+    "name": "Lum Berry",
+    "description": "This Berry cures all afflictions. It works for humans and Pokémon alike. A Pokémon holding it can consume it as a Free Action during its turn. A trainer can consume it during their turn as an action (Use Item). It can be consumed during your turn even while Asleep, Paralyzed, or affected by any combination of afflictions, as long as you are holding it and do not need to dig through anything to get it. The same applies to a Pokémon holding the berry.\n\nThis Berry is Sweet, Dry, and Bitter.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 580,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/lum-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lum-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry",
+      "Sweet",
+      "Bitter"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_STATUS_ALL",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "mago-berry",
+    "name": "Mago Berry",
+    "description": "This Berry restores 1/3 of a Pokémon's max HP for Pokémon, but not for Humans. It can be consumed by a Pokémon who holds it as a Free Action during their turn. If this Pokémon eats this Berry and they like this Berry’s flavor they are immune to the Confusion Affliction.\n\nThis Berry is Sweet.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 850,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/mago-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mago-berry.png",
+    "flavors": [
+      "Sweet"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 33,
+        "is_percentage": true
+      },
+      {
+        "action": "ADD_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "CONFUSION",
+        "exception": {
+          "kind": "POKEMON_TASTE_LIKE_FLAVORS"
+        }
+      }
+    ]
+  },
+  {
+    "id": "magost-berry",
+    "name": "Magost Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/magost-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/magost-berry.png",
+    "flavors": [
+      "Sweet",
+      "Bitter"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "maranga-berry",
+    "name": "Maranga Berry",
+    "description": "A rare berry that increases SPDEF by 1 for 2 minutes when the holder is hit by a special attack.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/maranga-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/maranga-berry.png",
+    "flavors": [
+      "Dry",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "STAT_BOOST_ON_HIT",
+        "target": "SELECTED_POKEMON",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "micle-berry",
+    "name": "Micle Berry",
+    "description": "A rare berry that increases accuracy checks by 2 for 1 round when the holder's HP drops to half or lower.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 1880,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/micle-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/micle-berry.png",
+    "flavors": [
+      "Dry",
+      "Sweet"
+    ],
+    "mechanics": [
+      {
+        "action": "ACCURACY_BOOST_LOW_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 2
+      }
+    ]
+  },
+  {
+    "id": "nanab-berry",
+    "name": "Nanab Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/nanab-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nanab-berry.png",
+    "flavors": [
+      "Sweet",
+      "Bitter"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "nomel-berry",
+    "name": "Nomel Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/nomel-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/nomel-berry.png",
+    "flavors": [
+      "Sweet",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "oran-berry",
+    "name": "Oran Berry",
+    "description": "This Berry restores 5 HP for Pokémon, but not for Humans. It can be consumed by a Pokémon who holds it as a Free Action during their turn.\n\nThis Berry is Dry, Bitter, Spicy and Sour.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 55,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/oran-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/oran-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry",
+      "Bitter",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "id": "pamtre-berry",
+    "name": "Pamtre Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/pamtre-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pamtre-berry.png",
+    "flavors": [
+      "Dry",
+      "Sweet"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "pecha-berry",
+    "name": "Pecha Berry",
+    "description": "This Berry cures the Poisoned and Toxified afflictions. It works for humans and Pokémon alike. A Pokémon holding it can consume it as a Free Action during its turn. A trainer can consume it during their turn as an action (Use Item). It can be consumed during your turn even while Asleep, Paralyzed, or affected by any combination of afflictions, as long as you are holding it and do not need to dig through anything to get it. The same applies to a Pokémon holding the berry.\n\nThis Berry is Sweet.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/pecha-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pecha-berry.png",
+    "flavors": [
+      "Sweet"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "TOXIFIED"
+      }
+    ]
+  },
+  {
+    "id": "persim-berry",
+    "name": "Persim Berry",
+    "description": "This Berry cures the Confused affliction. It works for humans and Pokémon alike. A Pokémon holding it can consume it as a Free Action during its turn. A trainer can consume it during their turn as an action (Use Item). It can be consumed during your turn even while Asleep, Paralyzed, or affected by any combination of afflictions, as long as you are holding it and do not need to dig through anything to get it. The same applies to a Pokémon holding the berry.\n\nThis Berry is Sweet, Dry, and Sour.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 180,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/persim-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/persim-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry",
+      "Sweet",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "SLEEP"
+      }
+    ]
+  },
+  {
+    "id": "petaya-berry",
+    "name": "Petaya Berry",
+    "description": "A rare berry that increases SPATK by 1 for 2 minutes when the holder's HP drops to half or lower. This effect does not stack.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 1880,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/petaya-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/petaya-berry.png",
+    "flavors": [
+      "Sweet",
+      "Bitter",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "STAT_BOOST_LOW_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "pinap-berry",
+    "name": "Pinap Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/pinap-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pinap-berry.png",
+    "flavors": [
+      "Sweet",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "pomeg-berry",
+    "name": "Pomeg Berry",
+    "description": "Pomeg Berry will lower Hit Points by 4 when a Vitamin has been used before.\n\nThis Berry is Sweet, Sweet, and Bitter.\n\n(If fewer than 4 Hit Points came from Vitamins, the berry removes only what Vitamins added.)",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 680,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/pomeg-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pomeg-berry.png",
+    "flavors": [
+      "Sweet",
+      "Sweet",
+      "Bitter"
+    ],
+    "mechanics": [
+      {
+        "action": "STAT_DROP",
+        "target": "SELECTED_POKEMON",
+        "value": 4,
+        "affect": "HP"
+      }
+    ]
+  },
+  {
+    "id": "qualot-berry",
+    "name": "Qualot Berry",
+    "description": "Qualot Berry will lower Defense by 1 when a Vitamin has been used before.\n\nThis Berry is Sweet, Sweet, and Sour.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 680,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/qualot-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/qualot-berry.png",
+    "flavors": [
+      "Sweet",
+      "Sweet",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "STAT_DROP",
+        "target": "SELECTED_POKEMON",
+        "value": 1,
+        "affect": "DEF"
+      }
+    ]
+  },
+  {
+    "id": "rabuta-berry",
+    "name": "Rabuta Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/rabuta-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rabuta-berry.png",
+    "flavors": [
+      "Bitter",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "rawst-berry",
+    "name": "Rawst Berry",
+    "description": "This Berry cures the Burned affliction. It works for humans and Pokémon alike. A Pokémon holding it can consume it as a Free Action during its turn. A trainer can consume it during their turn as an action (Use Item). It can be consumed during your turn even while Asleep, Paralyzed, or affected by any combination of afflictions, as long as you are holding it and do not need to dig through anything to get it. The same applies to a Pokémon holding the berry.\n\nThis Berry is Bitter.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/rawst-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rawst-berry.png",
+    "flavors": [
+      "Bitter"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "BURN"
+      }
+    ]
+  },
+  {
+    "id": "razz-berry",
+    "name": "Razz Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/razz-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/razz-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "rindo-berry",
+    "name": "Rindo Berry",
+    "description": "An uncommon berry that grants protection from Grass-type moves.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 980,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/rindo-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rindo-berry.png",
+    "flavors": [
+      "Sweet",
+      "Bitter"
+    ],
+    "mechanics": [
+      {
+        "action": "RESISTANCE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "roseli-berry",
+    "name": "Roseli Berry",
+    "description": "An uncommon berry that grants protection from Fairy-type moves.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 980,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/roseli-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/roseli-berry.png",
+    "flavors": [
+      "Dry",
+      "Sweet"
+    ],
+    "mechanics": [
+      {
+        "action": "RESISTANCE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "rowap-berry",
+    "name": "Rowap Berry",
+    "description": "A rare berry that deals 1/4 of the damage an opponent has dealt, if they hit the holder with a ranged special attack.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 0,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/rowap-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rowap-berry.png",
+    "flavors": [
+      "Dry",
+      "Sweet"
+    ],
+    "mechanics": [
+      {
+        "action": "CONTACT_REVENGE",
+        "target": "ATTACKER",
+        "value": 25,
+        "is_percentage": true
+      }
+    ]
+  },
+  {
+    "id": "salac-berry",
+    "name": "Salac Berry",
+    "description": "A rare berry that increases SPD by 1 for 2 minutes when the holder's HP drops to half or lower. This effect does not stack.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 1880,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/salac-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/salac-berry.png",
+    "flavors": [
+      "Sweet",
+      "Bitter",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "STAT_BOOST_LOW_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "shuca-berry",
+    "name": "Shuca Berry",
+    "description": "An uncommon berry that grants protection from Ground-type moves.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 980,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/shuca-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shuca-berry.png",
+    "flavors": [
+      "Sweet",
+      "Sweet"
+    ],
+    "mechanics": [
+      {
+        "action": "RESISTANCE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "sitrus-berry",
+    "name": "Sitrus Berry",
+    "description": "This Berry restores 12 HP for Pokémon, but not for Humans. It can be consumed by a Pokémon who holds it as a Free Action during their turn.\n\nThis Berry is Dry, Bitter, Sour and Sweet.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/sitrus-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/sitrus-berry.png",
+    "flavors": [
+      "Dry",
+      "Sweet",
+      "Bitter",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 12
+      }
+    ]
+  },
+  {
+    "id": "spelon-berry",
+    "name": "Spelon Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/spelon-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/spelon-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "starf-berry",
+    "name": "Starf Berry",
+    "description": "A rare berry that increases a random stat by 1 for 2 minutes when the holder's HP drops to half or lower.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 1280,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/starf-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/starf-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry",
+      "Sweet",
+      "Bitter",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "RANDOM_STAT_LOW_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "tanga-berry",
+    "name": "Tanga Berry",
+    "description": "An uncommon berry that grants protection from Bug-type moves.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 980,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/tanga-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tanga-berry.png",
+    "flavors": [
+      "Sweet",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "RESISTANCE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "tomato-berry",
+    "name": "Tamato Berry",
+    "description": "Tamato Berry will lower Speed by 1 when a Vitamin has been used before.\n\nThis Berry is Sweet and Dry.",
+    "category": "Berry",
+    "rarity": "Rare",
+    "price": 680,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/tomato-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tamato-berry.png",
+    "flavors": [
+      "Sweet",
+      "Dry"
+    ],
+    "mechanics": [
+      {
+        "action": "STAT_DROP",
+        "target": "SELECTED_POKEMON",
+        "value": 1,
+        "affect": "SPD"
+      }
+    ]
+  },
+  {
+    "id": "wacan-berry",
+    "name": "Wacan Berry",
+    "description": "An uncommon berry that grants protection from Electric-type moves.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 980,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/wacan-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wacan-berry.png",
+    "flavors": [
+      "Sweet",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "RESISTANCE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  },
+  {
+    "id": "watmel-berry",
+    "name": "Watmel Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/watmel-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/watmel-berry.png",
+    "flavors": [
+      "Sweet",
+      "Bitter"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "wepear-berry",
+    "name": "Wepear Berry",
+    "description": "A common berry.",
+    "category": "Berry",
+    "rarity": "Common",
+    "price": 120,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/wepear-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wepear-berry.png",
+    "flavors": [
+      "Bitter",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "NONE",
+        "target": "NONE"
+      }
+    ]
+  },
+  {
+    "id": "wiki-berry",
+    "name": "Wiki Berry",
+    "description": "This Berry restores 1/3 of a Pokémon's max HP for Pokémon, but not for Humans. It can be consumed by a Pokémon who holds it as a Free Action during their turn. If this Pokémon eats this Berry and they like this Berry’s flavor they are immune to the Confusion Affliction.\n\nThis Berry is Dry.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 850,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/wiki-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wiki-berry.png",
+    "flavors": [
+      "Dry"
+    ],
+    "mechanics": [
+      {
+        "action": "CURE_HP",
+        "target": "SELECTED_POKEMON",
+        "value": 33,
+        "is_percentage": true
+      },
+      {
+        "action": "ADD_AFFLICTION",
+        "target": "SELECTED_POKEMON",
+        "affect": "CONFUSION",
+        "exception": {
+          "kind": "POKEMON_TASTE_LIKE_FLAVORS"
+        }
+      }
+    ]
+  },
+  {
+    "id": "yache-berry",
+    "name": "Yache Berry",
+    "description": "An uncommon berry that grants protection from Ice-type moves.",
+    "category": "Berry",
+    "rarity": "Uncommon",
+    "price": 980,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/yache-berry.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yache-berry.png",
+    "flavors": [
+      "Dry",
+      "Sour"
+    ],
+    "mechanics": [
+      {
+        "action": "RESISTANCE",
+        "target": "SELECTED_POKEMON",
+        "value": 0
+      }
+    ]
+  }
+]

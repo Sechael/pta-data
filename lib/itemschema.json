@@ -1,0 +1,335 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sechael.github.io/pta-data/schemas/itemschema.json",
+  "title": "PTA Item (future mechanics shape)",
+  "type": "object",
+  "additionalProperties": false,
+  "$comment": "This schema documents the forward-looking item payload + mechanics model. Current lib/items.json is legacy (effect_type/effect_value/is_percentage) and is intentionally not validated by this schema yet.",
+  "required": ["id", "name", "description", "category", "rarity", "price", "is_consumable", "size", "sprite"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable item id / slug (e.g. wepear-berry)."
+    },
+    "name": { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "category": {
+      "type": "string",
+      "enum": ["Berry", "Evolution", "Held Item", "Key Item", "Medical", "Pokeball", "Supplies", "TM", "Trainer Equipment"],
+      "description": "High-level item category. Derived from lib/items.json categories."
+    },
+    "rarity": {
+      "type": "string",
+      "enum": ["Common", "Uncommon", "Rare", "Unique", "Craftable"]
+    },
+    "price": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "is_consumable": { "type": "boolean" },
+    "size": {
+      "type": "string",
+      "enum": ["1x1", "2x2", "2x4", "3x2", "4x2"]
+    },
+    "sprite": {
+      "type": "string",
+      "description": "Relative asset path (e.g. items/wepear-berry.png)."
+    },
+    "sprite_url": {
+      "type": "string",
+      "description": "Optional remote sprite URL.",
+      "format": "uri"
+    },
+    "equipslot": {
+      "description": "Optional equip slot for wearable/held items (or null for not equippable).",
+      "anyOf": [
+        { "type": "null" },
+        { "type": "string", "enum": ["armor", "gear", "onehand", "twohand"] }
+      ]
+    },
+    "flavors": {
+      "description": "Contest flavors for berries and similar. Canonical shape is an array; legacy data may store a JSON-encoded string.",
+      "type": "array",
+      "items": { "type": "string", "enum": ["Sweet", "Sour", "Bitter", "Spicy", "Dry"] }
+    },
+    "mechanics": {
+      "description": "List of mechanics applied when using, holding, or otherwise benefiting from the item.",
+      "type": "array",
+      "items": { "$ref": "#/$defs/Mechanic" }
+    },
+    "container": {
+      "description": "Optional container metadata for items that can hold other items (e.g. pokeball-container, trainer-ration-container, pokemon-food-bag). This is staging-only; current lib/items.json encodes this in description text.",
+      "$ref": "#/$defs/Container"
+    }
+  },
+  "$defs": {
+    "Container": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["capacity", "unit", "allowed"],
+      "properties": {
+        "capacity": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Maximum amount that can be stored (counted in `unit`)."
+        },
+        "unit": {
+          "type": "string",
+          "enum": ["ITEM", "PORTION", "BALL", "RATION_UNIT"],
+          "description": "Unit of measurement for `capacity` (discrete items vs tracked portions/units)."
+        },
+        "allowed": {
+          "description": "What the container is allowed to hold.",
+          "oneOf": [
+            { "$ref": "#/$defs/ContainerAllowedByCategory" },
+            { "$ref": "#/$defs/ContainerAllowedByItemId" },
+            { "$ref": "#/$defs/ContainerAllowedByCategoryOrItemId" }
+          ]
+        }
+      },
+      "examples": [
+        {
+          "capacity": 12,
+          "unit": "BALL",
+          "allowed": { "categories": ["Pokeball"] }
+        },
+        {
+          "capacity": 12,
+          "unit": "RATION_UNIT",
+          "allowed": { "itemIds": ["trainer-ration-24-hour"] }
+        },
+        {
+          "capacity": 50,
+          "unit": "PORTION",
+          "allowed": { "itemIds": ["pokemon-food"] }
+        }
+      ]
+    },
+    "ContainerAllowedByCategory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["categories"],
+      "properties": {
+        "categories": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "enum": ["Berry", "Evolution", "Held Item", "Key Item", "Medical", "Pokeball", "Supplies", "TM", "Trainer Equipment"]
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "ContainerAllowedByItemId": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["itemIds"],
+      "properties": {
+        "itemIds": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true,
+          "description": "Explicit allow-list of item ids this container can hold."
+        }
+      }
+    },
+    "ContainerAllowedByCategoryOrItemId": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["categories", "itemIds"],
+      "properties": {
+        "categories": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "enum": ["Berry", "Evolution", "Held Item", "Key Item", "Medical", "Pokeball", "Supplies", "TM", "Trainer Equipment"]
+          },
+          "uniqueItems": true
+        },
+        "itemIds": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        }
+      }
+    },
+    "Mechanic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["action", "target"],
+      "properties": {
+        "action": {
+          "type": "string",
+          "enum": [
+            "ADD_AFFLICTION",
+            "ACCURACY_BOOST_LOW_HP",
+            "ART",
+            "BREATHE_UNDERWATER",
+            "CAPTURE_MOD",
+            "CONTACT_DAMAGE",
+            "CONTACT_IMMUNE",
+            "CONTACT_REVENGE",
+            "CONTEST_BOOST",
+            "CONTEST_STAT",
+            "COOKING",
+            "CRAFTING",
+            "CRAFT_BALLS",
+            "CRIT_BOOST",
+            "CRIT_BOOST_LOW_HP",
+            "CURE_ON_PROMPT",
+            "CURE_AFFLICTION",
+            "CURE_STATUS_ALL",
+            "DAMAGE_BOOST",
+            "DAMAGE_REDUCTION",
+            "DEFENSE_BOOST",
+            "DIGGING",
+            "DINING",
+            "EGG_HATCH",
+            "ENTERTAINMENT",
+            "EVOLVE",
+            "FISHING",
+            "FOOD",
+            "GROOMING",
+            "GROW_BERRY",
+            "HAZARD_IMMUNE",
+            "CURE_HP",
+            "HEAL_BOOST",
+            "HEAL_ON_HIT",
+            "HEAL_ON_SE",
+            "HEAL_STABILIZE",
+            "IMMUNITY",
+            "LEARN_MOVE",
+            "MAINTENANCE",
+            "MISC",
+            "MOVE_SLEEP_GAS",
+            "MOVE_SMOKESCREEN",
+            "MOVE_SPIDER_WEB",
+            "MOVE_STUN_GAS",
+            "MOVE_WRAP",
+            "NONE",
+            "PERM_STAT",
+            "PHOTOGRAPHY",
+            "PRIORITY",
+            "PRIORITY_LOW_HP",
+            "RANDOM_STAT_LOW_HP",
+            "RECOIL_BOOST",
+            "REGEN",
+            "REGEN_OR_DMG",
+            "REMOTE_PC",
+            "REPEL",
+            "REROLL",
+            "RESISTANCE",
+            "RESTORE_FREQ",
+            "RESTORE_FREQ_ALL",
+            "REVEAL_HP",
+            "REVIVE",
+            "SHIELD",
+            "TALENT_BOOST",
+            "SKILL_BOOST",
+            "SKILL_BOOST_ACROBATICS",
+            "SKILL_BOOST_ATHLETICS",
+            "SKILL_BOOST_BLUFF",
+            "SKILL_BOOST_CONSTITUTION",
+            "SPECIAL",
+            "SPEED_BOOST",
+            "STATUS_REFLECT",
+            "STAT_BOOST_CHOSEN",
+            "STAT_BOOST_FIRST_TURN",
+            "STAT_BOOST_LOW_HP",
+            "STAT_BOOST_ON_DROP",
+            "STAT_BOOST_ON_HIT",
+            "STAT_BOOST_VOICE",
+            "STAT_CHOICE",
+            "STAT_DROP",
+            "STAT_PASSIVE",
+            "STAT_UP",
+            "STAT_UP_ATK",
+            "STAT_UP_DEF",
+            "STAT_UP_HP",
+            "STAT_UP_SPATK",
+            "STAT_UP_SPDEF",
+            "STAT_UP_SPD",
+            "STAT_RESTORE",
+            "STUN_CHANCE",
+            "SURVIVAL",
+            "TERRAIN_BOOST",
+            "TYPE_BOOST",
+            "WEATHER_BOOST",
+            "WEATHER_IMMUNE",
+            "WEATHER_IMMUNITY"
+          ],
+          "description": "Mechanic action code. Derived from distinct legacy `effect_type` values in lib/items.json.",
+          "$comment": "Derived from lib/items.json effect_type unique set (count=88), plus FOOD (new action for the mechanics model; used by supplies such as pokemon-food / trainer rations)."
+        },
+        "target": {
+          "type": "string",
+          "enum": [
+            "SELECTED_POKEMON",
+            "HUMAN",
+            "SELF",
+            "HOLDER",
+            "ATTACKER",
+            "WILD_POKEMON",
+            "MOVE_SLOT",
+            "MOVE_TYPE",
+            "WEATHER_FIELD",
+            "TERRAIN_FIELD",
+            "AREA",
+            "EXTERNAL_PC",
+            "BERRY_PLANTER",
+            "NONE"
+          ],
+          "description": "Target the mechanic applies to (user, holder, selected Pokémon, etc.).",
+          "$comment": "Proposed target set for the mechanics model. This list is derived from how current items are described/used (medical items, pokeballs, held-item passives, field effects, etc.)."
+        },
+        "value": {
+          "type": "number",
+          "description": "Numeric magnitude (HP healed, capture modifier, stat delta, duration minutes, etc.)."
+        },
+        "is_percentage": {
+          "type": "boolean",
+          "description": "When true, `value` is a percentage (e.g. heal 50% HP)."
+        },
+        "affect": {
+          "type": "string",
+          "description": "Sub-type of the mechanic (e.g. affliction name for CURE_AFFLICTION, or stat name for STAT_UP).",
+          "examples": ["SLEEP", "SPATK"]
+        },
+        "exception": {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Optional rule exceptions/conditions for when the mechanic does NOT apply.",
+          "properties": {
+            "kind": {
+              "type": "string",
+              "enum": ["POKEMON_TASTE_LIKE_FLAVORS"]
+            }
+          }
+        },
+        "uses_max": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Maximum number of times this mechanic can be used before the item is spent (e.g. TM can be used 3 times)."
+        },
+        "move_category": {
+          "type": "string",
+          "enum": ["AT_WILL", "THREE_DAY", "ONE_DAY"],
+          "description": "For LEARN_MOVE mechanics: category/frequency of the taught move."
+        }
+      },
+      "examples": [
+        {
+          "action": "CURE_HP",
+          "value": 50,
+          "target": "SELECTED_POKEMON"
+        }
+      ]
+    }
+  }
+}
+

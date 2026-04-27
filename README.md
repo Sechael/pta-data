@@ -111,3 +111,12 @@ Canonical **PTA catalog** JSON for the **[pta-app](https://github.com/Sechael/pt
   "proficency": ["Grass", "Parasitic"]
 }
 ```
+
+---
+
+## Version history
+
+### 0.2.0
+- Added `lib/items/` per-category items split (staged migration away from monolithic `items.json`).
+- Added `lib/itemschema.json` and began migrating item rows to a `mechanics[]` model (targets, affects, uses, and container metadata).
+- **Open todo**: Check Berries, trainer-equipment Held-items, evolution items, key-items for consistencies (Medical, Pokeball, supplies, tm are valid).

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tm-1-day",
+    "name": "Tm 1 Day",
+    "description": "A training disc that teaches 1/day frequency moves. This item can be used up to three times.",
+    "category": "TM",
+    "rarity": "Unique",
+    "price": 16800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/tm-1-day.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png",
+    "mechanics": [
+      {
+        "action": "LEARN_MOVE",
+        "target": "MOVE_SLOT",
+        "uses_max": 3,
+        "move_category": "ONE_DAY"
+      }
+    ]
+  },
+  {
+    "id": "tm-3-day",
+    "name": "Tm 3 Day",
+    "description": "A training disc that teaches 3/day frequency moves. This item can be used up to three times.",
+    "category": "TM",
+    "rarity": "Rare",
+    "price": 9800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/tm-3-day.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png",
+    "mechanics": [
+      {
+        "action": "LEARN_MOVE",
+        "target": "MOVE_SLOT",
+        "uses_max": 3,
+        "move_category": "THREE_DAY"
+      }
+    ]
+  },
+  {
+    "id": "tm-at-will",
+    "name": "Tm At Will",
+    "description": "A training disc that teaches at-will frequency moves. This item can be used up to three times.",
+    "category": "TM",
+    "rarity": "Uncommon",
+    "price": 4800,
+    "is_consumable": true,
+    "size": "1x1",
+    "sprite": "items/tm-at-will.png",
+    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-normal.png",
+    "mechanics": [
+      {
+        "action": "LEARN_MOVE",
+        "target": "MOVE_SLOT",
+        "uses_max": 3,
+        "move_category": "AT_WILL"
+      }
+    ]
+  }
+]
