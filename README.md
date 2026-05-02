@@ -1,6 +1,6 @@
 # @sechael/pta-data
 
-Canonical **PTA catalog** JSON for the **[pta-app](https://github.com/Sechael/pta-app)** compendium: Pokémon, moves, items, weapons, afflictions, type chart, mega/gmax variants, and trainer move pools.
+Canonical **PTA catalog** JSON for the **[pta-app](https://github.com/Sechael/pta-app)** compendium: Pokémon, moves, items, weapons, afflictions, type chart, mega variants, and trainer move pools. Gigantamax / Dynamax datasets live under `lib/gmax/` in git only (not published on npm until a separate package ships).
 
 | | |
 |--|--|
@@ -21,7 +21,7 @@ Canonical **PTA catalog** JSON for the **[pta-app](https://github.com/Sechael/pt
 | `type-chart.json` | Type effectiveness |
 | `trainer-class-move-pools.json` | Object | Class move pools (e.g. Martial Form) |
 | `pokemon-mega.json`  | Mega forms |
-| `pokemon-gmax.json`  | Gigantamax forms |
+| `gmax/*.json` | Gigantamax Pokémon, G-Max moves, related items — **not** in the npm tarball (see `.npmignore`) |
 
 ---
 
@@ -149,6 +149,14 @@ This repo is migrating items toward a mechanics-based model (see `lib/itemschema
 ---
 
 ## Version history
+
+### 0.3.0
+- **Pokémon** (`lib/pokemon.json`): catalog row shape updates (e.g. nested `sprites.default` / `sprites.shiny` with local paths and PokéAPI `sprite_url` values), stat/evolution/id field alignment.
+- **Moves** (`lib/moves.json`): each entry includes `"type": "move"` for consistency with other catalog entities.
+- **Items**: mechanics / schema alignment across `lib/items/*.json`, `lib/itemschema.json`, and the root `lib/items.json` aggregate.
+- **Publishing**: `lib/pokemon-gmax.json` removed from the published package; Gigantamax datasets live under `lib/gmax/` in git and are omitted from the npm tarball (`.npmignore`). `package.json` exports include `./lib/items/*` and no longer export the removed gmax JSON entry.
+- **Other catalogs**: updates to `afflictions.json`, `type-chart.json`, `weapons.json`, and `trainer-class-move-pools.json` where the app expects newer shapes.
+- **Tooling**: maintenance scripts under `scripts/` (including Pokémon catalog migration and `wire_pokemon_json_sprites.py`) and `validate.mjs` adjustments.
 
 ### 0.2.0
 - Added `lib/items/` per-category items split (staged migration away from monolithic `items.json`).

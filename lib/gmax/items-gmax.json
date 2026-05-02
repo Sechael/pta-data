@@ -1,0 +1,23 @@
+[
+    {
+        "type": "item",
+        "id": "dynamax-band",
+        "name": "Dynamax Band",
+        "description": "A Dynamax band is the housing for a Wishing Star. With it, trainers can trigger the Dynamax or Gigantamax phenomena once a day (as a free action). Dynamax and Gigantamax can only be induced on a Loyalty 2 or higher Pokémon. Dynamax and Gigantamax last for 1 minute, increases the Pokémon's size immensely, multiplies their maximum HP by 5, sets its HP to full, and allows them to use the pool of Max moves only. Additionally, Gigantamax Pokémon take on a new form and gain access to a unique Max move. When the Pokémon changes back to normal, its current HP will be at max if it surpassed that value while Dynamaxed.",
+        "category": "Key Item",
+        "rarity": "Rare",
+        "price": 48000,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/dynamax-band.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": 0,
+                "resource": "SPECIAL"
+            }
+        ]
+    }
+]

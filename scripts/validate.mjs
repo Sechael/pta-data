@@ -14,7 +14,6 @@ const FILES = [
   'items.json',
   'moves.json',
   'pokemon.json',
-  'pokemon-gmax.json',
   'pokemon-mega.json',
   'trainer-class-move-pools.json',
   'type-chart.json',
@@ -58,7 +57,6 @@ for (const name of FILES) {
     case 'items.json':
     case 'weapons.json':
     case 'pokemon-mega.json':
-    case 'pokemon-gmax.json':
       if (!Array.isArray(data) || data.length === 0) {
         fail(`${name}: expected non-empty root array`)
       }

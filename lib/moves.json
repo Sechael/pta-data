@@ -1,5 +1,6 @@
 [
     {
+        "type": "move",
         "id": "absolutely-breathtaking",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -18,6 +19,7 @@
         "name": "Absolutely Breathtaking"
     },
     {
+        "type": "move",
         "id": "absorb",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -40,6 +42,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "accelerock",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -58,6 +61,7 @@
         "name": "Accelerock"
     },
     {
+        "type": "move",
         "id": "acid-downpour",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -76,6 +80,7 @@
         "name": "Acid Downpour"
     },
     {
+        "type": "move",
         "id": "acid-spray",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -98,6 +103,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "acrobatics",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -120,6 +126,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "acupressure",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -141,6 +148,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "aerial-ace",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -164,6 +172,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "aerial-whip",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -182,6 +191,7 @@
         "name": "Aerial Whip"
     },
     {
+        "type": "move",
         "id": "aeroblast",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -200,6 +210,7 @@
         "name": "Aeroblast"
     },
     {
+        "type": "move",
         "id": "after-you",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -221,6 +232,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "air-cutter",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -242,6 +254,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "air-dart",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -263,6 +276,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "air-slash",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -285,6 +299,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "all-out-pummeling",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -303,6 +318,7 @@
         "name": "All Out Pummeling"
     },
     {
+        "type": "move",
         "id": "alluring-voice",
         "attack_type": "ranged",
         "attack_target": "wave",
@@ -321,6 +337,7 @@
         "name": "Alluring Voice"
     },
     {
+        "type": "move",
         "id": "ally-switch",
         "attack_type": "self",
         "attack_target": "Single",
@@ -343,6 +360,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "alpha-beam",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -361,6 +379,7 @@
         "name": "Alpha Beam"
     },
     {
+        "type": "move",
         "id": "alpha-impact",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -379,6 +398,7 @@
         "name": "Alpha Impact"
     },
     {
+        "type": "move",
         "id": "alpha-restoration",
         "attack_type": "self",
         "attack_target": "Single",
@@ -397,6 +417,7 @@
         "name": "Alpha Restoration"
     },
     {
+        "type": "move",
         "id": "anchor-shot",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -415,6 +436,7 @@
         "name": "Anchor Shot"
     },
     {
+        "type": "move",
         "id": "ancient-power",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -437,6 +459,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "apple-acid",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -455,6 +478,7 @@
         "name": "Apple Acid"
     },
     {
+        "type": "move",
         "id": "aqua-cutter",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -473,6 +497,7 @@
         "name": "Aqua Cutter"
     },
     {
+        "type": "move",
         "id": "aqua-jet",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -491,6 +516,7 @@
         "name": "Aqua Jet"
     },
     {
+        "type": "move",
         "id": "aqua-ring",
         "attack_type": "self",
         "attack_target": "Single",
@@ -509,6 +535,7 @@
         "name": "Aqua Ring"
     },
     {
+        "type": "move",
         "id": "aqua-step",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -527,6 +554,7 @@
         "name": "Aqua Step"
     },
     {
+        "type": "move",
         "id": "aqua-tail",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -548,6 +576,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "arena-trap",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -566,6 +595,7 @@
         "name": "Arena Trap"
     },
     {
+        "type": "move",
         "id": "arm-thrust",
         "trainer_class_pool": "martial_artist_form",
         "attack_type": "melee",
@@ -585,6 +615,7 @@
         "name": "Arm Thrust"
     },
     {
+        "type": "move",
         "id": "armor-cannon",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -603,6 +634,7 @@
         "name": "Armor Cannon"
     },
     {
+        "type": "move",
         "id": "aromatherapy",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -624,6 +656,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "arrow-cut",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -642,6 +675,7 @@
         "name": "Arrow Cut"
     },
     {
+        "type": "move",
         "id": "assurance",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -664,6 +698,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "astonish",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -686,6 +721,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "astral-barrage",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -704,6 +740,7 @@
         "name": "Astral Barrage"
     },
     {
+        "type": "move",
         "id": "attack-order",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -722,6 +759,7 @@
         "name": "Attack Order"
     },
     {
+        "type": "move",
         "id": "attract",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -743,6 +781,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "aura-sphere",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -766,6 +805,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "aura-wheel",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -784,6 +824,7 @@
         "name": "Aura Wheel"
     },
     {
+        "type": "move",
         "id": "aurora-beam",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -805,6 +846,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "aurora-veil",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -826,6 +868,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "avalanche",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -848,6 +891,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "axe-kick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -866,6 +910,7 @@
         "name": "Axe Kick"
     },
     {
+        "type": "move",
         "id": "baneful-bunker",
         "attack_type": "self",
         "attack_target": "Single",
@@ -884,6 +929,7 @@
         "name": "Baneful Bunker"
     },
     {
+        "type": "move",
         "id": "barb-barrage",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -902,6 +948,7 @@
         "name": "Barb Barrage"
     },
     {
+        "type": "move",
         "id": "barrage",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -920,6 +967,7 @@
         "name": "Barrage"
     },
     {
+        "type": "move",
         "id": "bash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -938,6 +986,7 @@
         "name": "Bash"
     },
     {
+        "type": "move",
         "id": "beak-blast",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -956,6 +1005,7 @@
         "name": "Beak Blast"
     },
     {
+        "type": "move",
         "id": "behemoth-bash",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -974,6 +1024,7 @@
         "name": "Behemoth Bash"
     },
     {
+        "type": "move",
         "id": "behemoth-blade",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -992,6 +1043,7 @@
         "name": "Behemoth Blade"
     },
     {
+        "type": "move",
         "id": "belch",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -1013,6 +1065,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "belly-drum",
         "attack_type": "self",
         "attack_target": "Single",
@@ -1035,6 +1088,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "bide",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -1056,6 +1110,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "bind",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1074,6 +1129,7 @@
         "name": "Bind"
     },
     {
+        "type": "move",
         "id": "bite",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1096,6 +1152,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "bitter-blade",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1114,6 +1171,7 @@
         "name": "Bitter Blade"
     },
     {
+        "type": "move",
         "id": "bitter-malice",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1132,6 +1190,7 @@
         "name": "Bitter Malice"
     },
     {
+        "type": "move",
         "id": "black-hole-eclipse",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -1150,6 +1209,7 @@
         "name": "Black Hole Eclipse"
     },
     {
+        "type": "move",
         "id": "blast-burn",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -1168,6 +1228,7 @@
         "name": "Blast Burn"
     },
     {
+        "type": "move",
         "id": "blaze-kick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1190,6 +1251,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "blizzard",
         "attack_type": "ranged",
         "attack_target": "wave",
@@ -1214,6 +1276,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "block",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1235,6 +1298,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "blood-moon",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -1253,6 +1317,7 @@
         "name": "Blood Moon"
     },
     {
+        "type": "move",
         "id": "bloom-doom",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -1271,6 +1336,7 @@
         "name": "Bloom Doom"
     },
     {
+        "type": "move",
         "id": "blue-flare",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -1289,6 +1355,7 @@
         "name": "Blue Flare"
     },
     {
+        "type": "move",
         "id": "body-press",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1310,6 +1377,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "body-slam",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1333,6 +1401,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "bolt-beak",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1351,6 +1420,7 @@
         "name": "Bolt Beak"
     },
     {
+        "type": "move",
         "id": "bolt-strike",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1369,6 +1439,7 @@
         "name": "Bolt Strike"
     },
     {
+        "type": "move",
         "id": "bone-club",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1387,6 +1458,7 @@
         "name": "Bone Club"
     },
     {
+        "type": "move",
         "id": "bone-rush",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1405,6 +1477,7 @@
         "name": "Bone Rush"
     },
     {
+        "type": "move",
         "id": "bonemerang",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -1423,6 +1496,7 @@
         "name": "Bonemerang"
     },
     {
+        "type": "move",
         "id": "boomburst",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -1444,6 +1518,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "bounce",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1467,6 +1542,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "branch-poke",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1485,6 +1561,7 @@
         "name": "Branch Poke"
     },
     {
+        "type": "move",
         "id": "brave-bird",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1506,6 +1583,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "breaking-swipe",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1527,6 +1605,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "breakneck-blitz",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -1545,6 +1624,7 @@
         "name": "Breakneck Blitz"
     },
     {
+        "type": "move",
         "id": "brick-break",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1567,6 +1647,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "brine",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -1588,6 +1669,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "brutal-hit",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1609,6 +1691,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "brutal-swing",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -1631,6 +1714,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "bubble",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -1652,6 +1736,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "bubble-beam",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -1673,6 +1758,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "bug-bite",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1695,6 +1781,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "bug-buzz",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -1716,6 +1803,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "bulldoze",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -1738,6 +1826,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "bullet-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1760,6 +1849,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "bullet-seed",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -1782,6 +1872,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "burn-up",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -1800,6 +1891,7 @@
         "name": "Burn Up"
     },
     {
+        "type": "move",
         "id": "burning-bulwark",
         "attack_type": "self",
         "attack_target": "Single",
@@ -1818,6 +1910,7 @@
         "name": "Burning Bulwark"
     },
     {
+        "type": "move",
         "id": "burning-jealousy",
         "attack_type": "ranged",
         "attack_target": "wave",
@@ -1839,6 +1932,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "camouflage",
         "attack_type": "self",
         "attack_target": "Single",
@@ -1857,6 +1951,7 @@
         "name": "Camouflage"
     },
     {
+        "type": "move",
         "id": "catastropika",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1875,6 +1970,7 @@
         "name": "Catastropika"
     },
     {
+        "type": "move",
         "id": "ceaseless-edge",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1893,6 +1989,7 @@
         "name": "Ceaseless Edge"
     },
     {
+        "type": "move",
         "id": "celebrate",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -1914,6 +2011,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "charge",
         "attack_type": "self",
         "attack_target": "Single",
@@ -1935,6 +2033,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "charge-beam",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -1959,6 +2058,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "charge-on-through",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -1977,6 +2077,7 @@
         "name": "Charge On Through"
     },
     {
+        "type": "move",
         "id": "chatter",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -1995,6 +2096,7 @@
         "name": "Chatter"
     },
     {
+        "type": "move",
         "id": "chilling-water",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -2013,6 +2115,7 @@
         "name": "Chilling Water"
     },
     {
+        "type": "move",
         "id": "chip-away",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2034,6 +2137,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "chloroblast",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -2052,6 +2156,7 @@
         "name": "Chloroblast"
     },
     {
+        "type": "move",
         "id": "chosen-metronome",
         "attack_type": "self",
         "attack_target": "Single",
@@ -2070,6 +2175,7 @@
         "name": "Chosen Metronome"
     },
     {
+        "type": "move",
         "id": "circle-throw",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2088,6 +2194,7 @@
         "name": "Circle Throw"
     },
     {
+        "type": "move",
         "id": "clamp",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2106,6 +2213,7 @@
         "name": "Clamp"
     },
     {
+        "type": "move",
         "id": "clanging-scales",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -2124,6 +2232,7 @@
         "name": "Clanging Scales"
     },
     {
+        "type": "move",
         "id": "clangorous-soul",
         "attack_type": "self",
         "attack_target": "Single",
@@ -2142,6 +2251,7 @@
         "name": "Clangorous Soul"
     },
     {
+        "type": "move",
         "id": "clangorous-soulblaze",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -2160,6 +2270,7 @@
         "name": "Clangorous Soulblaze"
     },
     {
+        "type": "move",
         "id": "clear-smog",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -2182,6 +2293,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "clearing-smog",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -2203,6 +2315,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "close-combat",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2225,6 +2338,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "coaching",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2246,6 +2360,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "collision-course",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -2264,6 +2379,7 @@
         "name": "Collision Course"
     },
     {
+        "type": "move",
         "id": "comet-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2286,6 +2402,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "comeuppance",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2304,6 +2421,7 @@
         "name": "Comeuppance"
     },
     {
+        "type": "move",
         "id": "confuse-ray",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -2327,6 +2445,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "confusion",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -2348,6 +2467,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "confusioning",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -2369,6 +2489,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "constrict",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2387,6 +2508,7 @@
         "name": "Constrict"
     },
     {
+        "type": "move",
         "id": "continental-crush",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -2405,6 +2527,7 @@
         "name": "Continental Crush"
     },
     {
+        "type": "move",
         "id": "conversion",
         "attack_type": "self",
         "attack_target": "Single",
@@ -2423,6 +2546,7 @@
         "name": "Conversion"
     },
     {
+        "type": "move",
         "id": "core-enforcer",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -2441,6 +2565,7 @@
         "name": "Core Enforcer"
     },
     {
+        "type": "move",
         "id": "corkscrew-crash",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -2459,6 +2584,7 @@
         "name": "Corkscrew Crash"
     },
     {
+        "type": "move",
         "id": "corrosive-gas",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2480,6 +2606,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "counter",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2502,6 +2629,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "covet",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2523,6 +2651,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "crabhammer",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2541,6 +2670,7 @@
         "name": "Crabhammer"
     },
     {
+        "type": "move",
         "id": "crafty-shield",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -2559,6 +2689,7 @@
         "name": "Crafty Shield"
     },
     {
+        "type": "move",
         "id": "cross-chop",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2581,6 +2712,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "cross-poison",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2602,6 +2734,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "crunch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2624,6 +2757,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "crush-claw",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2645,6 +2779,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "crush-grip",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2663,6 +2798,7 @@
         "name": "Crush Grip"
     },
     {
+        "type": "move",
         "id": "curative-barrage",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2681,6 +2817,7 @@
         "name": "Curative Barrage"
     },
     {
+        "type": "move",
         "id": "curse",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -2702,6 +2839,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "cut",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2720,6 +2858,7 @@
         "name": "Cut"
     },
     {
+        "type": "move",
         "id": "cutesy-coercion",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -2738,6 +2877,7 @@
         "name": "Cutesy Coercion"
     },
     {
+        "type": "move",
         "id": "dark-pulse",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -2761,6 +2901,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "dark-sign",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -2779,6 +2920,7 @@
         "name": "Dark Sign"
     },
     {
+        "type": "move",
         "id": "dark-void",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -2797,6 +2939,7 @@
         "name": "Dark Void"
     },
     {
+        "type": "move",
         "id": "darkest-lariat",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2818,6 +2961,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "dazzling-gleam",
         "attack_type": "ranged",
         "attack_target": "wave",
@@ -2840,6 +2984,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "decorate",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2858,6 +3003,7 @@
         "name": "Decorate"
     },
     {
+        "type": "move",
         "id": "defog",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -2881,6 +3027,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "destiny-bond",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -2904,6 +3051,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "detect",
         "attack_type": "self",
         "attack_target": "Single",
@@ -2925,6 +3073,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "devastating-drake",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -2943,6 +3092,7 @@
         "name": "Devastating Drake"
     },
     {
+        "type": "move",
         "id": "diamond-storm",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -2961,6 +3111,7 @@
         "name": "Diamond Storm"
     },
     {
+        "type": "move",
         "id": "dig",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -2982,6 +3133,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "dire-claw",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3000,6 +3152,7 @@
         "name": "Dire Claw"
     },
     {
+        "type": "move",
         "id": "disable",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3022,6 +3175,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "disarming-voice",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3044,6 +3198,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "discharge",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -3065,6 +3220,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "dive",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3087,6 +3243,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "divine-verdict",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -3105,6 +3262,7 @@
         "name": "Divine Verdict"
     },
     {
+        "type": "move",
         "id": "dizzy-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3127,6 +3285,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "doodle",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3145,6 +3304,7 @@
         "name": "Doodle"
     },
     {
+        "type": "move",
         "id": "doom-desire",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -3163,6 +3323,7 @@
         "name": "Doom Desire"
     },
     {
+        "type": "move",
         "id": "double-edge",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3185,6 +3346,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "double-hit",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3206,6 +3368,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "double-iron-bash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3224,6 +3387,7 @@
         "name": "Double Iron Bash"
     },
     {
+        "type": "move",
         "id": "double-kick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3247,6 +3411,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "double-shock",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3265,6 +3430,7 @@
         "name": "Double Shock"
     },
     {
+        "type": "move",
         "id": "double-slap",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3286,6 +3452,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "double-team",
         "attack_type": "self",
         "attack_target": "Single",
@@ -3307,6 +3474,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "draco-meteor",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -3328,6 +3496,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "dragon-ascent",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3346,6 +3515,7 @@
         "name": "Dragon Ascent"
     },
     {
+        "type": "move",
         "id": "dragon-breath",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3368,6 +3538,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "dragon-cheer",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -3386,6 +3557,7 @@
         "name": "Dragon Cheer"
     },
     {
+        "type": "move",
         "id": "dragon-claw",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3408,6 +3580,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "dragon-darts",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3426,6 +3599,7 @@
         "name": "Dragon Darts"
     },
     {
+        "type": "move",
         "id": "dragon-energy",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -3444,6 +3618,7 @@
         "name": "Dragon Energy"
     },
     {
+        "type": "move",
         "id": "dragon-hammer",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3462,6 +3637,7 @@
         "name": "Dragon Hammer"
     },
     {
+        "type": "move",
         "id": "dragon-pulse",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3484,6 +3660,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "dragon-rage",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3507,6 +3684,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "dragon-rush",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3529,6 +3707,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "dragon-tail",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3551,6 +3730,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "drain-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3574,6 +3754,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "draining-kiss",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3596,6 +3777,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "dream-eater",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3618,6 +3800,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "drill-peck",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3640,6 +3823,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "drill-run",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3661,6 +3845,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "drum-beating",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3679,6 +3864,7 @@
         "name": "Drum Beating"
     },
     {
+        "type": "move",
         "id": "dual-chop",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3701,6 +3887,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "dual-wingbeat",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3722,6 +3909,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "dynamax-cannon",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3740,6 +3928,7 @@
         "name": "Dynamax Cannon"
     },
     {
+        "type": "move",
         "id": "dynamic-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3764,6 +3953,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "earth-power",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3786,6 +3976,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "earthquake",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -3809,6 +4000,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "echoed-voice",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3830,6 +4022,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "eerie-spell",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3848,6 +4041,7 @@
         "name": "Eerie Spell"
     },
     {
+        "type": "move",
         "id": "egg-bomb",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3866,6 +4060,7 @@
         "name": "Egg Bomb"
     },
     {
+        "type": "move",
         "id": "electric-terrain",
         "attack_type": "field",
         "attack_target": "Single",
@@ -3888,6 +4083,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "electrify",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -3906,6 +4102,7 @@
         "name": "Electrify"
     },
     {
+        "type": "move",
         "id": "electro-ball",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3928,6 +4125,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "electro-drift",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -3946,6 +4144,7 @@
         "name": "Electro Drift"
     },
     {
+        "type": "move",
         "id": "electro-shot",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -3964,6 +4163,7 @@
         "name": "Electro Shot"
     },
     {
+        "type": "move",
         "id": "electroweb",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -3982,6 +4182,7 @@
         "name": "Electroweb"
     },
     {
+        "type": "move",
         "id": "elemental-attack",
         "attack_type": "varies",
         "attack_target": "Single",
@@ -4000,6 +4201,7 @@
         "name": "Elemental Attack"
     },
     {
+        "type": "move",
         "id": "ember",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4024,6 +4226,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "emberish",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4045,6 +4248,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "encore",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4066,6 +4270,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "endeavor",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4084,6 +4289,7 @@
         "name": "Endeavor"
     },
     {
+        "type": "move",
         "id": "endure",
         "attack_type": "self",
         "attack_target": "Single",
@@ -4102,6 +4308,7 @@
         "name": "Endure"
     },
     {
+        "type": "move",
         "id": "energy-ball",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4124,6 +4331,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "enigma-transformation",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4142,6 +4350,7 @@
         "name": "Enigma Transformation"
     },
     {
+        "type": "move",
         "id": "eruption",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -4160,6 +4369,7 @@
         "name": "Eruption"
     },
     {
+        "type": "move",
         "id": "esper-wing",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4178,6 +4388,7 @@
         "name": "Esper Wing"
     },
     {
+        "type": "move",
         "id": "eternabeam",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4196,6 +4407,7 @@
         "name": "Eternabeam"
     },
     {
+        "type": "move",
         "id": "expanding-force",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4217,6 +4429,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "explosion",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -4235,6 +4448,7 @@
         "name": "Explosion"
     },
     {
+        "type": "move",
         "id": "extra-move",
         "attack_type": "varies",
         "attack_target": "Single",
@@ -4253,6 +4467,7 @@
         "name": "Extra Move"
     },
     {
+        "type": "move",
         "id": "extrasensory",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4274,6 +4489,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "extreme-evoboost",
         "attack_type": "self",
         "attack_target": "Single",
@@ -4292,6 +4508,7 @@
         "name": "Extreme Evoboost"
     },
     {
+        "type": "move",
         "id": "extreme-speed",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4310,6 +4527,7 @@
         "name": "Extreme Speed"
     },
     {
+        "type": "move",
         "id": "facade",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4331,6 +4549,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "fairy-lock",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -4349,6 +4568,7 @@
         "name": "Fairy Lock"
     },
     {
+        "type": "move",
         "id": "fairy-wind",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4371,6 +4591,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "fake-out",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4392,6 +4613,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "false-surrender",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4410,6 +4632,7 @@
         "name": "False Surrender"
     },
     {
+        "type": "move",
         "id": "feint-attack",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4432,6 +4655,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "fell-stinger",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4453,6 +4677,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "fiery-dance",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4471,6 +4696,7 @@
         "name": "Fiery Dance"
     },
     {
+        "type": "move",
         "id": "fiery-wrath",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4489,6 +4715,7 @@
         "name": "Fiery Wrath"
     },
     {
+        "type": "move",
         "id": "fillet-away",
         "attack_type": "self",
         "attack_target": "Single",
@@ -4507,6 +4734,7 @@
         "name": "Fillet Away"
     },
     {
+        "type": "move",
         "id": "final-gambit",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4528,6 +4756,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "fire-blast",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -4552,6 +4781,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "fire-fang",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4573,6 +4803,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "fire-lash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4591,6 +4822,7 @@
         "name": "Fire Lash"
     },
     {
+        "type": "move",
         "id": "fire-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4614,6 +4846,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "fire-spin",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4638,6 +4871,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "first-impression",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4656,6 +4890,7 @@
         "name": "First Impression"
     },
     {
+        "type": "move",
         "id": "fishious-rend",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4674,6 +4909,7 @@
         "name": "Fishious Rend"
     },
     {
+        "type": "move",
         "id": "fissure",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -4692,6 +4928,7 @@
         "name": "Fissure"
     },
     {
+        "type": "move",
         "id": "flail",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4714,6 +4951,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "flame-burst",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -4738,6 +4976,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "flame-charge",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4759,6 +4998,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "flame-wheel",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4781,6 +5021,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "flamethrower",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -4805,6 +5046,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "flare-blitz",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4826,6 +5068,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "flash",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4849,6 +5092,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "flash-cannon",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4871,6 +5115,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "flash-kick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4889,6 +5134,7 @@
         "name": "Flash Kick"
     },
     {
+        "type": "move",
         "id": "flatter",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4910,6 +5156,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "fleur-cannon",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -4928,6 +5175,7 @@
         "name": "Fleur Cannon"
     },
     {
+        "type": "move",
         "id": "floral-healing",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -4946,6 +5194,7 @@
         "name": "Floral Healing"
     },
     {
+        "type": "move",
         "id": "flower-shield",
         "attack_type": "field",
         "attack_target": "Single",
@@ -4964,6 +5213,7 @@
         "name": "Flower Shield"
     },
     {
+        "type": "move",
         "id": "flower-trick",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -4982,6 +5232,7 @@
         "name": "Flower Trick"
     },
     {
+        "type": "move",
         "id": "fly",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -5003,6 +5254,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "flying-press",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -5021,6 +5273,7 @@
         "name": "Flying Press"
     },
     {
+        "type": "move",
         "id": "focus-blast",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -5043,6 +5296,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "focus-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -5067,6 +5321,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "follow-me",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -5088,6 +5343,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "force-palm",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -5110,6 +5366,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "foresight",
         "attack_type": "self",
         "attack_target": "Single",
@@ -5131,6 +5388,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "forests-curse",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -5149,6 +5407,7 @@
         "name": "Forests Curse"
     },
     {
+        "type": "move",
         "id": "freeze-dry",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -5170,6 +5429,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "freeze-shock",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -5188,6 +5448,7 @@
         "name": "Freeze Shock"
     },
     {
+        "type": "move",
         "id": "freezing-glare",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -5206,6 +5467,7 @@
         "name": "Freezing Glare"
     },
     {
+        "type": "move",
         "id": "frenzy-plant",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -5224,6 +5486,7 @@
         "name": "Frenzy Plant"
     },
     {
+        "type": "move",
         "id": "frost-breath",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -5245,6 +5508,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "frost-kick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -5263,6 +5527,7 @@
         "name": "Frost Kick"
     },
     {
+        "type": "move",
         "id": "frustration",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -5284,6 +5549,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "fury-attack",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -5305,6 +5571,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "fury-cutter",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -5327,6 +5594,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "fury-swipes",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -5348,6 +5616,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "fusion-bolt",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -5366,6 +5635,7 @@
         "name": "Fusion Bolt"
     },
     {
+        "type": "move",
         "id": "fusion-flare",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -5384,6 +5654,7 @@
         "name": "Fusion Flare"
     },
     {
+        "type": "move",
         "id": "future-sight",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -5405,582 +5676,7 @@
         ]
     },
     {
-        "id": "g-max-befuddle",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Bug",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 3,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "On hit, all targets are randomly Poisoned, Paralyzed, or put to Sleep. You cannot act during the next round.",
-        "name": "G Max Befuddle"
-    },
-    {
-        "id": "g-max-cannonade",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Water",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 4,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "On hit, all targets take 1d4 damage when they act until you are no longer Gigantamaxed. You cannot act during the next round.",
-        "name": "G Max Cannonade"
-    },
-    {
-        "id": "g-max-centiferno",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Fire",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 2,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Centiferno"
-    },
-    {
-        "id": "g-max-chi-strike",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Fighting",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 2,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Chi Strike"
-    },
-    {
-        "id": "g-max-cuddle",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Normal",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 3,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Cuddle"
-    },
-    {
-        "id": "g-max-depletion",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Dragon",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 3,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Depletion"
-    },
-    {
-        "id": "g-max-drum-solo",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Grass",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 6,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Drum Solo"
-    },
-    {
-        "id": "g-max-finale",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Fairy",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 2,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Finale"
-    },
-    {
-        "id": "g-max-fireball",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Fire",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 6,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Fireball"
-    },
-    {
-        "id": "g-max-flavorful",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Grass",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 2,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Flavorful"
-    },
-    {
-        "id": "g-max-foam-burst",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Water",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 4,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Foam Burst"
-    },
-    {
-        "id": "g-max-gold-rush",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Normal",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 3,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Gold Rush"
-    },
-    {
-        "id": "g-max-gravitas",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Psychic",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 4,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Gravitas"
-    },
-    {
-        "id": "g-max-hydrosnipe",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Water",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 6,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Hydrosnipe"
-    },
-    {
-        "id": "g-max-malodor",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Poison",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 3,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Malodor"
-    },
-    {
-        "id": "g-max-meltdown",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Steel",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 3,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Meltdown"
-    },
-    {
-        "id": "g-max-one-blow",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Dark",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 3,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max One Blow"
-    },
-    {
-        "id": "g-max-rapid-flow",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Water",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 3,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Rapid Flow"
-    },
-    {
-        "id": "g-max-replenish",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Normal",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 3,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Replenish"
-    },
-    {
-        "id": "g-max-resonance",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Water",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 2,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Resonance"
-    },
-    {
-        "id": "g-max-sandblast",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Ground",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 2,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Sandblast"
-    },
-    {
-        "id": "g-max-smite",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Fairy",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 3,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Smite"
-    },
-    {
-        "id": "g-max-snooze",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Dark",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 3,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Snooze"
-    },
-    {
-        "id": "g-max-steelsurge",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Steel",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 2,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Steelsurge"
-    },
-    {
-        "id": "g-max-stonesurge",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Water",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 2,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Stonesurge"
-    },
-    {
-        "id": "g-max-stun-shock",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Electric",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 3,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Stun Shock"
-    },
-    {
-        "id": "g-max-terror",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Ghost",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 2,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Terror"
-    },
-    {
-        "id": "g-max-vine-lash",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Grass",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 4,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Vine Lash"
-    },
-    {
-        "id": "g-max-volcalith",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Rock",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 4,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Volcalith"
-    },
-    {
-        "id": "g-max-volt-crash",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Electric",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 3,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Volt Crash"
-    },
-    {
-        "id": "g-max-wildfire",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Fire",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 4,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Wildfire"
-    },
-    {
-        "id": "g-max-wind-rage",
-        "attack_type": "ranged",
-        "attack_target": "blast",
-        "range_value_1": 80,
-        "range_value_2": 30,
-        "move_type": "Flying",
-        "category": "(Variable)",
-        "frequency": "1/GMAX",
-        "accuracy_mod": 0,
-        "damage_dice_num": 4,
-        "damage_die_type": 12,
-        "damage_bonus": 0,
-        "contest_stat": null,
-        "contest_keyword": null,
-        "description": "No description available.",
-        "name": "G Max Wind Rage"
-    },
-    {
+        "type": "move",
         "id": "gastro-acid",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -6002,6 +5698,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "gear-grind",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6020,6 +5717,7 @@
         "name": "Gear Grind"
     },
     {
+        "type": "move",
         "id": "geomancy",
         "attack_type": "self",
         "attack_target": "Single",
@@ -6038,6 +5736,7 @@
         "name": "Geomancy"
     },
     {
+        "type": "move",
         "id": "giga-drain",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6060,6 +5759,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "giga-impact",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -6081,6 +5781,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "gigaton-hammer",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -6099,6 +5800,7 @@
         "name": "Gigaton Hammer"
     },
     {
+        "type": "move",
         "id": "gigavolt-havoc",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -6117,6 +5819,7 @@
         "name": "Gigavolt Havoc"
     },
     {
+        "type": "move",
         "id": "glacial-lance",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -6135,6 +5838,7 @@
         "name": "Glacial Lance"
     },
     {
+        "type": "move",
         "id": "glaciate",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -6153,6 +5857,7 @@
         "name": "Glaciate"
     },
     {
+        "type": "move",
         "id": "glaive-rush",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6171,6 +5876,7 @@
         "name": "Glaive Rush"
     },
     {
+        "type": "move",
         "id": "glare",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -6189,6 +5895,7 @@
         "name": "Glare"
     },
     {
+        "type": "move",
         "id": "grass-knot",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6211,6 +5918,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "grass-whistle",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -6229,6 +5937,7 @@
         "name": "Grass Whistle"
     },
     {
+        "type": "move",
         "id": "grassy-glide",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6250,6 +5959,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "grassy-terrain",
         "attack_type": "field",
         "attack_target": "Single",
@@ -6272,6 +5982,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "grav-apple",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -6290,6 +6001,7 @@
         "name": "Grav Apple"
     },
     {
+        "type": "move",
         "id": "gravity",
         "attack_type": "field",
         "attack_target": "Single",
@@ -6313,6 +6025,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "guardian-sign",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -6331,6 +6044,7 @@
         "name": "Guardian Sign"
     },
     {
+        "type": "move",
         "id": "guillotine",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6349,6 +6063,7 @@
         "name": "Guillotine"
     },
     {
+        "type": "move",
         "id": "gunk-shot",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -6371,6 +6086,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "gust",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -6392,6 +6108,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "gyro-ball",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6415,6 +6132,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "hail",
         "attack_type": "field",
         "attack_target": "Single",
@@ -6437,6 +6155,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "hammer-arm",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6458,6 +6177,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "haze",
         "attack_type": "field",
         "attack_target": "Single",
@@ -6480,6 +6200,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "head-charge",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6498,6 +6219,7 @@
         "name": "Head Charge"
     },
     {
+        "type": "move",
         "id": "head-smash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6520,6 +6242,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "headbutt",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6542,6 +6265,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "headlong-rush",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6560,6 +6284,7 @@
         "name": "Headlong Rush"
     },
     {
+        "type": "move",
         "id": "heal-bell",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -6578,6 +6303,7 @@
         "name": "Heal Bell"
     },
     {
+        "type": "move",
         "id": "heal-block",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -6600,6 +6326,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "heal-order",
         "attack_type": "self",
         "attack_target": "Single",
@@ -6618,6 +6345,7 @@
         "name": "Heal Order"
     },
     {
+        "type": "move",
         "id": "heal-pulse",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -6640,6 +6368,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "healing-wish",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6662,6 +6391,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "heart-stamp",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6680,6 +6410,7 @@
         "name": "Heart Stamp"
     },
     {
+        "type": "move",
         "id": "heat-crash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6698,6 +6429,7 @@
         "name": "Heat Crash"
     },
     {
+        "type": "move",
         "id": "heat-flash",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -6716,6 +6448,7 @@
         "name": "Heat Flash"
     },
     {
+        "type": "move",
         "id": "heat-wave",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -6740,6 +6473,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "heavy-slam",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6762,6 +6496,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "helping-hand",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6783,6 +6518,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "hex",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -6805,6 +6541,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "hidden-power",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -6826,6 +6563,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "high-horsepower",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6844,6 +6582,7 @@
         "name": "High Horsepower"
     },
     {
+        "type": "move",
         "id": "high-jump-kick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6867,6 +6606,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "hold-back",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6888,6 +6628,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "horn-attack",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6909,6 +6650,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "horn-drill",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6927,6 +6669,7 @@
         "name": "Horn Drill"
     },
     {
+        "type": "move",
         "id": "horn-leech",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -6945,6 +6688,7 @@
         "name": "Horn Leech"
     },
     {
+        "type": "move",
         "id": "hurricane",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -6966,6 +6710,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "hydro-cannon",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -6984,6 +6729,7 @@
         "name": "Hydro Cannon"
     },
     {
+        "type": "move",
         "id": "hydro-pump",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -7005,6 +6751,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "hydro-steam",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -7023,6 +6770,7 @@
         "name": "Hydro Steam"
     },
     {
+        "type": "move",
         "id": "hydro-surge",
         "attack_type": "ranged",
         "attack_target": "beam-blast",
@@ -7041,6 +6789,7 @@
         "name": "Hydro Surge"
     },
     {
+        "type": "move",
         "id": "hydro-vortex",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -7059,6 +6808,7 @@
         "name": "Hydro Vortex"
     },
     {
+        "type": "move",
         "id": "hyper-beam",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -7080,6 +6830,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "hyper-blast",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -7098,6 +6849,7 @@
         "name": "Hyper Blast"
     },
     {
+        "type": "move",
         "id": "hyper-drill",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7116,6 +6868,7 @@
         "name": "Hyper Drill"
     },
     {
+        "type": "move",
         "id": "hyper-fang",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7137,6 +6890,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "hyper-voice",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -7158,6 +6912,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "hyperspace-fury",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -7176,6 +6931,7 @@
         "name": "Hyperspace Fury"
     },
     {
+        "type": "move",
         "id": "hyperspace-hole",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -7194,6 +6950,7 @@
         "name": "Hyperspace Hole"
     },
     {
+        "type": "move",
         "id": "hypnosis",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7215,6 +6972,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "ice-ball",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7233,6 +6991,7 @@
         "name": "Ice Ball"
     },
     {
+        "type": "move",
         "id": "ice-beam",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -7257,6 +7016,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "ice-burn",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -7275,6 +7035,7 @@
         "name": "Ice Burn"
     },
     {
+        "type": "move",
         "id": "ice-fang",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7296,6 +7057,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "ice-hammer",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7314,6 +7076,7 @@
         "name": "Ice Hammer"
     },
     {
+        "type": "move",
         "id": "ice-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7335,6 +7098,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "ice-shard",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7356,6 +7120,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "ice-spinner",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7374,6 +7139,7 @@
         "name": "Ice Spinner"
     },
     {
+        "type": "move",
         "id": "icicle-crash",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7395,6 +7161,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "icicle-spear",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7416,6 +7183,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "icy-breeze",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7437,6 +7205,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "icy-wind",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7461,6 +7230,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "impenetrable-stance",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7479,6 +7249,7 @@
         "name": "Impenetrable Stance"
     },
     {
+        "type": "move",
         "id": "incinerate",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7501,6 +7272,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "infernal-parade",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7519,6 +7291,7 @@
         "name": "Infernal Parade"
     },
     {
+        "type": "move",
         "id": "inferno",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7540,6 +7313,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "inferno-overdrive",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -7558,6 +7332,7 @@
         "name": "Inferno Overdrive"
     },
     {
+        "type": "move",
         "id": "infestation",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7579,6 +7354,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "ingrain",
         "attack_type": "self",
         "attack_target": "Single",
@@ -7597,6 +7373,7 @@
         "name": "Ingrain"
     },
     {
+        "type": "move",
         "id": "instruct",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7615,6 +7392,7 @@
         "name": "Instruct"
     },
     {
+        "type": "move",
         "id": "ion-deluge",
         "attack_type": "field",
         "attack_target": "Single",
@@ -7633,6 +7411,7 @@
         "name": "Ion Deluge"
     },
     {
+        "type": "move",
         "id": "iron-head",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7655,6 +7434,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "iron-tail",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7676,6 +7456,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "ivy-cudgel",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7694,6 +7475,7 @@
         "name": "Ivy Cudgel"
     },
     {
+        "type": "move",
         "id": "jaw-lock",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7712,6 +7494,7 @@
         "name": "Jaw Lock"
     },
     {
+        "type": "move",
         "id": "jet-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7730,6 +7513,7 @@
         "name": "Jet Punch"
     },
     {
+        "type": "move",
         "id": "judgment",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -7748,6 +7532,7 @@
         "name": "Judgment"
     },
     {
+        "type": "move",
         "id": "jump-kick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7771,6 +7556,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "jungle-healing",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -7789,6 +7575,7 @@
         "name": "Jungle Healing"
     },
     {
+        "type": "move",
         "id": "karate-chop",
         "trainer_class_pool": "martial_artist_form",
         "attack_type": "melee",
@@ -7812,6 +7599,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "karate-slap",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7833,6 +7621,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "kinesis",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7851,6 +7640,7 @@
         "name": "Kinesis"
     },
     {
+        "type": "move",
         "id": "kings-shield",
         "attack_type": "self",
         "attack_target": "Single",
@@ -7869,6 +7659,7 @@
         "name": "Kings Shield"
     },
     {
+        "type": "move",
         "id": "knock-off",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7891,6 +7682,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "kowtow-cleave",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7909,6 +7701,7 @@
         "name": "Kowtow Cleave"
     },
     {
+        "type": "move",
         "id": "lands-wrath",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7927,6 +7720,7 @@
         "name": "Lands Wrath"
     },
     {
+        "type": "move",
         "id": "language",
         "attack_type": "self",
         "attack_target": "Single",
@@ -7945,6 +7739,7 @@
         "name": "Language"
     },
     {
+        "type": "move",
         "id": "laser-focus",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -7966,6 +7761,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "lash-out",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -7988,6 +7784,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "last-respects",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8006,6 +7803,7 @@
         "name": "Last Respects"
     },
     {
+        "type": "move",
         "id": "lava-plume",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -8027,6 +7825,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "leaf-blade",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8048,6 +7847,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "leaf-storm",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -8069,6 +7869,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "leaf-tornado",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8087,6 +7888,7 @@
         "name": "Leaf Tornado"
     },
     {
+        "type": "move",
         "id": "leafage",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8108,6 +7910,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "leech-life",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8130,6 +7933,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "leech-seed",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8151,6 +7955,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "lets-snuggle-forever",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8169,6 +7974,7 @@
         "name": "Lets Snuggle Forever"
     },
     {
+        "type": "move",
         "id": "lick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8191,6 +7997,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "licking",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8209,6 +8016,7 @@
         "name": "Licking"
     },
     {
+        "type": "move",
         "id": "life-dew",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -8230,6 +8038,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "light-screen",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8252,6 +8061,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "liquidation",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8273,6 +8083,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "lock-on",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8294,6 +8105,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "lovely-kiss",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8312,6 +8124,7 @@
         "name": "Lovely Kiss"
     },
     {
+        "type": "move",
         "id": "low-kick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8335,6 +8148,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "low-sweep",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8358,6 +8172,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "lucky-chant",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -8380,6 +8195,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "lumina-crash",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8398,6 +8214,7 @@
         "name": "Lumina Crash"
     },
     {
+        "type": "move",
         "id": "lunar-dance",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8416,6 +8233,7 @@
         "name": "Lunar Dance"
     },
     {
+        "type": "move",
         "id": "lunge",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8437,6 +8255,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "luster-purge",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8455,6 +8274,7 @@
         "name": "Luster Purge"
     },
     {
+        "type": "move",
         "id": "mach-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8478,6 +8298,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "mach-speeds",
         "attack_type": "self",
         "attack_target": "Single",
@@ -8496,6 +8317,7 @@
         "name": "Mach Speeds"
     },
     {
+        "type": "move",
         "id": "magic-coat",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8517,6 +8339,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "magic-powder",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8535,6 +8358,7 @@
         "name": "Magic Powder"
     },
     {
+        "type": "move",
         "id": "magic-room",
         "attack_type": "field",
         "attack_target": "Single",
@@ -8558,6 +8382,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "magical-leaf",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8580,6 +8405,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "magma-storm",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -8598,6 +8424,7 @@
         "name": "Magma Storm"
     },
     {
+        "type": "move",
         "id": "magnet-bomb",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8616,6 +8443,7 @@
         "name": "Magnet Bomb"
     },
     {
+        "type": "move",
         "id": "magnet-pull",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8637,6 +8465,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "magnet-rise",
         "attack_type": "self",
         "attack_target": "Single",
@@ -8659,6 +8488,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "make-it-rain",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -8677,6 +8507,7 @@
         "name": "Make It Rain"
     },
     {
+        "type": "move",
         "id": "malicious-moonsault",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -8695,6 +8526,7 @@
         "name": "Malicious Moonsault"
     },
     {
+        "type": "move",
         "id": "malignant-chain",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8713,6 +8545,7 @@
         "name": "Malignant Chain"
     },
     {
+        "type": "move",
         "id": "mat-block",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -8731,6 +8564,7 @@
         "name": "Mat Block"
     },
     {
+        "type": "move",
         "id": "matcha-gotcha",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -8749,6 +8583,7 @@
         "name": "Matcha Gotcha"
     },
     {
+        "type": "move",
         "id": "max-airstream",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -8767,6 +8602,7 @@
         "name": "Max Airstream"
     },
     {
+        "type": "move",
         "id": "max-darkness",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -8785,6 +8621,7 @@
         "name": "Max Darkness"
     },
     {
+        "type": "move",
         "id": "max-flare",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -8803,6 +8640,7 @@
         "name": "Max Flare"
     },
     {
+        "type": "move",
         "id": "max-flutterby",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -8821,6 +8659,7 @@
         "name": "Max Flutterby"
     },
     {
+        "type": "move",
         "id": "max-geyser",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -8839,6 +8678,7 @@
         "name": "Max Geyser"
     },
     {
+        "type": "move",
         "id": "max-guard",
         "attack_type": "self",
         "attack_target": "Single",
@@ -8857,6 +8697,7 @@
         "name": "Max Guard"
     },
     {
+        "type": "move",
         "id": "max-hailstorm",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -8875,6 +8716,7 @@
         "name": "Max Hailstorm"
     },
     {
+        "type": "move",
         "id": "max-knuckle",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -8893,6 +8735,7 @@
         "name": "Max Knuckle"
     },
     {
+        "type": "move",
         "id": "max-lightning",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -8911,6 +8754,7 @@
         "name": "Max Lightning"
     },
     {
+        "type": "move",
         "id": "max-mindstorm",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -8929,6 +8773,7 @@
         "name": "Max Mindstorm"
     },
     {
+        "type": "move",
         "id": "max-ooze",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -8947,6 +8792,7 @@
         "name": "Max Ooze"
     },
     {
+        "type": "move",
         "id": "max-overgrowth",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -8965,6 +8811,7 @@
         "name": "Max Overgrowth"
     },
     {
+        "type": "move",
         "id": "max-phantasm",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -8983,6 +8830,7 @@
         "name": "Max Phantasm"
     },
     {
+        "type": "move",
         "id": "max-quake",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -9001,6 +8849,7 @@
         "name": "Max Quake"
     },
     {
+        "type": "move",
         "id": "max-rockfall",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -9019,6 +8868,7 @@
         "name": "Max Rockfall"
     },
     {
+        "type": "move",
         "id": "max-starfall",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -9037,6 +8887,7 @@
         "name": "Max Starfall"
     },
     {
+        "type": "move",
         "id": "max-steelspike",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -9055,6 +8906,7 @@
         "name": "Max Steelspike"
     },
     {
+        "type": "move",
         "id": "max-strike",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -9073,6 +8925,7 @@
         "name": "Max Strike"
     },
     {
+        "type": "move",
         "id": "max-wyrmwind",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -9091,6 +8944,7 @@
         "name": "Max Wyrmwind"
     },
     {
+        "type": "move",
         "id": "mean-look",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9114,6 +8968,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "mega-drain",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9136,6 +8991,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "mega-evolution",
         "attack_type": "self",
         "attack_target": "Single",
@@ -9154,6 +9010,7 @@
         "name": "Mega Evolution"
     },
     {
+        "type": "move",
         "id": "mega-kick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9176,6 +9033,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "mega-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9198,6 +9056,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "megahorn",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9220,6 +9079,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "memento",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9241,6 +9101,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "metal-burst",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9262,6 +9123,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "metal-claw",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9283,6 +9145,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "metal-cut",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9304,6 +9167,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "meteor-assault",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9322,6 +9186,7 @@
         "name": "Meteor Assault"
     },
     {
+        "type": "move",
         "id": "meteor-beam",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -9343,6 +9208,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "meteor-mash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9361,6 +9227,7 @@
         "name": "Meteor Mash"
     },
     {
+        "type": "move",
         "id": "meteor-rain",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -9382,6 +9249,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "metronome",
         "attack_type": "varies",
         "attack_target": "Single",
@@ -9400,6 +9268,7 @@
         "name": "Metronome"
     },
     {
+        "type": "move",
         "id": "mighty-cleave",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -9418,6 +9287,7 @@
         "name": "Mighty Cleave"
     },
     {
+        "type": "move",
         "id": "migraine",
         "attack_type": "self",
         "attack_target": "Single",
@@ -9436,6 +9306,7 @@
         "name": "Migraine"
     },
     {
+        "type": "move",
         "id": "milk-drink",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9454,6 +9325,7 @@
         "name": "Milk Drink"
     },
     {
+        "type": "move",
         "id": "mind-blown",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -9472,6 +9344,7 @@
         "name": "Mind Blown"
     },
     {
+        "type": "move",
         "id": "mind-reader",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9490,6 +9363,7 @@
         "name": "Mind Reader"
     },
     {
+        "type": "move",
         "id": "mind-reading-disable",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9508,6 +9382,7 @@
         "name": "Mind Reading Disable"
     },
     {
+        "type": "move",
         "id": "mind-rise",
         "attack_type": "self",
         "attack_target": "Single",
@@ -9526,6 +9401,7 @@
         "name": "Mind Rise"
     },
     {
+        "type": "move",
         "id": "minimize",
         "attack_type": "self",
         "attack_target": "Single",
@@ -9544,6 +9420,7 @@
         "name": "Minimize"
     },
     {
+        "type": "move",
         "id": "miracle-eye",
         "attack_type": "self",
         "attack_target": "Single",
@@ -9562,6 +9439,7 @@
         "name": "Miracle Eye"
     },
     {
+        "type": "move",
         "id": "mirror-coat",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9585,6 +9463,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "mirror-move",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9606,6 +9485,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "mirror-shot",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9624,6 +9504,7 @@
         "name": "Mirror Shot"
     },
     {
+        "type": "move",
         "id": "mist",
         "attack_type": "field",
         "attack_target": "Single",
@@ -9646,6 +9527,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "mist-ball",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9664,6 +9546,7 @@
         "name": "Mist Ball"
     },
     {
+        "type": "move",
         "id": "misty-explosion",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -9682,6 +9565,7 @@
         "name": "Misty Explosion"
     },
     {
+        "type": "move",
         "id": "misty-terrain",
         "attack_type": "field",
         "attack_target": "Single",
@@ -9705,6 +9589,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "moonblast",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9726,6 +9611,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "moongeist-beam",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -9744,6 +9630,7 @@
         "name": "Moongeist Beam"
     },
     {
+        "type": "move",
         "id": "moonlight",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9762,6 +9649,7 @@
         "name": "Moonlight"
     },
     {
+        "type": "move",
         "id": "moonwrecker",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -9783,6 +9671,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "morning-sun",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9801,6 +9690,7 @@
         "name": "Morning Sun"
     },
     {
+        "type": "move",
         "id": "mortal-spin",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9819,6 +9709,7 @@
         "name": "Mortal Spin"
     },
     {
+        "type": "move",
         "id": "mountain-gale",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9837,6 +9728,7 @@
         "name": "Mountain Gale"
     },
     {
+        "type": "move",
         "id": "mud-bomb",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9859,6 +9751,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "mud-shot",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9881,6 +9774,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "mud-slap",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9903,6 +9797,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "mud-sport",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9925,6 +9820,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "mud-throw",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -9946,6 +9842,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "muddy-water",
         "attack_type": "ranged",
         "attack_target": "wave",
@@ -9967,6 +9864,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "multi-attack",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -9985,6 +9883,7 @@
         "name": "Multi Attack"
     },
     {
+        "type": "move",
         "id": "mystical-fire",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -10006,6 +9905,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "natures-madness",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -10024,6 +9924,7 @@
         "name": "Natures Madness"
     },
     {
+        "type": "move",
         "id": "needle-arm",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10042,6 +9943,7 @@
         "name": "Needle Arm"
     },
     {
+        "type": "move",
         "id": "never-ending-nightmare",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -10060,6 +9962,7 @@
         "name": "Never Ending Nightmare"
     },
     {
+        "type": "move",
         "id": "night-daze",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -10078,6 +9981,7 @@
         "name": "Night Daze"
     },
     {
+        "type": "move",
         "id": "night-shade",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -10097,6 +10001,7 @@
         "name": "Night Shade"
     },
     {
+        "type": "move",
         "id": "night-slash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10119,6 +10024,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "nightmare",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -10137,6 +10043,7 @@
         "name": "Nightmare"
     },
     {
+        "type": "move",
         "id": "no-retreat",
         "attack_type": "self",
         "attack_target": "Single",
@@ -10155,6 +10062,7 @@
         "name": "No Retreat"
     },
     {
+        "type": "move",
         "id": "nuzzle",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10176,6 +10084,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "oblivion-wing",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -10194,6 +10103,7 @@
         "name": "Oblivion Wing"
     },
     {
+        "type": "move",
         "id": "obstruct",
         "attack_type": "self",
         "attack_target": "Single",
@@ -10212,6 +10122,7 @@
         "name": "Obstruct"
     },
     {
+        "type": "move",
         "id": "oceanic-operetta",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -10230,6 +10141,7 @@
         "name": "Oceanic Operetta"
     },
     {
+        "type": "move",
         "id": "octazooka",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -10248,6 +10160,7 @@
         "name": "Octazooka"
     },
     {
+        "type": "move",
         "id": "octolock",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10266,6 +10179,7 @@
         "name": "Octolock"
     },
     {
+        "type": "move",
         "id": "odor-sleuth",
         "attack_type": "self",
         "attack_target": "Single",
@@ -10284,6 +10198,7 @@
         "name": "Odor Sleuth"
     },
     {
+        "type": "move",
         "id": "ominous-wind",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -10306,6 +10221,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "order-up",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -10324,6 +10240,7 @@
         "name": "Order Up"
     },
     {
+        "type": "move",
         "id": "origin-pulse",
         "attack_type": "ranged",
         "attack_target": "wave",
@@ -10342,6 +10259,7 @@
         "name": "Origin Pulse"
     },
     {
+        "type": "move",
         "id": "outrage",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10363,6 +10281,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "overdrive",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -10381,6 +10300,7 @@
         "name": "Overdrive"
     },
     {
+        "type": "move",
         "id": "overheat",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -10402,6 +10322,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "pack-mon",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -10420,6 +10341,7 @@
         "name": "Pack Mon"
     },
     {
+        "type": "move",
         "id": "pain-split",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10442,6 +10364,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "parabolic-charge",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10460,6 +10383,7 @@
         "name": "Parabolic Charge"
     },
     {
+        "type": "move",
         "id": "payback",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10482,6 +10406,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "peck",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10503,6 +10428,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "perish-song",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -10521,6 +10447,7 @@
         "name": "Perish Song"
     },
     {
+        "type": "move",
         "id": "petal-blizzard",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -10542,6 +10469,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "petal-dance",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -10563,6 +10491,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "phantom-force",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10584,6 +10513,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "photon-geyser",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -10602,6 +10532,7 @@
         "name": "Photon Geyser"
     },
     {
+        "type": "move",
         "id": "pin-missile",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -10624,6 +10555,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "plasma-fists",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10642,6 +10574,7 @@
         "name": "Plasma Fists"
     },
     {
+        "type": "move",
         "id": "play-rough",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10664,6 +10597,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "poison-fang",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10686,6 +10620,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "poison-gas",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -10707,6 +10642,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "poison-jab",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10731,6 +10667,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "poison-powder",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10753,6 +10690,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "poison-sting",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10777,6 +10715,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "poison-tail",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10795,6 +10734,7 @@
         "name": "Poison Tail"
     },
     {
+        "type": "move",
         "id": "pollen-puff",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -10813,6 +10753,7 @@
         "name": "Pollen Puff"
     },
     {
+        "type": "move",
         "id": "poltergeist",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -10834,6 +10775,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "population-bomb",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10852,6 +10794,7 @@
         "name": "Population Bomb"
     },
     {
+        "type": "move",
         "id": "pounce",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10870,6 +10813,7 @@
         "name": "Pounce"
     },
     {
+        "type": "move",
         "id": "pound",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10891,6 +10835,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "powder",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10912,6 +10857,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "powder-bomb",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -10930,6 +10876,7 @@
         "name": "Powder Bomb"
     },
     {
+        "type": "move",
         "id": "powder-snow",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -10951,6 +10898,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "power-gem",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -10972,6 +10920,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "power-trip",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -10990,6 +10939,7 @@
         "name": "Power Trip"
     },
     {
+        "type": "move",
         "id": "power-up-punch",
         "trainer_class_pool": "martial_artist_form",
         "attack_type": "melee",
@@ -11015,6 +10965,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "power-whip",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11033,6 +10984,7 @@
         "name": "Power Whip"
     },
     {
+        "type": "move",
         "id": "precipice-blades",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -11051,6 +11003,7 @@
         "name": "Precipice Blades"
     },
     {
+        "type": "move",
         "id": "present",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -11069,6 +11022,7 @@
         "name": "Present"
     },
     {
+        "type": "move",
         "id": "prismatic-laser",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -11087,6 +11041,7 @@
         "name": "Prismatic Laser"
     },
     {
+        "type": "move",
         "id": "protect",
         "attack_type": "self",
         "attack_target": "Single",
@@ -11108,6 +11063,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "psionic-fury",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -11129,6 +11085,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "psybeam",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -11151,6 +11108,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "psyblade",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -11169,6 +11127,7 @@
         "name": "Psyblade"
     },
     {
+        "type": "move",
         "id": "psychic",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -11191,6 +11150,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "psychic-fangs",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11212,6 +11172,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "psychic-force",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -11230,6 +11191,7 @@
         "name": "Psychic Force"
     },
     {
+        "type": "move",
         "id": "psychic-terrain",
         "attack_type": "field",
         "attack_target": "Single",
@@ -11251,6 +11213,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "psycho-cut",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -11273,6 +11236,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "psycho-rage",
         "attack_type": "self",
         "attack_target": "Single",
@@ -11291,6 +11255,7 @@
         "name": "Psycho Rage"
     },
     {
+        "type": "move",
         "id": "psycho-shift",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11309,6 +11274,7 @@
         "name": "Psycho Shift"
     },
     {
+        "type": "move",
         "id": "psyphon-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11327,6 +11293,7 @@
         "name": "Psyphon Punch"
     },
     {
+        "type": "move",
         "id": "psyshield-bash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11345,6 +11312,7 @@
         "name": "Psyshield Bash"
     },
     {
+        "type": "move",
         "id": "psyshock",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -11366,6 +11334,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "psyspikes",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -11384,6 +11353,7 @@
         "name": "Psyspikes"
     },
     {
+        "type": "move",
         "id": "psystrike",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -11405,6 +11375,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "pulverizing-pancake",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11423,6 +11394,7 @@
         "name": "Pulverizing Pancake"
     },
     {
+        "type": "move",
         "id": "punishment",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11445,6 +11417,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "purify",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11463,6 +11436,7 @@
         "name": "Purify"
     },
     {
+        "type": "move",
         "id": "pursuit",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11484,6 +11458,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "pyro-ball",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11502,6 +11477,7 @@
         "name": "Pyro Ball"
     },
     {
+        "type": "move",
         "id": "quash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11523,6 +11499,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "quick-attack",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11544,6 +11521,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "rage",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11565,6 +11543,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "rage-fist",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11583,6 +11562,7 @@
         "name": "Rage Fist"
     },
     {
+        "type": "move",
         "id": "rage-powder",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -11604,6 +11584,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "raging-bull",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11622,6 +11603,7 @@
         "name": "Raging Bull"
     },
     {
+        "type": "move",
         "id": "raging-fury",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11640,6 +11622,7 @@
         "name": "Raging Fury"
     },
     {
+        "type": "move",
         "id": "rain-dance",
         "attack_type": "field",
         "attack_target": "Single",
@@ -11663,6 +11646,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "rapid-spin",
         "trainer_class_pool": "martial_artist_form",
         "attack_type": "melee",
@@ -11685,6 +11669,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "razor-leaf",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -11706,6 +11691,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "razor-shell",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11724,6 +11710,7 @@
         "name": "Razor Shell"
     },
     {
+        "type": "move",
         "id": "razor-wind",
         "attack_type": "ranged",
         "attack_target": "wave",
@@ -11746,6 +11733,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "recover",
         "attack_type": "self",
         "attack_target": "Single",
@@ -11764,6 +11752,7 @@
         "name": "Recover"
     },
     {
+        "type": "move",
         "id": "reflect",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11786,6 +11775,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "reflect-type",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -11804,6 +11794,7 @@
         "name": "Reflect Type"
     },
     {
+        "type": "move",
         "id": "refresh",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11825,6 +11816,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "relic-song",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -11843,6 +11835,7 @@
         "name": "Relic Song"
     },
     {
+        "type": "move",
         "id": "rest",
         "attack_type": "self",
         "attack_target": "Single",
@@ -11864,6 +11857,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "retaliate",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11885,6 +11879,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "return",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11906,6 +11901,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "revelation-dance",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -11924,6 +11920,7 @@
         "name": "Revelation Dance"
     },
     {
+        "type": "move",
         "id": "revenge",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11946,6 +11943,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "reversal",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11967,6 +11965,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "revival-blessing",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -11985,6 +11984,7 @@
         "name": "Revival Blessing"
     },
     {
+        "type": "move",
         "id": "rising-voltage",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12006,6 +12006,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "roar",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -12027,6 +12028,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "roar-of-time",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -12045,6 +12047,7 @@
         "name": "Roar Of Time"
     },
     {
+        "type": "move",
         "id": "rock-blast",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12067,6 +12070,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "rock-climb",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -12088,6 +12092,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "rock-slide",
         "attack_type": "ranged",
         "attack_target": "wave",
@@ -12110,6 +12115,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "rock-smash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -12132,6 +12138,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "rock-throw",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12153,6 +12160,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "rock-tomb",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12175,6 +12183,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "rock-wrecker",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -12193,6 +12202,7 @@
         "name": "Rock Wrecker"
     },
     {
+        "type": "move",
         "id": "rolling-kick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -12214,6 +12224,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "rollout",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -12236,6 +12247,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "roost",
         "attack_type": "self",
         "attack_target": "Single",
@@ -12257,6 +12269,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "round",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -12275,6 +12288,7 @@
         "name": "Round"
     },
     {
+        "type": "move",
         "id": "ruination",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12293,6 +12307,7 @@
         "name": "Ruination"
     },
     {
+        "type": "move",
         "id": "sacred-fire",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -12311,6 +12326,7 @@
         "name": "Sacred Fire"
     },
     {
+        "type": "move",
         "id": "sacred-sword",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -12329,6 +12345,7 @@
         "name": "Sacred Sword"
     },
     {
+        "type": "move",
         "id": "safeguard",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -12351,6 +12368,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "salt-cure",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12369,6 +12387,7 @@
         "name": "Salt Cure"
     },
     {
+        "type": "move",
         "id": "sand-attack",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12390,6 +12409,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sand-tomb",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12412,6 +12432,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sandstorm",
         "attack_type": "field",
         "attack_target": "Single",
@@ -12435,6 +12456,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "savage-spin-out",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -12453,6 +12475,7 @@
         "name": "Savage Spin Out"
     },
     {
+        "type": "move",
         "id": "scald",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12474,6 +12497,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "scale-shot",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12495,6 +12519,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "scorching-sands",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12517,6 +12542,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "scratch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -12538,6 +12564,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "secret-sword",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -12556,6 +12583,7 @@
         "name": "Secret Sword"
     },
     {
+        "type": "move",
         "id": "seed-bomb",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12577,6 +12605,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "seed-flare",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -12595,6 +12624,7 @@
         "name": "Seed Flare"
     },
     {
+        "type": "move",
         "id": "seismic-toss",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -12617,6 +12647,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "self-destruct",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -12635,6 +12666,7 @@
         "name": "Self Destruct"
     },
     {
+        "type": "move",
         "id": "shadow-ball",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12658,6 +12690,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "shadow-bone",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -12676,6 +12709,7 @@
         "name": "Shadow Bone"
     },
     {
+        "type": "move",
         "id": "shadow-claw",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -12698,6 +12732,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "shadow-force",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -12716,6 +12751,7 @@
         "name": "Shadow Force"
     },
     {
+        "type": "move",
         "id": "shadow-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -12734,6 +12770,7 @@
         "name": "Shadow Punch"
     },
     {
+        "type": "move",
         "id": "shadow-rush",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -12752,6 +12789,7 @@
         "name": "Shadow Rush"
     },
     {
+        "type": "move",
         "id": "shadow-sneak",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -12773,6 +12811,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "shadow-tag",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12791,6 +12830,7 @@
         "name": "Shadow Tag"
     },
     {
+        "type": "move",
         "id": "shattered-psyche",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -12809,6 +12849,7 @@
         "name": "Shattered Psyche"
     },
     {
+        "type": "move",
         "id": "shed-tail",
         "attack_type": "self",
         "attack_target": "Single",
@@ -12827,6 +12868,7 @@
         "name": "Shed Tail"
     },
     {
+        "type": "move",
         "id": "sheer-cold",
         "attack_type": "ranged",
         "attack_target": "wave",
@@ -12845,6 +12887,7 @@
         "name": "Sheer Cold"
     },
     {
+        "type": "move",
         "id": "shell-side-arm",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12863,6 +12906,7 @@
         "name": "Shell Side Arm"
     },
     {
+        "type": "move",
         "id": "shell-smash",
         "attack_type": "self",
         "attack_target": "Single",
@@ -12881,6 +12925,7 @@
         "name": "Shell Smash"
     },
     {
+        "type": "move",
         "id": "shell-trap",
         "attack_type": "self",
         "attack_target": "Single",
@@ -12899,6 +12944,7 @@
         "name": "Shell Trap"
     },
     {
+        "type": "move",
         "id": "shield-protect",
         "attack_type": "self",
         "attack_target": "Single",
@@ -12917,6 +12963,7 @@
         "name": "Shield Protect"
     },
     {
+        "type": "move",
         "id": "shock-wave",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -12941,6 +12988,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "shore-up",
         "attack_type": "self",
         "attack_target": "Single",
@@ -12959,6 +13007,7 @@
         "name": "Shore Up"
     },
     {
+        "type": "move",
         "id": "signal-beam",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -12982,6 +13031,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "signature-move",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -13000,6 +13050,7 @@
         "name": "Signature Move"
     },
     {
+        "type": "move",
         "id": "silk-trap",
         "attack_type": "self",
         "attack_target": "Single",
@@ -13018,6 +13069,7 @@
         "name": "Silk Trap"
     },
     {
+        "type": "move",
         "id": "silver-wind",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -13040,6 +13092,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sing",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -13062,6 +13115,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sinister-arrow-raid",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -13080,6 +13134,7 @@
         "name": "Sinister Arrow Raid"
     },
     {
+        "type": "move",
         "id": "sketch",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -13098,6 +13153,7 @@
         "name": "Sketch"
     },
     {
+        "type": "move",
         "id": "skitter-smack",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13119,6 +13175,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "skull-bash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13137,6 +13194,7 @@
         "name": "Skull Bash"
     },
     {
+        "type": "move",
         "id": "sky-attack",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13158,6 +13216,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sky-drop",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13180,6 +13239,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sky-uppercut",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13198,6 +13258,7 @@
         "name": "Sky Uppercut"
     },
     {
+        "type": "move",
         "id": "slack-off",
         "attack_type": "self",
         "attack_target": "Single",
@@ -13216,6 +13277,7 @@
         "name": "Slack Off"
     },
     {
+        "type": "move",
         "id": "slam",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13239,6 +13301,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "slash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13260,6 +13323,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sleep-dust",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13278,6 +13342,7 @@
         "name": "Sleep Dust"
     },
     {
+        "type": "move",
         "id": "sleep-gas",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -13296,6 +13361,7 @@
         "name": "Sleep Gas"
     },
     {
+        "type": "move",
         "id": "sleep-powder",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13319,6 +13385,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sleep-talk",
         "attack_type": "self",
         "attack_target": "Single",
@@ -13340,6 +13407,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "slippin-slide",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13358,6 +13426,7 @@
         "name": "Slippin Slide"
     },
     {
+        "type": "move",
         "id": "sludge",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -13376,6 +13445,7 @@
         "name": "Sludge"
     },
     {
+        "type": "move",
         "id": "sludge-bomb",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -13398,6 +13468,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sludge-wave",
         "attack_type": "ranged",
         "attack_target": "wave",
@@ -13419,6 +13490,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "smack-down",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -13441,6 +13513,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "smart-strike",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13462,6 +13535,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "smelling-salt",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13480,6 +13554,7 @@
         "name": "Smelling Salt"
     },
     {
+        "type": "move",
         "id": "smite",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -13498,6 +13573,7 @@
         "name": "Smite"
     },
     {
+        "type": "move",
         "id": "smog",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -13520,6 +13596,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "smoke-screen",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -13542,6 +13619,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "snap-trap",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13560,6 +13638,7 @@
         "name": "Snap Trap"
     },
     {
+        "type": "move",
         "id": "snarl",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -13581,6 +13660,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "snipe-shot",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -13599,6 +13679,7 @@
         "name": "Snipe Shot"
     },
     {
+        "type": "move",
         "id": "snore",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13620,6 +13701,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "snowscape",
         "attack_type": "field",
         "attack_target": "Single",
@@ -13638,6 +13720,7 @@
         "name": "Snowscape"
     },
     {
+        "type": "move",
         "id": "soak",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13659,6 +13742,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "soft-song",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -13677,6 +13761,7 @@
         "name": "Soft Song"
     },
     {
+        "type": "move",
         "id": "softboiled",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13695,6 +13780,7 @@
         "name": "Softboiled"
     },
     {
+        "type": "move",
         "id": "solar-beam",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -13717,6 +13803,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "solar-blade",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13738,6 +13825,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sonic-boom",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -13760,6 +13848,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "spacial-rend",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -13778,6 +13867,7 @@
         "name": "Spacial Rend"
     },
     {
+        "type": "move",
         "id": "spark",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13799,6 +13889,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sparkling-aria",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -13817,6 +13908,7 @@
         "name": "Sparkling Aria"
     },
     {
+        "type": "move",
         "id": "spectral-thief",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13835,6 +13927,7 @@
         "name": "Spectral Thief"
     },
     {
+        "type": "move",
         "id": "spicy-extract",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13853,6 +13946,7 @@
         "name": "Spicy Extract"
     },
     {
+        "type": "move",
         "id": "spider-web",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -13871,6 +13965,7 @@
         "name": "Spider Web"
     },
     {
+        "type": "move",
         "id": "spider-webbing",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -13889,6 +13984,7 @@
         "name": "Spider Webbing"
     },
     {
+        "type": "move",
         "id": "spike-cannon",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -13910,6 +14006,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "spikes",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -13932,6 +14029,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "spiky-shield",
         "attack_type": "self",
         "attack_target": "Single",
@@ -13950,6 +14048,7 @@
         "name": "Spiky Shield"
     },
     {
+        "type": "move",
         "id": "spin-out",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13968,6 +14067,7 @@
         "name": "Spin Out"
     },
     {
+        "type": "move",
         "id": "spirit-break",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -13986,6 +14086,7 @@
         "name": "Spirit Break"
     },
     {
+        "type": "move",
         "id": "spirit-shackle",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -14004,6 +14105,7 @@
         "name": "Spirit Shackle"
     },
     {
+        "type": "move",
         "id": "spit-up",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -14025,6 +14127,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "splash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14046,6 +14149,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "splintered-stormshards",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -14064,6 +14168,7 @@
         "name": "Splintered Stormshards"
     },
     {
+        "type": "move",
         "id": "spook",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14085,6 +14190,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "spore",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14103,6 +14209,7 @@
         "name": "Spore"
     },
     {
+        "type": "move",
         "id": "stampede",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14121,6 +14228,7 @@
         "name": "Stampede"
     },
     {
+        "type": "move",
         "id": "stealth-rock",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -14142,6 +14250,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "steam-eruption",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -14160,6 +14269,7 @@
         "name": "Steam Eruption"
     },
     {
+        "type": "move",
         "id": "steamroller",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14181,6 +14291,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "steel-beam",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -14202,6 +14313,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "steel-roller",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14224,6 +14336,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "steel-strike",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14242,6 +14355,7 @@
         "name": "Steel Strike"
     },
     {
+        "type": "move",
         "id": "steel-wing",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14263,6 +14377,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sticky-web",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -14281,6 +14396,7 @@
         "name": "Sticky Web"
     },
     {
+        "type": "move",
         "id": "stockpile",
         "attack_type": "self",
         "attack_target": "Single",
@@ -14302,6 +14418,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "stoked-sparksurfer",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -14320,6 +14437,7 @@
         "name": "Stoked Sparksurfer"
     },
     {
+        "type": "move",
         "id": "stomp",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14341,6 +14459,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "stomping-tantrum",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14364,6 +14483,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "stone-axe",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14382,6 +14502,7 @@
         "name": "Stone Axe"
     },
     {
+        "type": "move",
         "id": "stone-edge",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -14404,6 +14525,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "stone-fall",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -14422,6 +14544,7 @@
         "name": "Stone Fall"
     },
     {
+        "type": "move",
         "id": "stone-smash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14440,6 +14563,7 @@
         "name": "Stone Smash"
     },
     {
+        "type": "move",
         "id": "storm-throw",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14458,6 +14582,7 @@
         "name": "Storm Throw"
     },
     {
+        "type": "move",
         "id": "strange-steam",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -14476,6 +14601,7 @@
         "name": "Strange Steam"
     },
     {
+        "type": "move",
         "id": "strength",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14498,6 +14624,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "strength-sap",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14516,6 +14643,7 @@
         "name": "Strength Sap"
     },
     {
+        "type": "move",
         "id": "struggle",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14534,6 +14662,7 @@
         "name": "Struggle"
     },
     {
+        "type": "move",
         "id": "struggle-bug",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -14555,6 +14684,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "struggling-bug",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -14576,6 +14706,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "stuff-cheeks",
         "attack_type": "self",
         "attack_target": "Single",
@@ -14594,6 +14725,7 @@
         "name": "Stuff Cheeks"
     },
     {
+        "type": "move",
         "id": "stun-gas",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -14612,6 +14744,7 @@
         "name": "Stun Gas"
     },
     {
+        "type": "move",
         "id": "stun-spore",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14635,6 +14768,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "stylish-spin",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -14653,6 +14787,7 @@
         "name": "Stylish Spin"
     },
     {
+        "type": "move",
         "id": "submission",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14676,6 +14811,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "substitute",
         "attack_type": "self",
         "attack_target": "Single",
@@ -14697,6 +14833,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "subzero-slammer",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -14715,6 +14852,7 @@
         "name": "Subzero Slammer"
     },
     {
+        "type": "move",
         "id": "sucker-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14739,6 +14877,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sunny-day",
         "attack_type": "field",
         "attack_target": "Single",
@@ -14763,6 +14902,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sunsteel-strike",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -14781,6 +14921,7 @@
         "name": "Sunsteel Strike"
     },
     {
+        "type": "move",
         "id": "super-fang",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14799,6 +14940,7 @@
         "name": "Super Fang"
     },
     {
+        "type": "move",
         "id": "superpower",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14821,6 +14963,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "supersonic",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -14842,6 +14985,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "supersonic-skystrike",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -14860,6 +15004,7 @@
         "name": "Supersonic Skystrike"
     },
     {
+        "type": "move",
         "id": "surf",
         "attack_type": "ranged",
         "attack_target": "wave",
@@ -14882,6 +15027,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "surging-strikes",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14900,6 +15046,7 @@
         "name": "Surging Strikes"
     },
     {
+        "type": "move",
         "id": "swagger",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -14921,6 +15068,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "swallow",
         "attack_type": "self",
         "attack_target": "Single",
@@ -14942,6 +15090,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sweet-kiss",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -14964,6 +15113,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sweet-scent",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -14988,6 +15138,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "swift",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15009,6 +15160,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "switcheroo",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -15031,6 +15183,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "sync-move",
         "attack_type": "ranged",
         "attack_target": "beam",
@@ -15049,6 +15202,7 @@
         "name": "Sync Move"
     },
     {
+        "type": "move",
         "id": "synchronoise",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -15070,6 +15224,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "synthesis",
         "attack_type": "self",
         "attack_target": "Single",
@@ -15091,6 +15246,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "syrup-bomb",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15109,6 +15265,7 @@
         "name": "Syrup Bomb"
     },
     {
+        "type": "move",
         "id": "tachyon-cutter",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15127,6 +15284,7 @@
         "name": "Tachyon Cutter"
     },
     {
+        "type": "move",
         "id": "tackle",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -15148,6 +15306,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "tail-slap",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -15169,6 +15328,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "take-down",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -15190,6 +15350,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "tar-shot",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15208,6 +15369,7 @@
         "name": "Tar Shot"
     },
     {
+        "type": "move",
         "id": "taunt",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15229,6 +15391,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "tea-time",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -15247,6 +15410,7 @@
         "name": "Tea Time"
     },
     {
+        "type": "move",
         "id": "techno-blast",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -15265,6 +15429,7 @@
         "name": "Techno Blast"
     },
     {
+        "type": "move",
         "id": "tectonic-rage",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -15283,6 +15448,7 @@
         "name": "Tectonic Rage"
     },
     {
+        "type": "move",
         "id": "teeter-dance",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -15301,6 +15467,7 @@
         "name": "Teeter Dance"
     },
     {
+        "type": "move",
         "id": "teleport",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15323,6 +15490,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "ten-million-volt-thunderbolt",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15341,6 +15509,7 @@
         "name": "Ten Million Volt Thunderbolt"
     },
     {
+        "type": "move",
         "id": "tera-blast",
         "attack_type": "ranged",
         "attack_target": "beam-blast",
@@ -15359,6 +15528,7 @@
         "name": "Tera Blast"
     },
     {
+        "type": "move",
         "id": "tera-starstorm",
         "attack_type": "ranged",
         "attack_target": "wave",
@@ -15377,6 +15547,7 @@
         "name": "Tera Starstorm"
     },
     {
+        "type": "move",
         "id": "terrain-pulse",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15398,6 +15569,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "terrify",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15419,6 +15591,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "thief",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -15441,6 +15614,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "thousand-arrows",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15459,6 +15633,7 @@
         "name": "Thousand Arrows"
     },
     {
+        "type": "move",
         "id": "thousand-waves",
         "attack_type": "ranged",
         "attack_target": "wave",
@@ -15477,6 +15652,7 @@
         "name": "Thousand Waves"
     },
     {
+        "type": "move",
         "id": "thrash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -15499,6 +15675,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "throat-chop",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -15522,6 +15699,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "thunder",
         "attack_type": "ranged",
         "attack_target": "blast",
@@ -15546,6 +15724,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "thunder-cage",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -15564,6 +15743,7 @@
         "name": "Thunder Cage"
     },
     {
+        "type": "move",
         "id": "thunder-fang",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -15586,6 +15766,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "thunder-punch",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -15609,6 +15790,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "thunder-shock",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15633,6 +15815,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "thunder-spark",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15654,6 +15837,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "thunder-wave",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15676,6 +15860,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "thunderbolt",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15700,6 +15885,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "thunderclap",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15718,6 +15904,7 @@
         "name": "Thunderclap"
     },
     {
+        "type": "move",
         "id": "thunderous-kick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -15736,6 +15923,7 @@
         "name": "Thunderous Kick"
     },
     {
+        "type": "move",
         "id": "tidepools",
         "attack_type": "field",
         "attack_target": "Single",
@@ -15754,6 +15942,7 @@
         "name": "Tidepools"
     },
     {
+        "type": "move",
         "id": "tidy-up",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -15772,6 +15961,7 @@
         "name": "Tidy Up"
     },
     {
+        "type": "move",
         "id": "tireless-teleport",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15790,6 +15980,7 @@
         "name": "Tireless Teleport"
     },
     {
+        "type": "move",
         "id": "torch-song",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15808,6 +15999,7 @@
         "name": "Torch Song"
     },
     {
+        "type": "move",
         "id": "totem-memory",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -15826,6 +16018,7 @@
         "name": "Totem Memory"
     },
     {
+        "type": "move",
         "id": "totemic-call",
         "attack_type": "self",
         "attack_target": "Single",
@@ -15844,6 +16037,7 @@
         "name": "Totemic Call"
     },
     {
+        "type": "move",
         "id": "totemic-guardian",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -15862,6 +16056,7 @@
         "name": "Totemic Guardian"
     },
     {
+        "type": "move",
         "id": "totemic-power",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -15880,6 +16075,7 @@
         "name": "Totemic Power"
     },
     {
+        "type": "move",
         "id": "toxic",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -15902,6 +16098,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "toxic-spikes",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -15923,6 +16120,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "toxic-thread",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15941,6 +16139,7 @@
         "name": "Toxic Thread"
     },
     {
+        "type": "move",
         "id": "trailblaze",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -15959,6 +16158,7 @@
         "name": "Trailblaze"
     },
     {
+        "type": "move",
         "id": "transform",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15977,6 +16177,7 @@
         "name": "Transform"
     },
     {
+        "type": "move",
         "id": "tri-attack",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -15995,6 +16196,7 @@
         "name": "Tri Attack"
     },
     {
+        "type": "move",
         "id": "trick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16017,6 +16219,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "trick-or-treat",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16035,6 +16238,7 @@
         "name": "Trick Or Treat"
     },
     {
+        "type": "move",
         "id": "trick-room",
         "attack_type": "field",
         "attack_target": "Single",
@@ -16057,6 +16261,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "triple-arrows",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16075,6 +16280,7 @@
         "name": "Triple Arrows"
     },
     {
+        "type": "move",
         "id": "triple-axel",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16098,6 +16304,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "triple-dive",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16116,6 +16323,7 @@
         "name": "Triple Dive"
     },
     {
+        "type": "move",
         "id": "triple-kick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16134,6 +16342,7 @@
         "name": "Triple Kick"
     },
     {
+        "type": "move",
         "id": "trop-kick",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16152,6 +16361,7 @@
         "name": "Trop Kick"
     },
     {
+        "type": "move",
         "id": "twin-beam",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16170,6 +16380,7 @@
         "name": "Twin Beam"
     },
     {
+        "type": "move",
         "id": "twineedle",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16191,6 +16402,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "twinkle-tackle",
         "attack_type": "melee",
         "attack_target": "burst",
@@ -16209,6 +16421,7 @@
         "name": "Twinkle Tackle"
     },
     {
+        "type": "move",
         "id": "twister",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16231,6 +16444,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "twisting-gust",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16252,6 +16466,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "type-flash",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16270,6 +16485,7 @@
         "name": "Type Flash"
     },
     {
+        "type": "move",
         "id": "type-smasher",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16288,6 +16504,7 @@
         "name": "Type Smasher"
     },
     {
+        "type": "move",
         "id": "unbreakable-armor",
         "attack_type": "self",
         "attack_target": "Single",
@@ -16306,6 +16523,7 @@
         "name": "Unbreakable Armor"
     },
     {
+        "type": "move",
         "id": "unbreakable-barrier",
         "attack_type": "self",
         "attack_target": "Single",
@@ -16324,6 +16542,7 @@
         "name": "Unbreakable Barrier"
     },
     {
+        "type": "move",
         "id": "uproar",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -16345,6 +16564,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "v-create",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -16363,6 +16583,7 @@
         "name": "V Create"
     },
     {
+        "type": "move",
         "id": "vacuum-wave",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16385,6 +16606,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "venom-drench",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16406,6 +16628,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "venoshock",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16428,6 +16651,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "vice-grip",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16446,6 +16670,7 @@
         "name": "Vice Grip"
     },
     {
+        "type": "move",
         "id": "vicious-insult",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16464,6 +16689,7 @@
         "name": "Vicious Insult"
     },
     {
+        "type": "move",
         "id": "victory-dance",
         "attack_type": "self",
         "attack_target": "Single",
@@ -16482,6 +16708,7 @@
         "name": "Victory Dance"
     },
     {
+        "type": "move",
         "id": "vine-whip",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16500,6 +16727,7 @@
         "name": "Vine Whip"
     },
     {
+        "type": "move",
         "id": "vital-throw",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16522,6 +16750,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "void-fury",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16543,6 +16772,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "volcanic-devastation",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -16561,6 +16791,7 @@
         "name": "Volcanic Devastation"
     },
     {
+        "type": "move",
         "id": "volt-tackle",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16579,6 +16810,7 @@
         "name": "Volt Tackle"
     },
     {
+        "type": "move",
         "id": "wake-up-slap",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16601,6 +16833,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "water-gun",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16622,6 +16855,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "water-pulse",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -16645,6 +16879,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "water-shuriken",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16663,6 +16898,7 @@
         "name": "Water Shuriken"
     },
     {
+        "type": "move",
         "id": "water-sport",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16684,6 +16920,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "water-spout",
         "attack_type": "ranged",
         "attack_target": "burst",
@@ -16702,6 +16939,7 @@
         "name": "Water Spout"
     },
     {
+        "type": "move",
         "id": "waterfall",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16723,6 +16961,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "wave-crash",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16741,6 +16980,7 @@
         "name": "Wave Crash"
     },
     {
+        "type": "move",
         "id": "weather-ball",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16759,6 +16999,7 @@
         "name": "Weather Ball"
     },
     {
+        "type": "move",
         "id": "whirling-kinesis",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16777,6 +17018,7 @@
         "name": "Whirling Kinesis"
     },
     {
+        "type": "move",
         "id": "whirlpool",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16799,6 +17041,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "whirlwind",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16820,6 +17063,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "wicked-blow",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16838,6 +17082,7 @@
         "name": "Wicked Blow"
     },
     {
+        "type": "move",
         "id": "wild-charge",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16860,6 +17105,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "will-o-wisp",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -16882,6 +17128,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "wing-attack",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16904,6 +17151,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "wish",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16926,6 +17174,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "wonder-room",
         "attack_type": "field",
         "attack_target": "Single",
@@ -16948,6 +17197,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "wood-hammer",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16966,6 +17216,7 @@
         "name": "Wood Hammer"
     },
     {
+        "type": "move",
         "id": "wrap",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -16984,6 +17235,7 @@
         "name": "Wrap"
     },
     {
+        "type": "move",
         "id": "x-scissor",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -17005,6 +17257,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "yawn",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -17026,6 +17279,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "zap-cannon",
         "attack_type": "ranged",
         "attack_target": "Single",
@@ -17048,6 +17302,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "zen-headbutt",
         "attack_type": "melee",
         "attack_target": "Single",
@@ -17070,6 +17325,7 @@
         ]
     },
     {
+        "type": "move",
         "id": "zing-zap",
         "attack_type": "melee",
         "attack_target": "Single",

@@ -1,902 +1,1127 @@
 [
-  {
-    "id": "absorb-bulb",
-    "name": "Absorb Bulb",
-    "description": "An item that increases SPATK by 2 for 10 minutes when a Pokémon is hit by an Water-type attack. This effect cannot be stacked, and the item is destroyed when triggered.",
-    "category": "Held Item",
-    "rarity": "Common",
-    "price": 650,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "items/absorb-bulb.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/absorb-bulb.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STAT_BOOST_ON_HIT",
-        "target": "HOLDER",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "id": "accessory",
-    "name": "Accessory",
-    "description": "Once per day, during the introduction appeal of a contest, add 1d4. If the result of that d4 is a 3 or 4, the Accessory cannot be used this way again unless repaired with the Accessorize feature. A Pokémon can only benefit from one accessory at a time.",
-    "category": "Held Item",
-    "rarity": "Common",
-    "price": 0,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/accessory.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/prop-case.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "CONTEST_BOOST",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "adrenaline-orb",
-    "name": "Adrenaline Orb",
-    "description": "An item that increases SPD by 1 for 10 minutes when a Pokémon's ATK or SPATK is lowered by an opponent's effects.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/adrenaline-orb.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/adrenaline-orb.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STAT_BOOST_ON_DROP",
-        "target": "HOLDER",
-        "value": 1
-      }
-    ]
-  },
-  {
-    "id": "air-balloon",
-    "name": "Air Balloon",
-    "description": "An item that grants the holder immunity to Ground-type attacks. If they hiot by any other type of attack, the balloon is destroyed.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 1350,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "items/air-balloon.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "IMMUNITY",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "assault-vest",
-    "name": "Assault Vest",
-    "description": "An item that increases SPDEF by 1, but prevents the wearer from using non-damaging moves. This item does not stack with stat passives.",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/assault-vest.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/assault-vest.png",
-    "equipslot": "armor",
-    "mechanics": [
-      {
-        "action": "STAT_PASSIVE",
-        "target": "HOLDER",
-        "value": 1
-      }
-    ]
-  },
-  {
-    "id": "beautiful-bandana",
-    "name": "Beautiful Bandana",
-    "description": "An item that increases Beauty by 2.",
-    "category": "Held Item",
-    "rarity": "Common",
-    "price": 1280,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/beautiful-bandana.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pink-scarf.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "CONTEST_STAT",
-        "target": "HOLDER",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "id": "big-root",
-    "name": "Big Root",
-    "description": "An item that grans an additional 1d6 HP when using moves that heal the user based on how much damage they were able to deal.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/big-root.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-root.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "HEAL_BOOST",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "binding-band",
-    "name": "Binding Band",
-    "description": "An item that deals an additional 1d4 damage per turn to binding moves. This item is typically held.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/binding-band.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/binding-band.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "DAMAGE_BOOST",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "black-sludge",
-    "name": "Black Sludge",
-    "description": "An item that recovers for a Poison-type Pokémon 1d6 HP every round for 2 minutes (20 rounds), or until the Pokémon is fully healed. It deals 1d6 damage for other Pokémon every round for 2 minutes, or until the Pokémon is knocked out. This item requires an action to be consumed and is destroyed after.",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 1250,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "items/black-sludge.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "REGEN_OR_DMG",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "bright-charm",
-    "name": "Bright Charm",
-    "description": "When you appeal to a judge you may use the Bright Charm to raise the judge’s voltage +1. The Bright Charm cannot be used this way again unless repaired with the Bright Charm feature. A Pokémon can only benefit from one accessory at a time.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 0,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/bright-charm.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shiny-charm.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "CONTEST_BOOST",
-        "target": "HOLDER",
-        "value": 1
-      }
-    ]
-  },
-  {
-    "id": "cell-battery",
-    "name": "Cell Battery",
-    "description": "An item that increases ATK by 2 for 10 minutes when a Pokémon is hit by an Electric-type attack. This effect cannot be stacked, and the item is destroyed when triggered.",
-    "category": "Held Item",
-    "rarity": "Common",
-    "price": 650,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "items/cell-battery.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cell-battery.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STAT_BOOST_ON_HIT",
-        "target": "HOLDER",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "id": "choice-band",
-    "name": "Choice Band",
-    "description": "An item that increases ATK by 2 but allows a Pokémon to use only 1 move for 3 minutes. If the move's frequency is consumed, the Pokémon may Struggle. This item does not stack with stat passives.",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/choice-band.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-band.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STAT_CHOICE",
-        "target": "HOLDER",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "id": "choice-scarf",
-    "name": "Choice Scarf",
-    "description": "An item that increases SPD by 2 but allows a Pokémon to use only 1 move for 3 minutes. If the move's frequency is consumed, the Pokémon may Struggle. This item does not stack with stat passives.",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/choice-scarf.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-scarf.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STAT_CHOICE",
-        "target": "HOLDER",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "id": "choice-specs",
-    "name": "Choice Specs",
-    "description": "An item that increases SPATK by 2 but allows a Pokémon to use only 1 move for 3 minutes. If the move's frequency is consumed, the Pokémon may Struggle. This item does not stack with stat passives.",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/choice-specs.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-specs.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STAT_CHOICE",
-        "target": "HOLDER",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "id": "clever-cravat",
-    "name": "Clever Cravat",
-    "description": "An item that increases Clever by 2.",
-    "category": "Held Item",
-    "rarity": "Common",
-    "price": 1280,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/clever-cravat.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/green-scarf.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "CONTEST_STAT",
-        "target": "HOLDER",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "id": "cool-kerchief",
-    "name": "Cool Kerchief",
-    "description": "An item that increases Cool by 2.",
-    "category": "Held Item",
-    "rarity": "Common",
-    "price": 1280,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/cool-kerchief.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/red-scarf.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "CONTEST_STAT",
-        "target": "HOLDER",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "id": "cute-comforter",
-    "name": "Cute Comforter",
-    "description": "An item that increases Cute by 2.",
-    "category": "Held Item",
-    "rarity": "Common",
-    "price": 1280,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/cute-comforter.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yellow-scarf.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "CONTEST_STAT",
-        "target": "HOLDER",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "id": "destiny-knot",
-    "name": "Destiny Knot",
-    "description": "An item that causes the Pokémon that infatuated the holder to become Infatuated themselves.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 1750,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/destiny-knot.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/destiny-knot.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STATUS_REFLECT",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "egg-shell",
-    "name": "Egg Shell",
-    "description": "Pokémon class-exclusive. An item that negates the first 3 points of damage taken during a combat encounter. This item breaks apart one week after it is first used.",
-    "category": "Held Item",
-    "rarity": "Common",
-    "price": 0,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "items/egg-shell.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heart-scale.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "SHIELD",
-        "target": "HOLDER",
-        "value": 3
-      }
-    ]
-  },
-  {
-    "id": "elemental-plate",
-    "name": "Elemental Plate",
-    "description": "An item that deals an additional 4 damage for any attack that matches the plate's type. These plates appear to be related to Arceus and come in many varieties based on type.",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 9800,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/elemental-plate.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pixie-plate.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "TYPE_BOOST",
-        "target": "HOLDER",
-        "value": 4
-      }
-    ]
-  },
-  {
-    "id": "eviolite",
-    "name": "Eviolite",
-    "description": "An item that increases DEF and SPDEF by 1, if the holder can still evolve and does not have DEF- or SPDEF-raising passives.",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/eviolite.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eviolite.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STAT_PASSIVE",
-        "target": "HOLDER",
-        "value": 1
-      }
-    ]
-  },
-  {
-    "id": "expert-belt",
-    "name": "Expert Belt",
-    "description": "If you hit with a super effective or extremely effective attack, deal an additional +4 damage",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/expert-belt.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/expert-belt.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "DAMAGE_BOOST",
-        "target": "HOLDER",
-        "value": 6
-      }
-    ]
-  },
-  {
-    "id": "flawless-accessory",
-    "name": "Flawless Accessory",
-    "description": "3/day per day, during any appeal of a contest, add 1d4. If the result of that d4 is a 3 or 4, the Accessory cannot be anymore during this contest. A Pokémon can only benefit from one accessory at a time.",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 0,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/glittering-stone.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "CONTEST_BOOST",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "focus-band",
-    "name": "Focus Band",
-    "description": "An item that saves the holder from being knocked out. If the holder is about to reach 0 HP, roll 1d20. If they roll 17 or higher, their HP is instead set to 1 and the band is destroyed.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 1950,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "items/focus-band.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-band.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "SURVIVAL",
-        "target": "HOLDER",
-        "value": 1
-      }
-    ]
-  },
-  {
-    "id": "focus-sash",
-    "name": "Focus Sash",
-    "description": "An item that saves the holder from being knocked out if they were at top health. If the holder is about to reach 0 HP and they were just at 100% HP, roll 1d20. If they roll 17 or higher, their HP is instead set to 1.",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 2550,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "items/focus-sash.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "SURVIVAL",
-        "target": "HOLDER",
-        "value": 1
-      }
-    ]
-  },
-  {
-    "id": "heavy-duty-boots",
-    "name": "Heavy Duty Boots",
-    "description": "An item that grants the wearer immunity to the damage and effects of hazards, once per combat encounter.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heavy-duty-boots.png",
-    "equipslot": "armor",
-    "mechanics": [
-      {
-        "action": "HAZARD_IMMUNE",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "kings-rock",
-    "name": "Kings Rock",
-    "description": "An item that stuns a target when the wearer naturally rolls 18-20 on an accuracy roll. This item works once a day.",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/kings-rock.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STUN_CHANCE",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "leftovers",
-    "name": "Leftovers",
-    "description": "An item that recovers 10 HP for a Pokémon every 6 seconds until it recovers either 100 HP in total or its max HP. This item is destroyed when consumed.",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 2550,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "items/leftovers.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "REGEN",
-        "target": "HOLDER",
-        "value": 10
-      }
-    ]
-  },
-  {
-    "id": "life-orb",
-    "name": "Life Orb",
-    "description": "An item that deals an additional 1d6 damage on a damaging attack. The holder takes 2d6 damage when this item activates.",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/life-orb.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "RECOIL_BOOST",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "mental-herb",
-    "name": "Mental Herb",
-    "description": "An item that allows a move to be used if an opponent's effect prevents it from being used. When triggered, this new effect lasts for five minutes. This item is destroyed when consumed.",
-    "category": "Held Item",
-    "rarity": "Common",
-    "price": 650,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "items/mental-herb.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mental-herb.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "CURE_ON_PROMPT",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "muscle-band",
-    "name": "Muscle Band",
-    "description": "An item that increases ATK by 2 on the holder's first turn in combat. This effect cannot be stacked with stat passives.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/muscle-band.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/muscle-band.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STAT_BOOST_FIRST_TURN",
-        "target": "HOLDER",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "id": "protective-pads",
-    "name": "Protective Pads",
-    "description": "An item that protects the holder from any damage they would take when making physical contact with an opponent.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/protective-pads.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/protective-pads.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "CONTACT_IMMUNE",
-        "target": "ATTACKER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "quick-claw",
-    "name": "Quick Claw",
-    "description": "An item that allows the holder to use one of their moves with Priority. If another character is using a Priority move, compare their SPD. This item works once a day.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/quick-claw.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "PRIORITY",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "razor-claw",
-    "name": "Razor Claw",
-    "description": "An item that allows the holder to make a critical hit when the wearer naturally rolls 18-20 on an accuracy roll. This item works once a day.",
-    "category": "Held Item",
-    "rarity": "Rare",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/razor-claw.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/razor-claw.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "CRIT_BOOST",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "rocky-helmet",
-    "name": "Rocky Helmet",
-    "description": "An item that deals 1d4 damage to an opponent that attacks the wearer at melee range.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/rocky-helmet.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rocky-helmet.png",
-    "equipslot": "armor",
-    "mechanics": [
-      {
-        "action": "CONTACT_DAMAGE",
-        "target": "ATTACKER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "safety-goggles",
-    "name": "Safety Goggles",
-    "description": "An item that grants the wearer immunity to the damage and effects of weather and powder moves.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/safety-goggles.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/safety-goggles.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "WEATHER_IMMUNE",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "shell-bell",
-    "name": "Shell Bell",
-    "description": "An item that restores 1d4 HP for the holder when they deal damage. This item works once per combat encounter.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/shell-bell.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shell-bell.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "HEAL_ON_HIT",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "terrain-extender",
-    "name": "Terrain Extender",
-    "description": "An item that allows created, matching terrain to last for 5 minutes. This item comes in many varieties and is destroyed when activated.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 450,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "items/terrain-extender.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/terrain-extender.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "TERRAIN_BOOST",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "terrain-seeds",
-    "name": "Terrain Seeds",
-    "description": "An item that increases DEF by 1 for 10 minutes when the holder enters the appropriate terrain. This effect cannot be stacked, and the item is destroyed when activated.",
-    "category": "Held Item",
-    "rarity": "Common",
-    "price": 650,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "items/terrain-seeds.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electric-seed.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "TERRAIN_BOOST",
-        "target": "HOLDER",
-        "value": 1
-      }
-    ]
-  },
-  {
-    "id": "throat-spray",
-    "name": "Throat Spray",
-    "description": "An item that increases SPATK by 1 for 10 minutes when the holder uses a voice-oriented move. This effect cannot be stacked and can only be activated once a day.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 1850,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/throat-spray.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STAT_BOOST_VOICE",
-        "target": "HOLDER",
-        "value": 1
-      }
-    ]
-  },
-  {
-    "id": "tough-tippet",
-    "name": "Tough Tippet",
-    "description": "An item that increases Tough by 2.",
-    "category": "Held Item",
-    "rarity": "Common",
-    "price": 1280,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/tough-tippet.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/blue-scarf.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "CONTEST_STAT",
-        "target": "HOLDER",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "id": "weather-rocks",
-    "name": "Weather Rocks",
-    "description": "An item that allows created, matching weather to last for 5 minutes. This item comes in many varieties is destroyed when activated.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 450,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "items/weather-rocks.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heat-rock.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "WEATHER_BOOST",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "white-herb",
-    "name": "White Herb",
-    "description": "An item that clears away all temporary stat reductions. This item is destroyed whe consumed.",
-    "category": "Held Item",
-    "rarity": "Common",
-    "price": 650,
-    "is_consumable": true,
-    "size": "1x1",
-    "sprite": "items/white-herb.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STAT_RESTORE",
-        "target": "HOLDER",
-        "value": 0
-      }
-    ]
-  },
-  {
-    "id": "wise-glasses",
-    "name": "Wise Glasses",
-    "description": "An item that increases SPATK by 2 on the holder's first turn in combat. This effect cannot be stacked with stat passives.",
-    "category": "Held Item",
-    "rarity": "Uncommon",
-    "price": 2550,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/wise-glasses.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wise-glasses.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STAT_BOOST_FIRST_TURN",
-        "target": "HOLDER",
-        "value": 2
-      }
-    ]
-  },
-  {
-    "id": "your-item",
-    "name": "Your Item",
-    "description": "Pokémon class-exclusive. An item that increases a stat of your choice by 2 during a combat encounter. Only you can benefit from this item. The boosted stat cannot be changed once it has been chosen.",
-    "category": "Held Item",
-    "rarity": "Unique",
-    "price": 0,
-    "is_consumable": false,
-    "size": "1x1",
-    "sprite": "items/your-item.png",
-    "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rare-bone.png",
-    "equipslot": "gear",
-    "mechanics": [
-      {
-        "action": "STAT_BOOST_CHOSEN",
-        "target": "HOLDER",
-        "value": 2
-      }
-    ]
-  }
+    {
+        "type": "item",
+        "id": "absorb-bulb",
+        "name": "Absorb Bulb",
+        "description": "An item that increases SPATK by 2 for 10 minutes when a Pokémon is hit by an Water-type attack. This effect cannot be stacked, and the item is destroyed when triggered.",
+        "category": "Held Item",
+        "rarity": "Common",
+        "price": 650,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/absorb-bulb.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/absorb-bulb.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 2,
+                "resource": "STAT_BOOST_ON_HIT"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "accessory",
+        "name": "Accessory",
+        "description": "Once per day, during the introduction appeal of a contest, add 1d4. If the result of that d4 is a 3 or 4, the Accessory cannot be used this way again unless repaired with the Accessorize feature. A Pokémon can only benefit from one accessory at a time.",
+        "category": "Held Item",
+        "rarity": "Common",
+        "price": 0,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/accessory.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/prop-case.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 0,
+                "resource": "CONTEST_BOOST"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "adrenaline-orb",
+        "name": "Adrenaline Orb",
+        "description": "An item that increases SPD by 1 for 10 minutes when a Pokémon's ATK or SPATK is lowered by an opponent's effects.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/adrenaline-orb.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/adrenaline-orb.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 1,
+                "resource": "STAT_BOOST_ON_DROP"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "air-balloon",
+        "name": "Air Balloon",
+        "description": "An item that grants the holder immunity to Ground-type attacks. If they hiot by any other type of attack, the balloon is destroyed.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 1350,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/air-balloon.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": 0,
+                "resource": "IMMUNITY"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "assault-vest",
+        "name": "Assault Vest",
+        "description": "An item that increases SPDEF by 1, but prevents the wearer from using non-damaging moves. This item does not stack with stat passives.",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/assault-vest.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/assault-vest.png",
+        "equipslot": "armor",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 1,
+                "resource": "STAT_PASSIVE"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "beautiful-bandana",
+        "name": "Beautiful Bandana",
+        "description": "An item that increases Beauty by 2.",
+        "category": "Held Item",
+        "rarity": "Common",
+        "price": 1280,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/beautiful-bandana.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pink-scarf.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 2,
+                "resource": "CONTEST_STAT"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "big-root",
+        "name": "Big Root",
+        "description": "An item that grans an additional 1d6 HP when using moves that heal the user based on how much damage they were able to deal.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/big-root.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/big-root.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "HEAL",
+                "target": "SELF",
+                "value": 0,
+                "resource": "HEAL_BOOST"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "binding-band",
+        "name": "Binding Band",
+        "description": "An item that deals an additional 1d4 damage per turn to binding moves. This item is typically held.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/binding-band.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/binding-band.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 0,
+                "resource": "DAMAGE_BOOST"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "black-sludge",
+        "name": "Black Sludge",
+        "description": "An item that recovers for a Poison-type Pokémon 1d6 HP every round for 2 minutes (20 rounds), or until the Pokémon is fully healed. It deals 1d6 damage for other Pokémon every round for 2 minutes, or until the Pokémon is knocked out. This item requires an action to be consumed and is destroyed after.",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 1250,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/black-sludge.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/black-sludge.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "HEAL",
+                "target": "SELF",
+                "value": 0,
+                "resource": "REGEN_OR_DMG"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "bright-charm",
+        "name": "Bright Charm",
+        "description": "When you appeal to a judge you may use the Bright Charm to raise the judge’s voltage +1. The Bright Charm cannot be used this way again unless repaired with the Bright Charm feature. A Pokémon can only benefit from one accessory at a time.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 0,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/bright-charm.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shiny-charm.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 1,
+                "resource": "CONTEST_BOOST"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "cell-battery",
+        "name": "Cell Battery",
+        "description": "An item that increases ATK by 2 for 10 minutes when a Pokémon is hit by an Electric-type attack. This effect cannot be stacked, and the item is destroyed when triggered.",
+        "category": "Held Item",
+        "rarity": "Common",
+        "price": 650,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/cell-battery.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/cell-battery.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 2,
+                "resource": "STAT_BOOST_ON_HIT"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "choice-band",
+        "name": "Choice Band",
+        "description": "An item that increases ATK by 2 but allows a Pokémon to use only 1 move for 3 minutes. If the move's frequency is consumed, the Pokémon may Struggle. This item does not stack with stat passives.",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/choice-band.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-band.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 2,
+                "resource": "STAT_CHOICE"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "choice-scarf",
+        "name": "Choice Scarf",
+        "description": "An item that increases SPD by 2 but allows a Pokémon to use only 1 move for 3 minutes. If the move's frequency is consumed, the Pokémon may Struggle. This item does not stack with stat passives.",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/choice-scarf.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-scarf.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 2,
+                "resource": "STAT_CHOICE"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "choice-specs",
+        "name": "Choice Specs",
+        "description": "An item that increases SPATK by 2 but allows a Pokémon to use only 1 move for 3 minutes. If the move's frequency is consumed, the Pokémon may Struggle. This item does not stack with stat passives.",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/choice-specs.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/choice-specs.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 2,
+                "resource": "STAT_CHOICE"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "clever-cravat",
+        "name": "Clever Cravat",
+        "description": "An item that increases Clever by 2.",
+        "category": "Held Item",
+        "rarity": "Common",
+        "price": 1280,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/clever-cravat.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/green-scarf.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 2,
+                "resource": "CONTEST_STAT"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "cool-kerchief",
+        "name": "Cool Kerchief",
+        "description": "An item that increases Cool by 2.",
+        "category": "Held Item",
+        "rarity": "Common",
+        "price": 1280,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/cool-kerchief.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/red-scarf.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 2,
+                "resource": "CONTEST_STAT"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "cute-comforter",
+        "name": "Cute Comforter",
+        "description": "An item that increases Cute by 2.",
+        "category": "Held Item",
+        "rarity": "Common",
+        "price": 1280,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/cute-comforter.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/yellow-scarf.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 2,
+                "resource": "CONTEST_STAT"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "destiny-knot",
+        "name": "Destiny Knot",
+        "description": "An item that causes the Pokémon that infatuated the holder to become Infatuated themselves.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 1750,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/destiny-knot.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/destiny-knot.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": 0,
+                "resource": "STATUS_REFLECT"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "egg-shell",
+        "name": "Egg Shell",
+        "description": "Pokémon class-exclusive. An item that negates the first 3 points of damage taken during a combat encounter. This item breaks apart one week after it is first used.",
+        "category": "Held Item",
+        "rarity": "Common",
+        "price": 0,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/egg-shell.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heart-scale.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 3,
+                "resource": "SHIELD"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "elemental-plate",
+        "name": "Elemental Plate",
+        "description": "An item that deals an additional 4 damage for any attack that matches the plate's type. These plates appear to be related to Arceus and come in many varieties based on type.",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 9800,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/elemental-plate.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/pixie-plate.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 4,
+                "resource": "TYPE_BOOST"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "eviolite",
+        "name": "Eviolite",
+        "description": "An item that increases DEF and SPDEF by 1, if the holder can still evolve and does not have DEF- or SPDEF-raising passives.",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/eviolite.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/eviolite.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 1,
+                "resource": "STAT_PASSIVE"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "expert-belt",
+        "name": "Expert Belt",
+        "description": "If you hit with a super effective or extremely effective attack, deal an additional +4 damage",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/expert-belt.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/expert-belt.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 6,
+                "resource": "DAMAGE_BOOST"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "flawless-accessory",
+        "name": "Flawless Accessory",
+        "description": "3/day per day, during any appeal of a contest, add 1d4. If the result of that d4 is a 3 or 4, the Accessory cannot be anymore during this contest. A Pokémon can only benefit from one accessory at a time.",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 0,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/glittering-stone.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 0,
+                "resource": "CONTEST_BOOST"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "focus-band",
+        "name": "Focus Band",
+        "description": "An item that saves the holder from being knocked out. If the holder is about to reach 0 HP, roll 1d20. If they roll 17 or higher, their HP is instead set to 1 and the band is destroyed.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 1950,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/focus-band.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-band.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": 1,
+                "resource": "SURVIVAL"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "focus-sash",
+        "name": "Focus Sash",
+        "description": "An item that saves the holder from being knocked out if they were at top health. If the holder is about to reach 0 HP and they were just at 100% HP, roll 1d20. If they roll 17 or higher, their HP is instead set to 1.",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 2550,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/focus-sash.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/focus-sash.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": 1,
+                "resource": "SURVIVAL"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "heavy-duty-boots",
+        "name": "Heavy Duty Boots",
+        "description": "An item that grants the wearer immunity to the damage and effects of hazards, once per combat encounter.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heavy-duty-boots.png",
+        "equipslot": "armor",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": 0,
+                "resource": "HAZARD_IMMUNE"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "kings-rock",
+        "name": "Kings Rock",
+        "description": "An item that stuns a target when the wearer naturally rolls 18-20 on an accuracy roll. This item works once a day.",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/kings-rock.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/kings-rock.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": 0,
+                "resource": "STUN_CHANCE"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "leftovers",
+        "name": "Leftovers",
+        "description": "An item that recovers 10 HP for a Pokémon every 6 seconds until it recovers either 100 HP in total or its max HP. This item is destroyed when consumed.",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 2550,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/leftovers.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/leftovers.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "HEAL",
+                "target": "SELF",
+                "value": 10,
+                "resource": "REGEN"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "life-orb",
+        "name": "Life Orb",
+        "description": "An item that deals an additional 1d6 damage on a damaging attack. The holder takes 2d6 damage when this item activates.",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/life-orb.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/life-orb.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 0,
+                "resource": "RECOIL_BOOST"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "mental-herb",
+        "name": "Mental Herb",
+        "description": "An item that allows a move to be used if an opponent's effect prevents it from being used. When triggered, this new effect lasts for five minutes. This item is destroyed when consumed.",
+        "category": "Held Item",
+        "rarity": "Common",
+        "price": 650,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/mental-herb.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/mental-herb.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": 0,
+                "resource": "CURE_ON_PROMPT"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "muscle-band",
+        "name": "Muscle Band",
+        "description": "An item that increases ATK by 2 on the holder's first turn in combat. This effect cannot be stacked with stat passives.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/muscle-band.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/muscle-band.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 2,
+                "resource": "STAT_BOOST_FIRST_TURN"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "protective-pads",
+        "name": "Protective Pads",
+        "description": "An item that protects the holder from any damage they would take when making physical contact with an opponent.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/protective-pads.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/protective-pads.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "FOE",
+                "value": 0,
+                "resource": "CONTACT_IMMUNE"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "quick-claw",
+        "name": "Quick Claw",
+        "description": "An item that allows the holder to use one of their moves with Priority. If another character is using a Priority move, compare their SPD. This item works once a day.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/quick-claw.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/quick-claw.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 0,
+                "resource": "PRIORITY"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "razor-claw",
+        "name": "Razor Claw",
+        "description": "An item that allows the holder to make a critical hit when the wearer naturally rolls 18-20 on an accuracy roll. This item works once a day.",
+        "category": "Held Item",
+        "rarity": "Rare",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/razor-claw.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/razor-claw.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 0,
+                "resource": "CRIT_BOOST"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "rocky-helmet",
+        "name": "Rocky Helmet",
+        "description": "An item that deals 1d4 damage to an opponent that attacks the wearer at melee range.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/rocky-helmet.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rocky-helmet.png",
+        "equipslot": "armor",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "FOE",
+                "value": 0,
+                "resource": "CONTACT_DAMAGE"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "safety-goggles",
+        "name": "Safety Goggles",
+        "description": "An item that grants the wearer immunity to the damage and effects of weather and powder moves.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/safety-goggles.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/safety-goggles.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": 0,
+                "resource": "WEATHER_IMMUNE"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "shell-bell",
+        "name": "Shell Bell",
+        "description": "An item that restores 1d4 HP for the holder when they deal damage. This item works once per combat encounter.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/shell-bell.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/shell-bell.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "HEAL",
+                "target": "SELF",
+                "value": 0,
+                "resource": "HEAL_ON_HIT"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "terrain-extender",
+        "name": "Terrain Extender",
+        "description": "An item that allows created, matching terrain to last for 5 minutes. This item comes in many varieties and is destroyed when activated.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 450,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/terrain-extender.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/terrain-extender.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": 0,
+                "resource": "TERRAIN_BOOST"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "terrain-seeds",
+        "name": "Terrain Seeds",
+        "description": "An item that increases DEF by 1 for 10 minutes when the holder enters the appropriate terrain. This effect cannot be stacked, and the item is destroyed when activated.",
+        "category": "Held Item",
+        "rarity": "Common",
+        "price": 650,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/terrain-seeds.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/electric-seed.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": 1,
+                "resource": "TERRAIN_BOOST"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "throat-spray",
+        "name": "Throat Spray",
+        "description": "An item that increases SPATK by 1 for 10 minutes when the holder uses a voice-oriented move. This effect cannot be stacked and can only be activated once a day.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 1850,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/throat-spray.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 1,
+                "resource": "STAT_BOOST_VOICE"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "tough-tippet",
+        "name": "Tough Tippet",
+        "description": "An item that increases Tough by 2.",
+        "category": "Held Item",
+        "rarity": "Common",
+        "price": 1280,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/tough-tippet.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/blue-scarf.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 2,
+                "resource": "CONTEST_STAT"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "weather-rocks",
+        "name": "Weather Rocks",
+        "description": "An item that allows created, matching weather to last for 5 minutes. This item comes in many varieties is destroyed when activated.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 450,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/weather-rocks.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/heat-rock.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": 0,
+                "resource": "WEATHER_BOOST"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "white-herb",
+        "name": "White Herb",
+        "description": "An item that clears away all temporary stat reductions. This item is destroyed whe consumed.",
+        "category": "Held Item",
+        "rarity": "Common",
+        "price": 650,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/white-herb.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/white-herb.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 0,
+                "resource": "STAT_RESTORE"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "wise-glasses",
+        "name": "Wise Glasses",
+        "description": "An item that increases SPATK by 2 on the holder's first turn in combat. This effect cannot be stacked with stat passives.",
+        "category": "Held Item",
+        "rarity": "Uncommon",
+        "price": 2550,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/wise-glasses.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wise-glasses.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "STAT_MOD",
+                "target": "SELF",
+                "value": 2,
+                "resource": "STAT_BOOST_FIRST_TURN"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    },
+    {
+        "type": "item",
+        "id": "your-item",
+        "name": "Your Item",
+        "description": "Pokémon class-exclusive. An item that increases a stat of your choice by 2 during a combat encounter. Only you can benefit from this item. The boosted stat cannot be changed once it has been chosen.",
+        "category": "Held Item",
+        "rarity": "Unique",
+        "price": 0,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/your-item.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rare-bone.png",
+        "equipslot": "gear",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": 2,
+                "resource": "STAT_BOOST_CHOSEN"
+            }
+        ],
+        "conditions": [
+            "POKEMON"
+        ]
+    }
 ]
