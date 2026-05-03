@@ -15,7 +15,7 @@ Canonical **PTA catalog** JSON for the **[pta-app](https://github.com/Sechael/pt
 |------|----------------|
 | `pokemon.json`  | Species / forms |
 | `moves.json`  | Moves (mechanics bundle; see `schemas/moveschema.json`) |
-| `items.json`  | Items |
+| `items/*.json`  | Split item catalogs by category (mechanics + conditions) |
 | `weapons.json`  | Trainer weapons |
 | `afflictions.json` | Affliction rules |
 | `type-chart.json` | Type effectiveness |
@@ -72,30 +72,31 @@ Canonical **PTA catalog** JSON for the **[pta-app](https://github.com/Sechael/pt
   "weight_class": "Light"
 }
 ```
-### Item (`lib/items.json`)
+### Item (`lib/items/medical.json`)
 
 ```json
 {
-  "id": "wepear-berry",
-  "category": "Berry",
+  "type": "item",
+  "id": "potion",
+  "category": "Medical",
   "rarity": "Common",
-  "price": 120,
-  "effect_type": "NONE",
-  "effect_value": 0,
-  "is_percentage": false,
+  "price": 25,
   "is_consumable": true,
-  "flavors": "[\"Bitter\", \"Sour\"]",
+  "conditions": ["POKEMON", "CONSCIOUS"],
+  "mechanics": [
+    { "type": "HEAL", "target": "SELECTED", "value": 10, "resource": "HP" }
+  ],
   "sprite_url": "https://…",
-  "description": "A common berry.",
-  "name": "Wepear Berry",
-  "sprite": "items/wepear-berry.png",
+  "description": "Spray-type medicine that heals 10 HP for a Pokémon.",
+  "name": "Potion",
+  "sprite": "items/potion.png",
   "size": "1x1"
 }
 ```
 
-### Item (new mechanics schema outline)
+### Item mechanics schema outline
 
-This repo is migrating items toward a mechanics-based model (see `schemas/itemschema.json`).
+Items are now mechanics-first (see `schemas/itemschema.json` and `lib/items/*.json`).
 
 ```json
 {
@@ -111,12 +112,13 @@ This repo is migrating items toward a mechanics-based model (see `schemas/itemsc
   "sprite_url": "https://…",
   "flavors": ["Dry"],
   "mechanics": [
-    { "action": "CURE_HP", "target": "SELECTED_POKEMON", "value": 33, "is_percentage": true },
+    { "type": "HEAL", "target": "SELECTED", "value": "33%", "resource": "HP" },
     {
-      "action": "ADD_AFFLICTION",
-      "target": "SELECTED_POKEMON",
-      "affect": "CONFUSION",
-      "exception": { "kind": "POKEMON_TASTE_LIKE_FLAVORS" }
+      "type": "CONDITION",
+      "target": "SELECTED",
+      "value": "CURE",
+      "resource": "CONFUSION",
+      "params": { "exception": "POKEMON_TASTE_LIKE_FLAVORS" }
     }
   ],
   "container": {
@@ -171,6 +173,14 @@ This repo is migrating items toward a mechanics-based model (see `schemas/itemsc
 
 ## Version history
 
+### 0.5.0
+- **Items split finalized:** Removed legacy `lib/items.json` and package export for that path; split `lib/items/*.json` is now the only item source.
+- **Medical tuning pass:** Updated selected `lib/items/medical.json` entries (including rarity alignment and sprite URL correction) to match current mechanics-first usage in the app.
+- **Docs refresh:** README examples and item model notes now describe the active mechanics-first structure (`HEAL` / `CONDITION` / `STAT_MOD`) and split catalog layout.
+
+**Open**
+- `npm run validate` still expects `lib/items.json` in the current validator script; update `scripts/validate.mjs` to validate split bundles directly.
+
 ### 0.4.0
 - **Moves** (`lib/moves.json`): optional tactical **`move_keyword`** on each `mechanics` block (`Binding`, `Coat`, `Hazard`, `Multi-turn`, `Priority`, `Reaction`, `Scatter`, `Terrain`, `Weather`, or `null`), placed before `effects`; validated by `schemas/moveschema.json`. Tagging maintained by `scripts/augment_move_keywords.py`.
 - **Schemas**: JSON Schemas live under **`schemas/`** (`itemschema.json`, `moveschema.json`); removed duplicate `lib/itemschema.json`. Published tarball includes `schemas/`; **exports** expose `./schemas/itemschema.json` and `./schemas/moveschema.json`.
@@ -180,7 +190,7 @@ This repo is migrating items toward a mechanics-based model (see `schemas/itemsc
 ### 0.3.0
 - **Pokémon** (`lib/pokemon.json`): catalog row shape updates (e.g. nested `sprites.default` / `sprites.shiny` with local paths and PokéAPI `sprite_url` values), stat/evolution/id field alignment.
 - **Moves** (`lib/moves.json`): migrated to the mechanics bundle shape (`mechanics.frequency`, `accuracy`, ranges, `effects[]`); validated by `schemas/moveschema.json`.
-- **Items**: mechanics / schema alignment across `lib/items/*.json`, `schemas/itemschema.json`, and the root `lib/items.json` aggregate.
+- **Items**: mechanics / schema alignment across `lib/items/*.json` and `schemas/itemschema.json`.
 - **Publishing**: `lib/pokemon-gmax.json` removed from the published package; Gigantamax datasets live under `lib/gmax/` in git and are omitted from the npm tarball (`.npmignore`). `package.json` exports include `./lib/items/*` and no longer export the removed gmax JSON entry.
 - **Other catalogs**: updates to `afflictions.json`, `type-chart.json`, `weapons.json`, and `trainer-class-move-pools.json` where the app expects newer shapes.
 - **Tooling**: maintenance scripts under `scripts/` (including Pokémon catalog migration and `wire_pokemon_json_sprites.py`) and `validate.mjs` adjustments.
