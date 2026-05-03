@@ -175,6 +175,7 @@ This repo is migrating items toward a mechanics-based model (see `schemas/itemsc
 - **Moves** (`lib/moves.json`): optional tactical **`move_keyword`** on each `mechanics` block (`Binding`, `Coat`, `Hazard`, `Multi-turn`, `Priority`, `Reaction`, `Scatter`, `Terrain`, `Weather`, or `null`), placed before `effects`; validated by `schemas/moveschema.json`. Tagging maintained by `scripts/augment_move_keywords.py`.
 - **Schemas**: JSON Schemas live under **`schemas/`** (`itemschema.json`, `moveschema.json`); removed duplicate `lib/itemschema.json`. Published tarball includes `schemas/`; **exports** expose `./schemas/itemschema.json` and `./schemas/moveschema.json`.
 - **Tooling**: `scripts/migrate_moves_catalog_to_v2.py` documents the legacy → mechanics-bundle migration path.
+- **Publish**: from this repo run `npm publish --access public`. Consumers (e.g. pta-app) should run `npm install` afterward so `package-lock.json` picks up `0.4.0` and the registry `integrity` hash.
 
 ### 0.3.0
 - **Pokémon** (`lib/pokemon.json`): catalog row shape updates (e.g. nested `sprites.default` / `sprites.shiny` with local paths and PokéAPI `sprite_url` values), stat/evolution/id field alignment.
