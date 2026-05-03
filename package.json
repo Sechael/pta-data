@@ -1,6 +1,6 @@
 {
   "name": "@sechael/pta-data",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "PTA catalog JSON datasets (Pokémon, moves, items, weapons, afflictions, type chart, mega variants, trainer pools). Gigantamax slice ships separately.",
   "license": "UNLICENSED",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "git+https://github.com/Sechael/pta-data.git"
   },
   "type": "module",
-  "files": ["lib", "README.md"],
+  "files": ["lib", "schemas", "README.md"],
   "scripts": {
     "validate": "node scripts/validate.mjs"
   },
@@ -21,6 +21,8 @@
     "./lib/items.json": "./lib/items.json",
     "./lib/items/*": "./lib/items/*",
     "./lib/moves.json": "./lib/moves.json",
+    "./schemas/itemschema.json": "./schemas/itemschema.json",
+    "./schemas/moveschema.json": "./schemas/moveschema.json",
     "./lib/pokemon.json": "./lib/pokemon.json",
     "./lib/pokemon-mega.json": "./lib/pokemon-mega.json",
     "./lib/trainer-class-move-pools.json": "./lib/trainer-class-move-pools.json",

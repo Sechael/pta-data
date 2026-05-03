@@ -9,12 +9,12 @@ Canonical **PTA catalog** JSON for the **[pta-app](https://github.com/Sechael/pt
 
 ---
 
-## Layout (`lib/`)
+## Layout (`lib/` + `schemas/`)
 
 | File  | Purpose |
 |------|----------------|
 | `pokemon.json`  | Species / forms |
-| `moves.json`  | Moves |
+| `moves.json`  | Moves (mechanics bundle; see `schemas/moveschema.json`) |
 | `items.json`  | Items |
 | `weapons.json`  | Trainer weapons |
 | `afflictions.json` | Affliction rules |
@@ -22,6 +22,11 @@ Canonical **PTA catalog** JSON for the **[pta-app](https://github.com/Sechael/pt
 | `trainer-class-move-pools.json` | Object | Class move pools (e.g. Martial Form) |
 | `pokemon-mega.json`  | Mega forms |
 | `gmax/*.json` | Gigantamax Pokémon, G-Max moves, related items — **not** in the npm tarball (see `.npmignore`) |
+
+| Path (`schemas/`) | Purpose |
+|---------------------|---------|
+| `itemschema.json` | JSON Schema for forward-looking item rows + `mechanics` |
+| `moveschema.json` | JSON Schema for `moves.json` entries |
 
 ---
 
@@ -90,7 +95,7 @@ Canonical **PTA catalog** JSON for the **[pta-app](https://github.com/Sechael/pt
 
 ### Item (new mechanics schema outline)
 
-This repo is migrating items toward a mechanics-based model (see `lib/itemschema.json`).
+This repo is migrating items toward a mechanics-based model (see `schemas/itemschema.json`).
 
 ```json
 {
@@ -126,23 +131,39 @@ This repo is migrating items toward a mechanics-based model (see `lib/itemschema
 
 ```json
 {
+  "type": "move",
   "id": "absorb",
-  "attack_type": "melee",
-  "attack_target": "Single",
-  "range_value_1": 0,
-  "range_value_2": 0,
+  "name": "Absorb",
   "move_type": "Grass",
   "category": "Special",
-  "frequency": "3/day",
-  "accuracy_mod": 0,
-  "damage_dice_num": 2,
-  "damage_die_type": 8,
-  "damage_bonus": 0,
-  "contest_stat": "Clever",
-  "contest_keyword": "Good Show!",
   "description": "On hit, you regain HP equal to half of the damage dealt.",
-  "name": "Absorb",
-  "proficency": ["Grass", "Parasitic"]
+  "proficency": ["Grass", "Parasitic"],
+  "contest": { "stat": "Clever", "keyword": "Good Show!" },
+  "mechanics": {
+    "frequency": 3,
+    "accuracy": 0,
+    "attack_type": "melee",
+    "target": "Single",
+    "target_range": 0,
+    "effect_radius": 0,
+    "move_keyword": null,
+    "effects": [
+      {
+        "type": "DAMAGE",
+        "target": "FOE",
+        "value": "2d8",
+        "resource": "HP",
+        "damage": { "kind": "Dice", "value": "2d8" }
+      },
+      {
+        "type": "HEAL",
+        "target": "SELF",
+        "value": "half_damage_dealt",
+        "resource": "HP",
+        "damage": { "kind": "None", "value": "" }
+      }
+    ]
+  }
 }
 ```
 
@@ -150,15 +171,20 @@ This repo is migrating items toward a mechanics-based model (see `lib/itemschema
 
 ## Version history
 
+### 0.4.0
+- **Moves** (`lib/moves.json`): optional tactical **`move_keyword`** on each `mechanics` block (`Binding`, `Coat`, `Hazard`, `Multi-turn`, `Priority`, `Reaction`, `Scatter`, `Terrain`, `Weather`, or `null`), placed before `effects`; validated by `schemas/moveschema.json`. Tagging maintained by `scripts/augment_move_keywords.py`.
+- **Schemas**: JSON Schemas live under **`schemas/`** (`itemschema.json`, `moveschema.json`); removed duplicate `lib/itemschema.json`. Published tarball includes `schemas/`; **exports** expose `./schemas/itemschema.json` and `./schemas/moveschema.json`.
+- **Tooling**: `scripts/migrate_moves_catalog_to_v2.py` documents the legacy → mechanics-bundle migration path.
+
 ### 0.3.0
 - **Pokémon** (`lib/pokemon.json`): catalog row shape updates (e.g. nested `sprites.default` / `sprites.shiny` with local paths and PokéAPI `sprite_url` values), stat/evolution/id field alignment.
-- **Moves** (`lib/moves.json`): each entry includes `"type": "move"` for consistency with other catalog entities.
-- **Items**: mechanics / schema alignment across `lib/items/*.json`, `lib/itemschema.json`, and the root `lib/items.json` aggregate.
+- **Moves** (`lib/moves.json`): migrated to the mechanics bundle shape (`mechanics.frequency`, `accuracy`, ranges, `effects[]`); validated by `schemas/moveschema.json`.
+- **Items**: mechanics / schema alignment across `lib/items/*.json`, `schemas/itemschema.json`, and the root `lib/items.json` aggregate.
 - **Publishing**: `lib/pokemon-gmax.json` removed from the published package; Gigantamax datasets live under `lib/gmax/` in git and are omitted from the npm tarball (`.npmignore`). `package.json` exports include `./lib/items/*` and no longer export the removed gmax JSON entry.
 - **Other catalogs**: updates to `afflictions.json`, `type-chart.json`, `weapons.json`, and `trainer-class-move-pools.json` where the app expects newer shapes.
 - **Tooling**: maintenance scripts under `scripts/` (including Pokémon catalog migration and `wire_pokemon_json_sprites.py`) and `validate.mjs` adjustments.
 
 ### 0.2.0
 - Added `lib/items/` per-category items split (staged migration away from monolithic `items.json`).
-- Added `lib/itemschema.json` and began migrating item rows to a `mechanics[]` model (targets, affects, uses, and container metadata).
+- Added item JSON Schema (`schemas/itemschema.json`) and began migrating item rows to a `mechanics[]` model (targets, affects, uses, and container metadata).
 - **Open todo**: Check Berries, trainer-equipment Held-items, evolution items, key-items for consistencies (Medical, Pokeball, supplies, tm are valid).
