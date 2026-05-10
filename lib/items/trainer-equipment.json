@@ -89,14 +89,298 @@
         "type": "item",
         "id": "camera-bag",
         "name": "Camera Bag",
-        "description": "A bag equipped with everything a travelling photographer needs, minus the camera. One bag includes 3 lenses, 2 extra bulbs, gaffer tape, microfiber cloth, a micro screwdriver, a micro flashlight, an spare battery, a 20 GB memory card, and ear plugs. 18x10x8 in. 3 lbs.",
+        "description": "A bag equipped with everything a travelling photographer needs. Container: stows one camera body (see camera items). Also includes 3 lenses, 2 extra bulbs, gaffer tape, microfiber cloth, a micro screwdriver, a micro flashlight, a spare battery, a 20 GB memory card, and ear plugs. 18x10x8 in. 3 lbs.",
         "category": "Trainer Equipment",
         "rarity": "Common",
         "price": 150,
         "is_consumable": false,
-        "size": "3x2",
+        "size": "2x2",
         "sprite": "items/camera-bag.png",
         "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/tm-case.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "CONTAINER",
+                "resource": "NONE"
+            }
+        ],
+        "container": {
+            "capacity": 1,
+            "unit": "ITEM",
+            "allowed": {
+                "itemIds": [
+                    "camera-digital",
+                    "camera-digital-high-end",
+                    "camera-film-high-end"
+                ]
+            }
+        }
+    },
+    {
+        "type": "item",
+        "id": "camera-digital-high-end",
+        "name": "Camera (digital high end)",
+        "description": "A professional digital camera body and lens kit suitable for field photography.",
+        "category": "Trainer Equipment",
+        "rarity": "Uncommon",
+        "price": 2850,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/camera-digital-high-end.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lens-case.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "NONE",
+                "resource": "NONE"
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "id": "camera-digital",
+        "name": "Camera (digital)",
+        "description": "A consumer digital camera for everyday shots and documentation.",
+        "category": "Trainer Equipment",
+        "rarity": "Common",
+        "price": 450,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/camera-digital.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lens-case.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "NONE",
+                "resource": "NONE"
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "id": "camera-film-high-end",
+        "name": "Camera (film high end)",
+        "description": "A high-end film camera for specialist photography work.",
+        "category": "Trainer Equipment",
+        "rarity": "Uncommon",
+        "price": 1050,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/camera-film-high-end.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/lens-case.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "NONE",
+                "resource": "NONE"
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "id": "tent-folding-two-person",
+        "name": "Tent (folding, two-person)",
+        "description": "A compact folding tent for two people.",
+        "category": "Trainer Equipment",
+        "rarity": "Common",
+        "price": 35,
+        "is_consumable": false,
+        "size": "2x2",
+        "sprite": "items/tent-folding-two-person.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/camp.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "NONE",
+                "resource": "NONE"
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "id": "knife-folding",
+        "name": "Knife (folding)",
+        "description": "A folding knife for camp chores and light utility.",
+        "category": "Trainer Equipment",
+        "rarity": "Common",
+        "price": 10,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/knife-folding.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rare-candy.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "NONE",
+                "resource": "NONE"
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "id": "crowbar",
+        "name": "Crowbar",
+        "description": "A steel crowbar for prying and leverage.",
+        "category": "Trainer Equipment",
+        "rarity": "Common",
+        "price": 10,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/crowbar.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/iron.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "NONE",
+                "resource": "NONE"
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "id": "duct-tape",
+        "name": "Duct Tape",
+        "description": "A roll of strong adhesive tape for repairs and improvisation.",
+        "category": "Trainer Equipment",
+        "rarity": "Common",
+        "price": 5,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/duct-tape.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/repeat-ball.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "NONE",
+                "resource": "NONE"
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "id": "flashlight",
+        "name": "Flashlight",
+        "description": "A handheld flashlight.",
+        "category": "Trainer Equipment",
+        "rarity": "Common",
+        "price": 2,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/flashlight.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bright-powder.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "NONE",
+                "resource": "NONE"
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "id": "flask",
+        "name": "Flask",
+        "description": "A portable flask for liquids.",
+        "category": "Trainer Equipment",
+        "rarity": "Common",
+        "price": 4,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/flask.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/fresh-water.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "NONE",
+                "resource": "NONE"
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "id": "gas-mask",
+        "name": "Gas mask",
+        "description": "A mask that filters airborne hazards.",
+        "category": "Trainer Equipment",
+        "rarity": "Common",
+        "price": 25,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/gas-mask.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/air-balloon.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "NONE",
+                "resource": "NONE"
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "id": "grappling-hook",
+        "name": "Grappling hook",
+        "description": "A hooked climbing tool with line attachment point.",
+        "category": "Trainer Equipment",
+        "rarity": "Common",
+        "price": 10,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/grappling-hook.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/grassy-seed.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "NONE",
+                "resource": "NONE"
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "id": "hammer",
+        "name": "Hammer",
+        "description": "A standard claw hammer.",
+        "category": "Trainer Equipment",
+        "rarity": "Common",
+        "price": 10,
+        "is_consumable": false,
+        "size": "1x1",
+        "sprite": "items/hammer.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/hard-stone.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "NONE",
+                "resource": "NONE"
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "id": "hammer-sledge",
+        "name": "Hammer (sledge)",
+        "description": "A heavy sledge hammer for demolition and driving stakes.",
+        "category": "Trainer Equipment",
+        "rarity": "Common",
+        "price": 15,
+        "is_consumable": false,
+        "size": "2x1",
+        "sprite": "items/hammer-sledge.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/rocky-helmet.png",
         "mechanics": [
             {
                 "type": "CONDITION",
@@ -312,6 +596,27 @@
         "size": "2x2",
         "sprite": "items/fishing-kit.png",
         "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/super-rod.png",
+        "mechanics": [
+            {
+                "type": "CONDITION",
+                "target": "SELF",
+                "value": "NONE",
+                "resource": "NONE"
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "id": "gardeners-kit",
+        "name": "Gardener's Kit",
+        "description": "Includes clippers, gloves, a spade, and a watering pail. It's everything needed to gather and care for plants, berries, and apricorn trees.",
+        "category": "Trainer Equipment",
+        "rarity": "Common",
+        "price": 350,
+        "is_consumable": false,
+        "size": "2x2",
+        "sprite": "items/gardeners-kit.png",
+        "sprite_url": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/wailmer-pail.png",
         "mechanics": [
             {
                 "type": "CONDITION",

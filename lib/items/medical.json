@@ -603,5 +603,29 @@
                 "resource": "SPDEF"
             }
         ]
+    },
+    {
+        "type": "item",
+        "id": "revival-herb",
+        "name": "Revival Herb",
+        "description": "A trainer may use an action to restore full HP to a fainted Pokémon in a Poké Ball. Consumed on use. Most Pokémon dislike Revival Herbs; roll 1d6: on a 1 reduce Loyalty by 1.",
+        "category": "Medical",
+        "rarity": "Uncommon",
+        "price": 420,
+        "is_consumable": true,
+        "size": "1x1",
+        "sprite": "items/revival-herb.png",
+        "conditions": [
+            "POKEMON",
+            "FAINTED"
+        ],
+        "mechanics": [
+            {
+                "type": "HEAL",
+                "target": "SELECTED",
+                "value": "100%",
+                "resource": "HP"
+            }
+        ]
     }
 ]

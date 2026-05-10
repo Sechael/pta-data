@@ -173,6 +173,10 @@ Items are now mechanics-first (see `schemas/itemschema.json` and `lib/items/*.js
 
 ## Version history
 
+### 0.5.2
+- **Trainer equipment (`lib/items/trainer-equipment.json`):** Camera bag is a **container** (one camera body, `ITEM` unit) allow-listed to digital/film camera catalog ids; added camera tier items; expanded outdoor/camp tooling (tent, folding knife, crowbar, duct tape, flashlight, flask, gas mask, grappling hook, claw and sledge hammer); added **Gardener's Kit** (₽350).
+- **Medical (`lib/items/medical.json`):** Added **Revival Herb** (full heal for fainted Pokémon, consumed on use; loyalty rule in description text).
+
 ### 0.5.1
 - **Monolithic items file removed from the repo:** `lib/items.json` is deleted; consumers use split bundles under `lib/items/*.json` only (this completes the change described for 0.5.0 in documentation).
 - **Validation:** `scripts/validate.mjs` now checks every `lib/items/*.json` file instead of a single `lib/items.json` (addresses the 0.5.0 “Open” follow-up).
