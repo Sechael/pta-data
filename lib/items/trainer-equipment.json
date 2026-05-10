@@ -555,7 +555,16 @@
                 "value": "NONE",
                 "resource": "NONE"
             }
-        ]
+        ],
+        "container": {
+            "capacity": 12,
+            "unit": "BALL",
+            "allowed": {
+                "categories": [
+                    "Pokeball"
+                ]
+            }
+        }
     },
     {
         "type": "item",

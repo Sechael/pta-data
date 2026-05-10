@@ -9,9 +9,8 @@ import { fileURLToPath } from 'node:url'
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)))
 const libDir = path.join(root, 'lib')
 
-const FILES = [
+const ROOT_FILES = [
   'afflictions.json',
-  'items.json',
   'moves.json',
   'pokemon.json',
   'pokemon-mega.json',
@@ -19,20 +18,32 @@ const FILES = [
   'type-chart.json',
   'weapons.json',
 ]
+const itemsDir = path.join(libDir, 'items')
+
+function itemBundleFiles() {
+  if (!fs.existsSync(itemsDir)) fail(`Missing required directory: ${itemsDir}`)
+  const files = fs
+    .readdirSync(itemsDir, { withFileTypes: true })
+    .filter((d) => d.isFile() && d.name.endsWith('.json'))
+    .map((d) => d.name)
+    .sort()
+  if (files.length === 0) fail(`No item bundle JSON files found in: ${itemsDir}`)
+  return files
+}
 
 function fail(msg) {
   console.error(msg)
   process.exit(1)
 }
 
-for (const name of FILES) {
+for (const name of ROOT_FILES) {
   const fp = path.join(libDir, name)
   if (!fs.existsSync(fp)) {
     fail(`Missing required file: ${fp}`)
   }
 }
 
-for (const name of FILES) {
+for (const name of ROOT_FILES) {
   const fp = path.join(libDir, name)
   let raw
   try {
@@ -54,7 +65,6 @@ for (const name of FILES) {
   switch (name) {
     case 'pokemon.json':
     case 'moves.json':
-    case 'items.json':
     case 'weapons.json':
     case 'pokemon-mega.json':
       if (!Array.isArray(data) || data.length === 0) {
@@ -91,4 +101,24 @@ for (const name of FILES) {
   }
 }
 
-console.log(`OK: validated ${FILES.length} JSON files under lib/`)
+for (const name of itemBundleFiles()) {
+  const fp = path.join(itemsDir, name)
+  let raw
+  try {
+    raw = fs.readFileSync(fp)
+  } catch (e) {
+    fail(`Cannot read ${fp}: ${e}`)
+  }
+  let data
+  try {
+    data = JSON.parse(raw.toString('utf8'))
+  } catch (e) {
+    fail(`Invalid JSON in items/${name}: ${e}`)
+  }
+  if (!Array.isArray(data) || data.length === 0) {
+    fail(`items/${name}: expected non-empty root array`)
+  }
+}
+
+const itemCount = itemBundleFiles().length
+console.log(`OK: validated ${ROOT_FILES.length + itemCount} JSON files under lib/`)

@@ -173,13 +173,15 @@ Items are now mechanics-first (see `schemas/itemschema.json` and `lib/items/*.js
 
 ## Version history
 
+### 0.5.1
+- **Monolithic items file removed from the repo:** `lib/items.json` is deleted; consumers use split bundles under `lib/items/*.json` only (this completes the change described for 0.5.0 in documentation).
+- **Validation:** `scripts/validate.mjs` now checks every `lib/items/*.json` file instead of a single `lib/items.json` (addresses the 0.5.0 “Open” follow-up).
+- **Items data:** `pokeball-container` includes structured `container` metadata (12 units, `BALL`, Pokeball category) per `schemas/itemschema.json`. `lib/items/medical.json` — Hyper Lemonade sprite URL fix, rarity pass (Iron, Max Potion, Revive, Super Potion). `lib/items/supplies.json` — `pokemon-food` and `pokemon-food-bag` prices aligned to current app/economy defaults.
+
 ### 0.5.0
-- **Items split finalized:** Removed legacy `lib/items.json` and package export for that path; split `lib/items/*.json` is now the only item source.
+- **Items split finalized:** Documented removal of legacy `lib/items.json` in favor of split `lib/items/*.json` as the item source; package exports already targeted split paths.
 - **Medical tuning pass:** Updated selected `lib/items/medical.json` entries (including rarity alignment and sprite URL correction) to match current mechanics-first usage in the app.
 - **Docs refresh:** README examples and item model notes now describe the active mechanics-first structure (`HEAL` / `CONDITION` / `STAT_MOD`) and split catalog layout.
-
-**Open**
-- `npm run validate` still expects `lib/items.json` in the current validator script; update `scripts/validate.mjs` to validate split bundles directly.
 
 ### 0.4.0
 - **Moves** (`lib/moves.json`): optional tactical **`move_keyword`** on each `mechanics` block (`Binding`, `Coat`, `Hazard`, `Multi-turn`, `Priority`, `Reaction`, `Scatter`, `Terrain`, `Weather`, or `null`), placed before `effects`; validated by `schemas/moveschema.json`. Tagging maintained by `scripts/augment_move_keywords.py`.

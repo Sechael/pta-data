@@ -1,6 +1,6 @@
 {
   "name": "@sechael/pta-data",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "PTA catalog JSON datasets (Pokémon, moves, items, weapons, afflictions, type chart, mega variants, trainer pools). Gigantamax slice ships separately.",
   "license": "UNLICENSED",
   "repository": {
