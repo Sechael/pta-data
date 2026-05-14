@@ -19485,13 +19485,36 @@
             "move_keyword": null,
             "effects": [
                 {
-                    "type": "EFFECT",
-                    "target": "FOE",
-                    "value": "see_description",
-                    "resource": "MOVE",
+                    "type": "HEAL",
+                    "target": "SELF",
+                    "value": "max_hp",
+                    "resource": "HP",
                     "damage": {
                         "kind": "None",
                         "value": ""
+                    }
+                },
+                {
+                    "type": "CONDITION",
+                    "target": "SELF",
+                    "value": "CURE",
+                    "resource": "ALL",
+                    "damage": {
+                        "kind": "None",
+                        "value": ""
+                    }
+                },
+                {
+                    "type": "CONDITION",
+                    "target": "SELF",
+                    "value": "ADD",
+                    "resource": "SLEEP",
+                    "damage": {
+                        "kind": "None",
+                        "value": ""
+                    },
+                    "params": {
+                        "min_rounds": 3
                     }
                 }
             ]

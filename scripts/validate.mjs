@@ -36,6 +36,21 @@ function fail(msg) {
   process.exit(1)
 }
 
+function readJsonFile(relativePath) {
+  const fp = path.join(root, relativePath)
+  let raw
+  try {
+    raw = fs.readFileSync(fp)
+  } catch (e) {
+    fail(`Cannot read ${fp}: ${e}`)
+  }
+  try {
+    return JSON.parse(raw.toString('utf8'))
+  } catch (e) {
+    fail(`Invalid JSON in ${relativePath}: ${e}`)
+  }
+}
+
 for (const name of ROOT_FILES) {
   const fp = path.join(libDir, name)
   if (!fs.existsSync(fp)) {
@@ -118,6 +133,43 @@ for (const name of itemBundleFiles()) {
   if (!Array.isArray(data) || data.length === 0) {
     fail(`items/${name}: expected non-empty root array`)
   }
+}
+
+const moves = readJsonFile('lib/moves.json')
+const moveIds = new Set(moves.map((move) => move.id))
+const pokemon = readJsonFile('lib/pokemon.json')
+const missingMoveRefs = []
+
+for (const mon of pokemon) {
+  if (!Array.isArray(mon.inherent_moves)) {
+    fail(`pokemon.json: ${mon.id}: expected inherent_moves array`)
+  }
+
+  for (const moveId of mon.inherent_moves) {
+    if (!moveIds.has(moveId)) {
+      missingMoveRefs.push(`${mon.id} -> ${moveId}`)
+    }
+  }
+}
+
+if (missingMoveRefs.length > 0) {
+  fail(`pokemon.json: unknown inherent move references: ${missingMoveRefs.join(', ')}`)
+}
+
+const restMove = moves.find((move) => move.id === 'rest')
+if (!restMove) {
+  fail('moves.json: missing required move id "rest"')
+}
+
+const restEffects = restMove?.mechanics?.effects
+if (!Array.isArray(restEffects) || restEffects.length === 0) {
+  fail('moves.json: rest must define mechanics.effects')
+}
+if (restEffects.some((effect) => effect.target !== 'SELF')) {
+  fail('moves.json: rest mechanics.effects must target SELF')
+}
+if (!restEffects.some((effect) => effect.type === 'HEAL' && effect.resource === 'HP')) {
+  fail('moves.json: rest must include a SELF HP heal effect')
 }
 
 const itemCount = itemBundleFiles().length
